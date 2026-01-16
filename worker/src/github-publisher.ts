@@ -118,7 +118,12 @@ export async function publishToGitHub(
 
     // Prepare the file content
     const content = JSON.stringify(postSummary, null, 2);
-    const base64Content = btoa(content); // Base64 encode for GitHub API
+    
+    // Properly encode UTF-8 to base64
+    // btoa() only works with Latin-1, so we need to encode UTF-8 first
+    const encoder = new TextEncoder();
+    const utf8Bytes = encoder.encode(content);
+    const base64Content = btoa(String.fromCharCode(...utf8Bytes));
 
     // Prepare the request body
     const body: any = {

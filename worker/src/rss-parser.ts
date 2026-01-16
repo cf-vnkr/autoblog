@@ -152,12 +152,59 @@ function extractMultiple(xml: string, tag: string): string[] {
 }
 
 /**
+ * Decodes HTML entities in text
+ * @param text Text containing HTML entities
+ * @returns Decoded text
+ */
+function decodeHTMLEntities(text: string): string {
+  // Decode numeric entities (&#233; or &#xE9;)
+  text = text.replace(/&#(\d+);/g, (_match, dec) => {
+    return String.fromCharCode(parseInt(dec, 10));
+  });
+  text = text.replace(/&#x([0-9A-Fa-f]+);/g, (_match, hex) => {
+    return String.fromCharCode(parseInt(hex, 16));
+  });
+
+  // Decode common named entities
+  const entities: Record<string, string> = {
+    '&amp;': '&',
+    '&lt;': '<',
+    '&gt;': '>',
+    '&quot;': '"',
+    '&apos;': "'",
+    '&nbsp;': ' ',
+    '&eacute;': 'é',
+    '&egrave;': 'è',
+    '&ecirc;': 'ê',
+    '&euml;': 'ë',
+    '&agrave;': 'à',
+    '&acirc;': 'â',
+    '&auml;': 'ä',
+    '&ocirc;': 'ô',
+    '&ouml;': 'ö',
+    '&icirc;': 'î',
+    '&iuml;': 'ï',
+    '&ccedil;': 'ç',
+    '&ntilde;': 'ñ',
+    '&uuml;': 'ü',
+    '&ucirc;': 'û',
+    '&ugrave;': 'ù',
+  };
+
+  for (const [entity, char] of Object.entries(entities)) {
+    text = text.replace(new RegExp(entity, 'g'), char);
+  }
+
+  return text;
+}
+
+/**
  * Cleans extracted text by trimming whitespace and removing newlines
  * @param text Text to clean
  * @returns Cleaned text
  */
 function cleanText(text: string): string {
-  return text.trim().replace(/\n\s*/g, ' ');
+  return decodeHTMLEntities(text.trim().replace(/\n\s*/g, ' '));
 }
 
 /**
