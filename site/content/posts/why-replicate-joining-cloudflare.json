@@ -1,0 +1,18 @@
+{
+  "slug": "why-replicate-joining-cloudflare",
+  "title": "Why Replicate is joining Cloudflare",
+  "url": "https://blog.cloudflare.com/why-replicate-joining-cloudflare/",
+  "publishedAt": "Mon, 01 Dec 2025 06:00:00 GMT",
+  "summary": "**AI-Generated Summary**: This is an automated summary of a Cloudflare blog post created using AI. For the full details and context, please read the original post.\n\n**Replicate Joins Cloudflare: Unifying AI Infrastructure**\n\nCloudflare has announced the acquisition of Replicate, a platform for running machine learning models as API endpoints in the cloud. Replicate was founded in 2019 with the mission of making research models accessible to developers, allowing them to creatively apply these models to build innovative products. The platform abstracts away low-level machine learning and GPU cluster management, enabling developers to focus on building applications.\n\n**Practical Implications for Developers**\n\nThe integration of Replicate into Cloudflare's ecosystem will enable developers to build a full AI stack, combining model inference with microservices, content delivery, object storage, caching, databases, and telemetry. This will allow developers to create complex, heterogeneous systems where Replicate models are one part of a higher-order system across multiple platforms. The acquisition will also enable Cloudflare to build a unified AI infrastructure layer, including running fast models on the edge, model pipelines on instantly-booting Workers, and streaming model inputs and outputs with WebRTC.\n\n**Key Technical Details**\n\nReplicate's tools and primitives for running models will be combined with Cloudflare's network, Workers, R2, Durable Objects, and other primitives to create a comprehensive AI infrastructure layer. This will enable developers to build a wide range of AI applications, from simple model-based applications to complex, distributed systems. The acquisition will also enable Cloudflare to leverage Replicate's expertise in building a community of builders and researchers around its product.",
+  "authors": [
+    "Andreas Jansson",
+    "Ben Firshman"
+  ],
+  "categories": [
+    "AI",
+    "Workers AI",
+    "Developers",
+    "Acquisitions"
+  ],
+  "guid": "3KkAemgmCHkd0D9QW5qTnz"
+}
