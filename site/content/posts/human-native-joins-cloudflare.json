@@ -1,0 +1,19 @@
+{
+  "slug": "human-native-joins-cloudflare",
+  "title": "Human Native is joining Cloudflare",
+  "url": "https://blog.cloudflare.com/human-native-joins-cloudflare/",
+  "publishedAt": "Thu, 15 Jan 2026 14:00:00 GMT",
+  "summary": "**AI-Generated Summary**: This is an automated summary of a Cloudflare blog post created using AI. For the full details and context, please read the original post.\n\n**Cloudflare Acquires Human Native to Enhance AI Data Marketplace**\n\nCloudflare has acquired Human Native, a UK-based AI data marketplace specializing in transforming multimedia content into searchable and useful data. The Human Native team has developed technology that helps publishers and developers turn messy, unstructured content into structured data that can be licensed and valued. This acquisition will accelerate Cloudflare's work in helping customers transform their content to be easily accessed and understood by AI bots and agents.\n\n**Key Technical Details and Implications for Developers**\n\nThe acquisition brings several key benefits for developers:\n\n1. **Better AI performance**: Access to high-quality data can lead to better technical performance, as seen in the example of a prominent UK video AI company that achieved superior results with data sourced through Human Native.\n2. **New economic models**: The acquisition aligns with Cloudflare's vision of creating a new economic model for the Internet, where creators can control, compensate, and credit for their content used by AI systems.\n3. **Improved data quality**: Cloudflare's AI Crawl Control and Pay Per Crawl tools will help content owners decide how and when their content is accessed by others, ensuring better data quality and reducing the risk of duplicates, spam, and illegal material.\n4. **Pub/sub model for AI developers**: Cloudflare's AI Index will enable AI developers to connect via a pub/sub model, allowing them to access content at scale and reducing the complexity and cost of crawling.\n\n**Timeline and Next Steps**\n\nThe acquisition is part of Cloudflare's ongoing efforts to create the foundations for new business models, including the x402 Foundation, which will enable machine-to-machine transactions. Developers can expect to see further developments in the areas of AI data marketplace, AI crawl control, and pay-per-crawl models in the coming months.",
+  "authors": [
+    "Will Allen",
+    "James Smith"
+  ],
+  "categories": [
+    "AI",
+    "Generative AI",
+    "Data",
+    "Acquisitions",
+    "Developer Platform"
+  ],
+  "guid": "Szd19ssv1kbKxjxNZhUmR"
+}
