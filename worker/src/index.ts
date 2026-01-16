@@ -367,8 +367,45 @@ export default {
       }
     }
 
+    // Manual trigger for the scheduled handler (for testing)
+    if (url.pathname === '/trigger') {
+      try {
+        // Simulate a ScheduledEvent
+        const mockEvent = {
+          scheduledTime: Date.now(),
+          cron: 'manual',
+        } as ScheduledEvent;
+
+        // Run the scheduled handler
+        await this.scheduled(mockEvent, env, ctx);
+
+        return new Response(
+          JSON.stringify({
+            message: 'Scheduled handler triggered successfully',
+            timestamp: new Date().toISOString(),
+          }),
+          {
+            status: 200,
+            headers: { 'Content-Type': 'application/json' },
+          },
+        );
+      } catch (error) {
+        const errorMessage = error instanceof Error ? error.message : String(error);
+        return new Response(
+          JSON.stringify({
+            error: errorMessage,
+            stack: error instanceof Error ? error.stack : undefined,
+          }),
+          {
+            status: 500,
+            headers: { 'Content-Type': 'application/json' },
+          },
+        );
+      }
+    }
+
     return new Response(
-      'Autoblog Worker\n\nEndpoints:\n- /health - Health check\n- /test - Test RSS parser\n- /test-kv - Test KV storage\n- /test-ai - Test AI summarizer\n- /test-github - Test GitHub publisher',
+      'Autoblog Worker\n\nEndpoints:\n- /health - Health check\n- /test - Test RSS parser\n- /test-kv - Test KV storage\n- /test-ai - Test AI summarizer\n- /test-github - Test GitHub publisher\n- /trigger - Manually trigger scheduled handler',
       { status: 200 },
     );
   },
