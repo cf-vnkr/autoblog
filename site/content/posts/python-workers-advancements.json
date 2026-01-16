@@ -1,0 +1,17 @@
+{
+  "slug": "python-workers-advancements",
+  "title": "Python Workers redux: fast cold starts, packages, and a uv-first workflow",
+  "url": "https://blog.cloudflare.com/python-workers-advancements/",
+  "publishedAt": "Mon, 08 Dec 2025 06:00:00 GMT",
+  "summary": "**AI-Generated Summary**: This is an automated summary of a Cloudflare blog post created using AI. For the full details and context, please read the original post.\n\n**Cloudflare Python Workers Revamped: Fast Cold Starts, Package Support, and Improved Workflow**\n\nCloudflare has announced significant updates to its Python Workers platform, focusing on fast cold starts, package support, and a streamlined workflow. Python Workers now support any package supported by Pyodide, the WebAssembly runtime powering the platform, including pure Python packages and those relying on dynamic libraries. This change enables developers to leverage a vast array of packages, making it easier to build complex applications.\n\n**Key Improvements:**\n\n1. **Fast Cold Starts**: Cloudflare has implemented dedicated memory snapshots, resulting in significant speed improvements over other serverless Python vendors. In cold start tests, Cloudflare Workers start over 2.4x faster than AWS Lambda without SnapStart and 3x faster than Google Cloud Run.\n2. **Package Support**: Python Workers now support any package supported by Pyodide, including pure Python packages and those relying on dynamic libraries.\n3. **Improved Workflow**: Cloudflare has built tooling around uv to make package installation easy, and the platform now offers a more Python-native developer experience.\n\n**Practical Implications for Developers:**\n\n1. **Global Deployments**: With Cloudflare Python Workers, developers can deploy Python applications globally in under 2 minutes, with fast cold starts and no worrying about infrastructure or scaling.\n2. **Free Tier**: Cloudflare's free tier offers 100,000 requests per day and 10ms CPU time per invocation, making it an attractive option for many use cases.\n3. **Flexibility**: Python Workers can be used for a wide range of applications, from rendering HTML templates to AgoGraph tags, building chat rooms, and generating images.\n\nOverall, the updated Cloudflare Python Workers platform offers a powerful and flexible solution for developers looking to build complex applications with Python.",
+  "authors": [
+    "Dominik Picheta",
+    "Hood Chatham",
+    "Mike Nomitch"
+  ],
+  "categories": [
+    "Cloudflare Workers",
+    "Python"
+  ],
+  "guid": "4TlYGwUzSQPqAGP7gIEton"
+}
