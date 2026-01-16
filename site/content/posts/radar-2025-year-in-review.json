@@ -1,0 +1,22 @@
+{
+  "slug": "radar-2025-year-in-review",
+  "title": "The 2025 Cloudflare Radar Year in Review: The rise of AI, post-quantum, and record-breaking DDoS attacks",
+  "url": "https://blog.cloudflare.com/radar-2025-year-in-review/",
+  "publishedAt": "Mon, 15 Dec 2025 14:00:00 GMT",
+  "summary": "**AI-Generated Summary**: This is an automated summary of a Cloudflare blog post created using AI. For the full details and context, please read the original post.\n\n**2025 Cloudflare Radar Year in Review: Key Findings and Technical Insights**\n\nCloudflare's sixth annual Radar Year in Review provides a comprehensive analysis of internet trends and patterns observed throughout 2025. Based on Cloudflare's global network, which spans 330 cities in over 125 countries, the report offers insights into traffic, bots, security, connectivity, and DNS patterns. Key findings include:\n\n- **Traffic growth**: Global internet traffic grew 19% in 2025, with significant growth starting in August.\n- **Post-quantum encryption**: The share of human-generated Web traffic that is post-quantum encrypted has grown to 52%.\n- **AI crawl volume**: Googlebot was responsible for the highest volume of request traffic to Cloudflare in 2025, with AI crawl volume from dual-purpose Googlebot dwarfing other AI bots and crawlers.\n- **AI user action crawling**: AI \"user action\" crawling increased by over 15x in 2025.\n- **Device traffic**: iOS devices generated 35% of mobile device traffic globally, and more than half of device traffic in many countries.\n\n**Practical Implications for Developers**\n\n- **Post-quantum encryption**: As post-quantum encryption becomes more prevalent, developers should consider implementing encryption methods that can withstand quantum computer attacks.\n- **AI crawl volume**: Developers should be aware of the increasing volume of AI crawl traffic and ensure that their websites are properly configured to handle this traffic.\n- **Device traffic**: Developers should consider optimizing their websites for mobile devices, particularly iOS devices, to ensure a better user experience.\n\n**Additional Resources**\n\nThe 2025 Cloudflare Radar Year in Review microsite provides interactive charts, graphs, and maps that allow developers to explore and compare selected trends and measurements year-over-year and across geographies. Developers can also visit the companion Most Popular Internet Services blog post to explore trends seen across top Internet Services.",
+  "authors": [
+    "David Belson"
+  ],
+  "categories": [
+    "Year in Review",
+    "Radar",
+    "Trends",
+    "Internet Trends",
+    "Internet Traffic",
+    "Outage",
+    "Internet Quality",
+    "Security",
+    "AI"
+  ],
+  "guid": "2Mp06VKep73rBpdUmywpQ2"
+}
