@@ -1,0 +1,16 @@
+{
+  "slug": "18-november-2025-outage",
+  "title": "Cloudflare outage on November 18, 2025",
+  "url": "https://blog.cloudflare.com/18-november-2025-outage/",
+  "publishedAt": "Tue, 18 Nov 2025 00:00:00 GMT",
+  "summary": "**AI-Generated Summary**: This is an automated summary of a Cloudflare blog post created using AI. For the full details and context, please read the original post.\n\n**Cloudflare Outage Analysis: Key Technical Details and Implications**\n\nOn November 18, 2025, Cloudflare experienced a significant network failure, resulting in a period of downtime for its customers. The issue was not caused by a cyber attack, but rather by a change to a database system's permissions, which led to the generation of a large feature file used by the Bot Management system. The file's size exceeded the software's limit, causing it to fail and propagate the issue across the network.\n\n**Technical Analysis**\n\nThe failure was triggered by a query running on a ClickHouse database cluster, which was being updated to improve permissions management. The query generated a feature file every five minutes, which was then propagated across the network. However, the file's quality was inconsistent, with some versions being good and others being bad. This fluctuation made it difficult to identify the root cause of the issue.\n\n**Key Takeaways**\n\n1. **Database system permissions**: Changes to database system permissions can have unintended consequences, such as generating large feature files that exceed software limits.\n2. **ClickHouse database cluster**: The ClickHouse database cluster was a key contributor to the issue, as it generated the feature file that caused the failure.\n3. **Feature file propagation**: The propagation of the feature file across the network was a critical factor in the failure, as it caused the software to fail and propagate the issue.\n4. **Inconsistent file quality**: The inconsistent quality of the feature file made it difficult to identify the root cause of the issue, leading to initial misdiagnosis.\n\n**Practical Implications for Developers**\n\n1. **Monitor database system permissions**: Regularly monitor database system permissions to prevent unintended changes that can cause issues.\n2. **Implement robust feature file management**: Implement robust feature file management systems to prevent large files from being generated and propagated across the network.\n3. **Test for inconsistent file quality**: Test for inconsistent file quality to identify potential issues before they cause failures.\n4. **Develop incident response plans**: Develop incident response plans to quickly identify and resolve issues like this in the future.",
+  "authors": [
+    "Matthew Prince"
+  ],
+  "categories": [
+    "Outage",
+    "Post Mortem",
+    "Bot Management"
+  ],
+  "guid": "oVEUcpjyyDA8DSSXiE7E6"
+}
