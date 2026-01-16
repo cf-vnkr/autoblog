@@ -1,0 +1,18 @@
+{
+  "slug": "radar-2025-year-in-review-internet-services",
+  "title": "ChatGPT's rivals, Kwai's quiet rise: the top Internet services of 2025",
+  "url": "https://blog.cloudflare.com/radar-2025-year-in-review-internet-services/",
+  "publishedAt": "Mon, 15 Dec 2025 14:00:00 GMT",
+  "summary": "**AI-Generated Summary**: This is an automated summary of a Cloudflare blog post created using AI. For the full details and context, please read the original post.\n\n**Cloudflare's 2025 Top Internet Services Report Highlights Key Trends and Shifts**\n\nCloudflare's latest report, part of the 2025 Cloudflare Radar Year in Review, analyzes DNS trends to identify the most popular Internet services of 2025. The report ranks services across nine categories, including Generative AI, Social Media, E-commerce, and more, based on anonymized DNS query data from Cloudflare's 1.1.1.1 DNS resolver.\n\n**Key Takeaways:**\n\n* Google remains the #1 most popular Internet service globally, followed by Facebook.\n* Instagram rose to #5 overall and #2 in Social Media, while TikTok slipped to #8 and X fell outside the Top 20.\n* Kwai, a Chinese short-video app, climbed in the global social ranking and is now #3 in Brazil and high in several emerging markets.\n* Roblox maintained its #1 spot in Metaverse & Gaming, while PlayStation passed Xbox for #2.\n* Stripe and Nubank digital-first finance dominated the Financial Services category.\n\n**Methodology:**\n\nCloudflare's analysis uses anonymized DNS query data from the 1.1.1.1 public DNS resolver, which is used by millions globally. The data is aggregated to group domains associated with each service, excluding infrastructure domains like root-servers.net.\n\n**Practical Implications for Developers:**\n\n* Understanding the popularity of Internet services can inform product development and marketing strategies.\n* Developers can leverage popular services to integrate with their own applications and services.\n* The report's methodology and data can be used to analyze and predict future trends in Internet traffic and usage.\n\n**Additional Resources:**\n\n* Explore the full 2025 Cloudflare Radar Year in Review microsite for interactive visualizations, additional metrics, and deeper analysis of Internet traffic patterns, security trends, and network performance data.\n* Check out the 2025 Year in Review blog post for more insights.",
+  "authors": [
+    "João Tomé"
+  ],
+  "categories": [
+    "Radar",
+    "Internet Traffic",
+    "Trends",
+    "DNS",
+    "Year in Review"
+  ],
+  "guid": "7FGmUuKceINtevY1MTsBd1"
+}
