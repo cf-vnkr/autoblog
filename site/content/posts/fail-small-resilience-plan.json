@@ -1,0 +1,16 @@
+{
+  "slug": "fail-small-resilience-plan",
+  "title": "Code Orange: Fail Small — our resilience plan following recent incidents",
+  "url": "https://blog.cloudflare.com/fail-small-resilience-plan/",
+  "publishedAt": "Fri, 19 Dec 2025 22:35:30 GMT",
+  "summary": "**AI-Generated Summary**: This is an automated summary of a Cloudflare blog post created using AI. For the full details and context, please read the original post.\n\n**Cloudflare's Code Orange: Fail Small Initiative**\n\nAfter two recent network failures, Cloudflare has launched a comprehensive resilience plan called \"Code Orange: Fail Small.\" This initiative aims to prevent major outages by making their network more resilient to errors or mistakes. The plan is organized into three main areas:\n\n1. **Controlled Rollouts**: Cloudflare will implement controlled rollouts for any configuration change that is propagated to the network, similar to their software binary release process. This will ensure that new changes are thoroughly tested and monitored before being deployed.\n2. **Failure Mode Review and Testing**: Cloudflare will review, improve, and test failure modes of all systems handling network traffic to ensure they exhibit well-defined behavior under all conditions, including unexpected error states.\n3. **Internal Process Improvements**: Cloudflare will change their internal \"break glass\" procedures and remove any circular dependencies to enable faster access to all systems during an incident.\n\n**Key Takeaways for Developers**\n\n1. Cloudflare's recent network failures were caused by instantaneous deployment of configuration changes, which exposed a gap in their deployment process.\n2. Cloudflare will implement controlled rollouts for configuration changes, similar to their software binary release process.\n3. The Code Orange initiative will deliver iterative improvements, rather than a single \"big bang\" change, to ensure continuous resiliency.\n\n**Practical Implications**\n\nDevelopers using Cloudflare services can expect improved network resilience and reduced likelihood of major outages. By implementing controlled rollouts and failure mode review and testing, Cloudflare aims to deliver a more stable and reliable experience for their customers.",
+  "authors": [
+    "Dane Knecht"
+  ],
+  "categories": [
+    "Outage",
+    "Post Mortem",
+    "Code Orange"
+  ],
+  "guid": "DMVZ2E5NT13VbQvP1hUNj"
+}
