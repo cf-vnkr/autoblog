@@ -289,11 +289,34 @@ autoblog/
    - Responsive breakpoints
 5. Create base layout (`Layout.astro`)
 6. Design system tokens (spacing, colors, fonts)
+7. **IMPORTANT**: Add NLWeb chat widget integration in `Layout.astro` `<head>` section:
+   ```html
+   <!-- NLWeb Chat Widget CSS -->
+   <link rel="stylesheet" href="https://ask.cfdemo.site/nlweb-dropdown-chat.css">
+   <link rel="stylesheet" href="https://ask.cfdemo.site/common-chat-styles.css">
+   ```
+   And before closing `</body>` tag:
+   ```html
+   <!-- NLWeb Chat Widget Container -->
+   <div id="docs-search-container"></div>
+
+   <!-- NLWeb Chat Widget JavaScript -->
+   <script type="module">
+     import { NLWebDropdownChat } from 'https://ask.cfdemo.site/nlweb-dropdown-chat.js';
+
+     const chat = new NLWebDropdownChat({
+       containerId: 'docs-search-container',
+       site: 'https://ask.cfdemo.site',
+       placeholder: 'Search for docs...',
+       endpoint: 'https://ask.cfdemo.site'
+     });
+   </script>
+   ```
 
 **Deliverables**:
 - Working Astro dev server
 - Tailwind CSS configured
-- Base layout component
+- Base layout component with NLWeb chat widget integrated
 
 ### Phase 8: Astro Site - Content Schema & Utils
 **Goal**: Load and validate post JSON files
