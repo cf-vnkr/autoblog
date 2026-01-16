@@ -1,0 +1,17 @@
+{
+  "slug": "flux-2-workers-ai",
+  "title": "Partnering with Black Forest Labs to bring FLUX.2 [dev] to Workers AI",
+  "url": "https://blog.cloudflare.com/flux-2-workers-ai/",
+  "publishedAt": "Tue, 25 Nov 2025 00:00:00 GMT",
+  "summary": "**AI-Generated Summary**: This is an automated summary of a Cloudflare blog post created using AI. For the full details and context, please read the original post.\n\n**Cloudflare Partners with Black Forest Labs to Bring FLUX.2 [dev] to Workers AI**\n\nCloudflare has partnered with Black Forest Labs to bring their latest image generation model, FLUX.2 [dev], to Cloudflare's inference platform, Workers AI. FLUX.2 is an open-weight contender that offers more realistic, grounded images with added customization support, such as JSON prompting. The model has been optimized for Workers AI and supports new features like multipart form data for input images (up to 4 512x512 images) and output images up to 4 megapixels.\n\n**Key Technical Details**\n\n* FLUX.2 model has a robust understanding of the physical world, allowing for photorealistic outputs with accurate lighting, shadows, reflections, and depth perception.\n* Supports multi-reference editing with state-of-the-art character consistency, ensuring identities, products, and styles remain consistent for tasks.\n* Offers multi-language support, allowing for the creation of digital assets in various languages.\n* Supports multipart form data for input images, allowing users to send multiple image inputs alongside the typical model parameters.\n\n**Practical Implications for Developers**\n\n* FLUX.2 is ideal for applications requiring superior image quality, such as creative photography, e-commerce product shots, marketing visuals, and interior design.\n* The model's ability to understand context, tone, and trends makes it suitable for creating engaging and editorial-quality digital assets from short prompts.\n* Developers can use the FLUX.2 model to generate high-quality digital assets, such as designing landing pages or generating detailed infographics.\n* The model's multi-reference editing feature solves the consistency challenge in generative AI, allowing developers to create consistent identities, products, and styles.",
+  "authors": [
+    "Michelle Chen",
+    "David Liu"
+  ],
+  "categories": [
+    "AI",
+    "Workers AI",
+    "Developers"
+  ],
+  "guid": "5lE1GkcjJWDeQq5696TdSs"
+}
