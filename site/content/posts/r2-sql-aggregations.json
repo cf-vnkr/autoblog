@@ -1,0 +1,21 @@
+{
+  "slug": "r2-sql-aggregations",
+  "title": "Announcing support for GROUP BY, SUM, and other aggregation queries in R2 SQL",
+  "url": "https://blog.cloudflare.com/r2-sql-aggregations/",
+  "publishedAt": "Thu, 18 Dec 2025 14:00:00 GMT",
+  "summary": "**AI-Generated Summary**: This is an automated summary of a Cloudflare blog post created using AI. For the full details and context, please read the original post.\n\n**Cloudflare Announces Support for GROUP BY, SUM, and Other Aggregation Queries in R2 SQL**\n\nCloudflare has announced the addition of support for aggregations in R2 SQL, its serverless, distributed analytics query engine. Aggregations, also known as \"GROUP BY queries,\" provide a quick overview of large datasets by grouping rows and calculating summary statistics. This feature allows users to spot trends, generate reports, and find anomalies in their data.\n\n**Key Technical Details**\n\nR2 SQL now supports the following aggregation functions:\n\n* GROUP BY: groups rows by one or more columns\n* SUM: calculates the sum of a column\n* COUNT: counts the number of rows in a group\n* ORDER BY: sorts groups by a column\n* HAVING: filters groups based on a condition\n\n**Practical Implications for Developers**\n\nThe addition of aggregations in R2 SQL enables developers to write more complex queries that provide insights into their data. For example, they can use GROUP BY to generate reports on sales by department, or use ORDER BY to sort groups by their total sales volume. The HAVING clause allows developers to filter out anomalies and only include groups that meet certain conditions.\n\n**Two Approaches to Aggregation**\n\nR2 SQL uses two approaches to aggregation: computing aggregates sooner or later. The first approach computes aggregates on the fly, while the second approach computes aggregates partially and merges results later. The choice of approach depends on the specific query and the data being evaluated.",
+  "authors": [
+    "Jérôme Schneider",
+    "Nikita Lapkov",
+    "Marc Selwan"
+  ],
+  "categories": [
+    "R2",
+    "Data",
+    "Edge Computing",
+    "Rust",
+    "Serverless",
+    "SQL"
+  ],
+  "guid": "1qWQCp4QfhsZAs27s7fEc0"
+}
