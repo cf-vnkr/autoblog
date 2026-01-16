@@ -1,0 +1,17 @@
+{
+  "slug": "python-workers-advancements",
+  "title": "Python Workers redux: fast cold starts, packages, and a uv-first workflow",
+  "url": "https://blog.cloudflare.com/python-workers-advancements/",
+  "publishedAt": "Mon, 08 Dec 2025 06:00:00 GMT",
+  "summary": "**AI-Generated Summary**: This is an automated summary of a Cloudflare blog post created using AI. For the full details and context, please read the original post.\n\n**Cloudflare Python Workers: Fast Cold Starts, Packages, and a uv-First Workflow**\n\nCloudflare has announced significant improvements to its Python Workers platform, enabling developers to create fast and scalable serverless applications. The key updates include:\n\n* **Fast cold starts**: Cloudflare Workers now achieve exceptionally fast cold starts, thanks to dedicated memory snapshots, which result in a 2.4x faster start time compared to AWS Lambda without SnapStart and 3x faster than Google Cloud Run.\n* **Package support**: Python Workers now support any package supported by Pyodide, the WebAssembly runtime powering Python Workers, including pure Python packages and many packages that rely on dynamic libraries.\n* **uv-first workflow**: Cloudflare has built tooling around uv to make package installation easy and efficient.\n\nDevelopers can leverage these improvements to create scalable and fast serverless applications using Python. With Cloudflare Workers, developers can deploy Python applications globally in under 2 minutes, without worrying about infrastructure or scaling. The free tier offers 100,000 requests per day and 10ms CPU time per invocation.\n\n**Practical Implications for Developers**\n\n* Write Python applications that can be deployed globally in under 2 minutes using Cloudflare Workers.\n* Take advantage of fast cold starts and scalable infrastructure to create high-performance serverless applications.\n* Use Python Workers to create a wide range of applications, including rendering HTML templates, modifying server responses, building chat rooms, and more.\n\n**Example Use Case**\n\nDeploy a FastAPI app across the world with fast cold starts in less than two minutes using the following code:\n```python\nfrom fastapi import FastAPI\nfrom workers import WorkerEntrypoint\nimport asgi\n\napp = FastAPI()\n@app.get(\"/\")\nasync def root():\n    return {\"message\": \"This is FastAPI on Workers\"}\n\nclass Default(WorkerEntrypoint):\n    async def fetch(self, request):\n        return await asgi.fetch(app, request.js_object, self.env)\n\n# Deploy the application using pywrangler\n$ uv tool install workers-py\n$ pywrangler init --template https://github.com/cloudflare/python-workers-examples/03-fastapi\n$ pywrangler deploy\n```\nThis code demonstrates how to create a FastAPI application and deploy it using Cloudflare Workers, taking advantage of fast cold starts and scalable infrastructure.",
+  "authors": [
+    "Dominik Picheta",
+    "Hood Chatham",
+    "Mike Nomitch"
+  ],
+  "categories": [
+    "Cloudflare Workers",
+    "Python"
+  ],
+  "guid": "4TlYGwUzSQPqAGP7gIEton"
+}
