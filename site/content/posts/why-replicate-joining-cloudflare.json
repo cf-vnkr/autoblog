@@ -1,0 +1,18 @@
+{
+  "slug": "why-replicate-joining-cloudflare",
+  "title": "Why Replicate is joining Cloudflare",
+  "url": "https://blog.cloudflare.com/why-replicate-joining-cloudflare/",
+  "publishedAt": "Mon, 01 Dec 2025 06:00:00 GMT",
+  "summary": "**AI-Generated Summary**: This is an automated summary of a Cloudflare blog post created using AI. For the full details and context, please read the original post.\n\n**Replicate Joins Cloudflare: Unifying AI Infrastructure**\n\nCloudflare has announced the acquisition of Replicate, a platform for running machine learning models as API endpoints in the cloud. Replicate was founded in 2019 with the mission of making research models accessible to developers, enabling them to build innovative products and applications. The platform abstracts away low-level machine learning and GPU cluster management, allowing developers to focus on building applications that utilize AI models.\n\n**Practical Implications for Developers**\n\nThe integration of Replicate into Cloudflare's ecosystem will enable developers to build a full AI stack, including model inference, microservices, content delivery, object storage, caching, databases, and telemetry. This will allow developers to create complex, heterogeneous systems where AI models are just one part of a larger system. With Cloudflare's network, Workers, R2, Durable Objects, and other primitives, developers will be able to build AI infrastructure layers, including running fast models on the edge, model pipelines on instantly-booting Workers, and streaming model inputs and outputs with WebRTC.\n\n**Key Technical Details**\n\nReplicate's tools and primitives for running models will be combined with Cloudflare's network and infrastructure to create a unified AI infrastructure layer. This will enable developers to build applications that utilize AI models in a scalable and efficient manner. The acquisition is expected to accelerate the development of AI engineering and the creation of innovative applications that utilize AI models.",
+  "authors": [
+    "Andreas Jansson",
+    "Ben Firshman"
+  ],
+  "categories": [
+    "AI",
+    "Workers AI",
+    "Developers",
+    "Acquisitions"
+  ],
+  "guid": "3KkAemgmCHkd0D9QW5qTnz"
+}
