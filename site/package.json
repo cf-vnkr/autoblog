@@ -14,13 +14,14 @@
     "lint:fix": "eslint . --ext .astro,.ts --fix"
   },
   "dependencies": {
-    "astro": "^5.0.3",
     "@astrojs/tailwind": "^5.1.2",
+    "astro": "^5.0.3",
+    "marked": "^17.0.1",
     "tailwindcss": "^3.4.1"
   },
   "devDependencies": {
     "@types/node": "^20.11.5",
-    "typescript": "^5.3.3",
-    "eslint-plugin-astro": "^0.31.4"
+    "eslint-plugin-astro": "^0.31.4",
+    "typescript": "^5.3.3"
   }
 }

@@ -1,6 +1,7 @@
 ---
 import Layout from '../../layouts/Layout.astro';
 import { getAllPosts, getPostBySlug, formatDate } from '../../lib/posts';
+import { marked } from 'marked';
 
 export async function getStaticPaths() {
   const posts = await getAllPosts();
@@ -15,6 +16,10 @@ const post = await getPostBySlug(slug as string);
 if (!post) {
   return Astro.redirect('/');
 }
+
+// Convert markdown summary to HTML
+const summaryWithoutDisclaimer = post.summary.replace(/\*\*AI-Generated Summary\*\*:.*?\n\n/s, '');
+const summaryHtml = marked.parse(summaryWithoutDisclaimer);
 ---
 
 <Layout title={`${post.title} - Cloudflare Blog Summary`} description={post.summary.slice(0, 160)}>
@@ -83,9 +88,7 @@ if (!post) {
 
     <!-- Summary content -->
     <div class="prose prose-lg max-w-none mb-8">
-      <div class="whitespace-pre-wrap text-gray-700 leading-relaxed">
-        {post.summary.replace(/\*\*AI-Generated Summary\*\*:.*?\n\n/s, '')}
-      </div>
+      <div class="text-gray-700 leading-relaxed" set:html={summaryHtml} />
     </div>
 
     <!-- CTA to original post -->
