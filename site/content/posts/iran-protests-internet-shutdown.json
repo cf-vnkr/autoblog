@@ -1,0 +1,17 @@
+{
+  "slug": "iran-protests-internet-shutdown",
+  "title": "What we know about Iran’s Internet shutdown",
+  "url": "https://blog.cloudflare.com/iran-protests-internet-shutdown/",
+  "publishedAt": "Tue, 13 Jan 2026 00:00:00 GMT",
+  "summary": "**AI-Generated Summary**: This is an automated summary of a Cloudflare blog post created using AI. For the full details and context, please read the original post.\n\n**Iran's Internet Shutdown: Key Technical Details and Practical Implications**\n\nIn late December 2025, widespread protests in Iran led to a near-total shutdown of the country's Internet connectivity. Cloudflare Radar data reveals a significant drop in Internet traffic from Iran, with IPv6 traffic plummeting from 12% to 2% of human-generated traffic. The shutdown was characterized by a 98.5% reduction in announced IPv6 address space, indicating an intentional disruption to Internet connectivity.\n\n**Technical Observations**\n\n* On January 8, at 11:50 UTC, the amount of IPv6 address space announced by Iranian networks dropped by 98.5%, indicating a major disruption to Internet connectivity.\n* Between 16:30 - 17:00 UTC, traffic volumes from major Iranian network providers, including MCCI, IranCell, and TCI, fell nearly 90%.\n* By 18:45 UTC, Internet traffic from Iran dropped to effectively zero, signaling a complete shutdown in the country and disconnection from the global Internet.\n\n**Practical Implications for Developers**\n\n* The shutdown highlights the importance of monitoring Internet traffic and connectivity in regions prone to disruptions.\n* Developers should consider implementing redundancy and failover mechanisms to ensure continued access to critical services.\n* The use of Cloudflare's public DNS resolver, 1.1.1.1, may provide a temporary workaround for accessing Internet services during shutdowns.",
+  "authors": [
+    "David Belson"
+  ],
+  "categories": [
+    "Internet Shutdown",
+    "Radar",
+    "Internet Traffic",
+    "1.1.1.1"
+  ],
+  "guid": "5VetKk31z2RaNY9CI4lsye"
+}
