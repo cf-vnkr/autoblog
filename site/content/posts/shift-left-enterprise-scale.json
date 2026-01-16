@@ -1,0 +1,19 @@
+{
+  "slug": "shift-left-enterprise-scale",
+  "title": "Shifting left at enterprise scale: how we manage Cloudflare with Infrastructure as Code",
+  "url": "https://blog.cloudflare.com/shift-left-enterprise-scale/",
+  "publishedAt": "Tue, 09 Dec 2025 06:00:00 GMT",
+  "summary": "**AI-Generated Summary**: This is an automated summary of a Cloudflare blog post created using AI. For the full details and context, please read the original post.\n\n**Cloudflare's Journey to Infrastructure as Code (IaC)**\n\nCloudflare, as its own \"Customer Zero,\" faces the challenge of managing its critical infrastructure at a global scale. With hundreds of internal production accounts, a single misconfiguration can have far-reaching consequences. To mitigate this risk, Cloudflare adopted \"shift left\" principles, moving security checks to the earliest stages of development. This involved treating configurations as code, rather than manual point-and-click tasks, and integrating testing, security audits, and policy compliance checks into the continuous integration and continuous deployment (CI/CD) pipeline.\n\n**Key Technical Details**\n\nCloudflare's IaC operating model is built on two main technologies: Terraform and a custom CI/CD pipeline. Terraform's mature open-source ecosystem and strong community support made it an ideal choice for managing large-scale infrastructure. The Cloudflare Terraform Provider allows the company to actively dogfood the experience and improve it for customers. The CI/CD pipeline, integrated with GitLab, runs on Atlantis and manages hundreds of accounts and around 30 merge requests per day.\n\n**Practical Implications for Developers**\n\nCloudflare's adoption of IaC has several practical implications for developers:\n\n1. **Consistency**: Configurations must be easily copied and reused across accounts.\n2. **Scalability**: Large changes can be applied rapidly across multiple accounts.\n3. **Observability**: Configurations must be auditable by anyone for current state, accuracy, and security.\n4. **Governance**: Guardrails must be proactive, enforced before deployment to avoid incidents.\n\nBy adopting IaC, Cloudflare has reduced the risk of unintended consequences and improved its overall security posture. This approach can serve as a model for other organizations looking to implement IaC and improve their infrastructure management.",
+  "authors": [
+    "Chase Catelli",
+    "Ryan Pesek",
+    "Derek Pitts"
+  ],
+  "categories": [
+    "Infrastructure as Code",
+    "Customer Zero",
+    "Terraform",
+    "Dogfooding"
+  ],
+  "guid": "6Kx2Ob32avdygaasok3ZCr"
+}
