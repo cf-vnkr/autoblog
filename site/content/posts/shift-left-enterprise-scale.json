@@ -1,0 +1,19 @@
+{
+  "slug": "shift-left-enterprise-scale",
+  "title": "Shifting left at enterprise scale: how we manage Cloudflare with Infrastructure as Code",
+  "url": "https://blog.cloudflare.com/shift-left-enterprise-scale/",
+  "publishedAt": "Tue, 09 Dec 2025 06:00:00 GMT",
+  "summary": "**AI-Generated Summary**: This is an automated summary of a Cloudflare blog post created using AI. For the full details and context, please read the original post.\n\n**Cloudflare's Shift Left Approach to Managing Infrastructure as Code**\n\nAt Cloudflare, the company uses its own products to secure and optimize its services, providing a constant feedback loop to drive continuous improvement. However, managing hundreds of internal production accounts securely and consistently posed a significant challenge. To mitigate this risk, Cloudflare adopted a \"shift left\" approach, moving security checks to the earliest stages of development. This involved integrating testing, security audits, and policy compliance checks directly into the continuous integration and continuous deployment (CI/CD) pipeline.\n\n**Key Technical Details**\n\nCloudflare's production IaC operating model uses Terraform and a custom CI/CD pipeline to manage configurations. Every modification is tracked, tied to a user, commit, and an internal ticket. The setup ensures every change is peer-reviewed, and policies are implemented by the owning engineering teams themselves. The enterprise IaC stack uses Terraform for its mature open-source ecosystem and strong community support. The CI/CD pipeline runs on Atlantis, integrated with GitLab, and uses a custom go program, tfstate-butler, to securely store state files.\n\n**Practical Implications for Developers**\n\nCloudflare's shift left approach provides a valuable example of how to adopt Infrastructure as Code (IaC) and move security checks to the earliest stages of development. By integrating testing, security audits, and policy compliance checks directly into the CI/CD pipeline, developers can catch issues or misconfigurations at the merge request stage, reducing the cost of remediation. This approach also ensures consistency, scalability, observability, and governance across hundreds of internal production accounts.",
+  "authors": [
+    "Chase Catelli",
+    "Ryan Pesek",
+    "Derek Pitts"
+  ],
+  "categories": [
+    "Infrastructure as Code",
+    "Customer Zero",
+    "Terraform",
+    "Dogfooding"
+  ],
+  "guid": "6Kx2Ob32avdygaasok3ZCr"
+}
