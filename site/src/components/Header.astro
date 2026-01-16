@@ -4,8 +4,8 @@
 
 <header class="bg-white shadow-sm border-b border-gray-200">
   <div class="container mx-auto px-4 py-6">
-    <div class="flex items-center justify-between">
-      <a href="/" class="flex items-center space-x-3">
+    <div class="flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
+      <a href="/" class="flex items-center space-x-3 flex-shrink-0">
         <svg
           class="w-8 h-8 text-primary"
           xmlns="http://www.w3.org/2000/svg"
@@ -26,8 +26,8 @@
         </div>
       </a>
       
-      <!-- NLWeb Chat Widget Container -->
-      <div id="docs-search-container"></div>
+      <!-- NLWeb Chat Widget Container - responsive width -->
+      <div id="docs-search-container" class="w-full md:w-96 lg:w-[500px]"></div>
     </div>
   </div>
 </header>
