@@ -1,0 +1,16 @@
+{
+  "slug": "ddos-threat-report-2025-q3",
+  "title": "Cloudflare's 2025 Q3 DDoS threat report -- including Aisuru, the apex of botnets",
+  "url": "https://blog.cloudflare.com/ddos-threat-report-2025-q3/",
+  "publishedAt": "Wed, 03 Dec 2025 14:00:00 GMT",
+  "summary": "**AI-Generated Summary**: This is an automated summary of a Cloudflare blog post created using AI. For the full details and context, please read the original post.\n\n**Cloudflare's 2025 Q3 DDoS Threat Report Highlights Aisuru Botnet's Rising Threat**\n\nCloudflare's latest Quarterly DDoS Threat Report reveals a significant increase in Distributed Denial of Service (DDoS) attacks in the third quarter of 2025, with a focus on the Aisuru botnet. Aisuru, a massive botnet with an estimated 1-4 million infected hosts globally, unleashed hyper-volumetric DDoS attacks exceeding 1 terabit per second (Tbps) and 1 billion packets per second (Bpps). These attacks surged 54% quarter-over-quarter (QoQ), averaging 14 hyper-volumetric attacks daily.\n\n**Key Insights and Statistics:**\n\n* Aisuru's attacks peaked at 29.7 Tbps and 14.1 Bpps, setting new records for DDoS attacks.\n* DDoS attack traffic against AI companies surged by 347% month-over-month (MoM) in September 2025.\n* Escalating EU-China trade tensions led to a significant increase in DDoS attacks against the Mining, Minerals & Metals industry and the Automotive industry.\n* Cloudflare's autonomous defenses blocked a total of 8.3 million DDoS attacks in the third quarter of 2025, averaging 3,780 DDoS attacks per hour.\n* Network-layer DDoS attacks accounted for 71% of the DDoS attacks in 2025 Q3, increasing by 87% QoQ and 95% year-over-year (YoY).\n\n**Practical Implications for Developers:**\n\n* Ensure your infrastructure is protected against Aisuru and other botnets by implementing robust DDoS mitigation strategies.\n* Monitor your network traffic and adjust your defenses accordingly to prevent collateral damage.\n* Consider using Cloudflare's DDoS protection services to safeguard your applications and infrastructure.\n* Stay up-to-date with the latest DDoS threat reports and trends to inform your security strategies.",
+  "authors": [
+    "Omer Yoachimik",
+    "Jorge Pacheco"
+  ],
+  "categories": [
+    "DDoS Reports",
+    "DDoS"
+  ],
+  "guid": "1lRRUtB2DMN3pPhk7yfeSM"
+}
