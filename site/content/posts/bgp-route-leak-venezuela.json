@@ -1,0 +1,18 @@
+{
+  "slug": "bgp-route-leak-venezuela",
+  "title": "A closer look at a BGP anomaly in Venezuela",
+  "url": "https://blog.cloudflare.com/bgp-route-leak-venezuela/",
+  "publishedAt": "Tue, 06 Jan 2026 08:00:00 GMT",
+  "summary": "**AI-Generated Summary**: This is an automated summary of a Cloudflare blog post created using AI. For the full details and context, please read the original post.\n\n**BGP Route Leaks in Venezuela: A Technical Analysis**\n\nA recent security newsletter highlighted a series of BGP route leaks in Venezuela, involving the state-run telephone and Internet Service Provider, CANTV (AS8048). A closer examination of the data reveals that these leaks are likely caused by insufficient routing export and import policies, rather than malicious intent. This summary will provide a technical overview of BGP route leaks, their impact, and the specific case of AS8048.\n\n**What are BGP Route Leaks?**\n\nBGP route leaks occur when a network announces routes beyond their intended scope, causing traffic to take an unexpected path. This can lead to slower and more unreliable connections. In BGP, a valid path follows the \"valley-free routing rule,\" where traffic flows from customers to providers and then to other customers, without re-entering the provider network.\n\n**Route Leak Types**\n\nThere are several types of route leaks, but a common one is the \"Hairpin route leak\" between two provider networks by a customer. In this case, a customer network (AS64505) takes routes from one provider and redistributes them to another provider, creating an unexpected and potentially overwhelming path.\n\n**The Case of AS8048 (CANTV)**\n\nCloudflare Radar data shows that AS8048 has been involved in multiple route leak events since December, involving routes taken from one of their providers (AS6762) and redistributed to another provider (AS52320). This suggests that CANTV's routing policies are not adequately enforcing the \"valley-free routing rule,\" leading to these unexpected and potentially impactful route leaks.\n\n**Practical Implications for Developers**\n\nThis analysis highlights the importance of robust routing policies and the need for networks to enforce the \"valley-free routing rule.\" Developers should be aware of the potential risks and consequences of route leaks, including slower and more unreliable connections. By understanding the technical aspects of BGP route leaks, developers can better design and implement secure and efficient routing policies for their networks.",
+  "authors": [
+    "Bryton Herdes"
+  ],
+  "categories": [
+    "BGP",
+    "RPKI",
+    "Routing",
+    "Routing Security",
+    "Network Services"
+  ],
+  "guid": "4WOdNrtTGvlrQDV7Apw8R1"
+}
