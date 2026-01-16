@@ -1,0 +1,18 @@
+{
+  "slug": "radar-2025-year-in-review-internet-services",
+  "title": "ChatGPT's rivals, Kwai's quiet rise: the top Internet services of 2025",
+  "url": "https://blog.cloudflare.com/radar-2025-year-in-review-internet-services/",
+  "publishedAt": "Mon, 15 Dec 2025 14:00:00 GMT",
+  "summary": "**AI-Generated Summary**: This is an automated summary of a Cloudflare blog post created using AI. For the full details and context, please read the original post.\n\n**Cloudflare's 2025 Top Internet Services Report: Key Takeaways and Trends**\n\nCloudflare's latest report on the top internet services of 2025 provides insights into the shifting landscape of online services, based on anonymized DNS query data from their 1.1.1.1 DNS resolver. The report highlights the relative popularity of services across nine categories, including Generative AI, Social Media, E-commerce, and more.\n\n**Key Trends and Takeaways:**\n\n1. **Generative AI:** ChatGPT remains the leader, but rivals like Claude, Gemini, Perplexity, and DeepSeek have emerged, with Gemini holding the #2 spot by year's end.\n2. **Social Media:** Instagram rose to #5 overall and #2 in Social Media, while TikTok slipped to #8 and X fell outside the Top 20.\n3. **E-commerce:** Asian e-commerce platforms like Shopee and Temu joined Amazon in the global top 3.\n4. **Gaming:** Roblox maintained its #1 spot in Metaverse & Gaming, while PlayStation passed Xbox for #2.\n5. **Financial Services:** Stripe remained #1, while Brazilian neobank Nubank highlights Latin America's digital banking surge.\n6. **Crypto:** Binance kept the top spot, but OKX jumped to #2 as crypto traffic spiked around Trump's inauguration and market rallies.\n\n**Methodology:**\n\nCloudflare's analysis uses anonymized DNS query data from the 1.1.1.1 public DNS resolver, used by millions globally. They aggregate domains associated with each service and focus on services accessed by end users, excluding infrastructure domains.\n\n**Practical Implications for Developers:**\n\n1. **Generative AI:** As the field becomes increasingly crowded, developers may need to differentiate their AI-powered services to stand out.\n2. **Social Media:** The rise of Instagram and decline of TikTok and X may indicate shifting user preferences and behaviors.\n3. **E-commerce:** Asian e-commerce platforms' growth may indicate opportunities for expansion and partnerships.\n4. **Gaming:** The continued dominance of Roblox and PlayStation's passing of Xbox may suggest trends in gaming console preferences.\n5. **Financial Services:** The growth of digital banking in Latin America may indicate opportunities for fintech innovation.\n\nBy understanding these trends and takeaways, developers can make informed decisions about their own projects and services, and stay ahead of the curve in the rapidly evolving online landscape.",
+  "authors": [
+    "João Tomé"
+  ],
+  "categories": [
+    "Radar",
+    "Internet Traffic",
+    "Trends",
+    "DNS",
+    "Year in Review"
+  ],
+  "guid": "7FGmUuKceINtevY1MTsBd1"
+}
