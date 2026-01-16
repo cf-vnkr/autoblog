@@ -102,6 +102,32 @@ export function formatDate(dateString: string): string {
 }
 
 /**
+ * Strips markdown formatting from text
+ * @param text Text with markdown
+ * @returns Plain text without markdown formatting
+ */
+export function stripMarkdown(text: string): string {
+  return (
+    text
+      // Remove headers (##, ###, etc.)
+      .replace(/^#+\s+/gm, '')
+      // Remove bold/italic (**text**, *text*)
+      .replace(/\*\*([^*]+)\*\*/g, '$1')
+      .replace(/\*([^*]+)\*/g, '$1')
+      // Remove links [text](url)
+      .replace(/\[([^\]]+)\]\([^)]+\)/g, '$1')
+      // Remove inline code `code`
+      .replace(/`([^`]+)`/g, '$1')
+      // Remove list markers (-, *, 1., etc.)
+      .replace(/^[\s]*[-*+]\s+/gm, '')
+      .replace(/^[\s]*\d+\.\s+/gm, '')
+      // Remove extra newlines
+      .replace(/\n{3,}/g, '\n\n')
+      .trim()
+  );
+}
+
+/**
  * Extracts a preview/excerpt from the summary
  * @param summary Full summary text
  * @param maxLength Maximum character length
@@ -111,12 +137,15 @@ export function getExcerpt(summary: string, maxLength = 200): string {
   // Remove the AI disclaimer if present
   const withoutDisclaimer = summary.replace(/\*\*AI-Generated Summary\*\*:.*?\n\n/s, '');
 
-  if (withoutDisclaimer.length <= maxLength) {
-    return withoutDisclaimer;
+  // Strip markdown formatting
+  const plainText = stripMarkdown(withoutDisclaimer);
+
+  if (plainText.length <= maxLength) {
+    return plainText;
   }
 
   // Truncate at word boundary
-  const truncated = withoutDisclaimer.substring(0, maxLength);
+  const truncated = plainText.substring(0, maxLength);
   const lastSpace = truncated.lastIndexOf(' ');
 
   return lastSpace > 0 ? truncated.substring(0, lastSpace) + '...' : truncated + '...';
