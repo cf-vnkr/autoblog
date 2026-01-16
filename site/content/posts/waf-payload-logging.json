@@ -1,0 +1,16 @@
+{
+  "slug": "waf-payload-logging",
+  "title": "Get better visibility for the WAF with payload logging",
+  "url": "https://blog.cloudflare.com/waf-payload-logging/",
+  "publishedAt": "Mon, 24 Nov 2025 14:00:00 GMT",
+  "summary": "**AI-Generated Summary**: This is an automated summary of a Cloudflare blog post created using AI. For the full details and context, please read the original post.\n\n**Improved Visibility into Cloudflare's Web Application Firewall (WAF)**\n\nCloudflare's WAF provides robust protection against layer 7 attacks, but fine-tuning its default configuration can be challenging due to the sheer volume of requests it processes. To address this, Cloudflare has introduced payload logging, a feature that logs specific fields and their values associated with a rule that led to a WAF action. This enhancement reduces ambiguity and provides valuable information to help identify false positives, ensure correctness, and optimize rule performance.\n\n**Key Technical Details**\n\nCloudflare's WAF relies on the Rulesets engine, which executes actions based on rule expressions. However, debugging these expressions can be complex due to transformations applied to original request fields, such as Base64 decoding and URL decoding. Additionally, multiple rules in a ruleset can register matches, making it difficult to determine which characteristic of the request led to a match. Payload logging addresses these challenges by logging the specific fields and their values post-transformation, allowing developers to spot-check false positives and fine-tune rules for better performance.\n\n**Practical Implications for Developers**\n\nWith payload logging, developers can:\n\n* Identify false positives and ensure correctness\n* Optimize rule performance by fine-tuning rules\n* Gain a deeper understanding of how the WAF is processing requests\n* Improve the overall security posture of their applications\n\nBy providing a clear and detailed view of the WAF's decision-making process, payload logging empowers developers to make informed decisions and improve the security and performance of their applications.",
+  "authors": [
+    "Paschal Obba"
+  ],
+  "categories": [
+    "Firewall",
+    "WAF",
+    "Logging"
+  ],
+  "guid": "2FEaxrBcxhN1nwrSuT9Jpd"
+}
