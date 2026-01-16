@@ -1,0 +1,22 @@
+{
+  "slug": "radar-2025-year-in-review",
+  "title": "The 2025 Cloudflare Radar Year in Review: The rise of AI, post-quantum, and record-breaking DDoS attacks",
+  "url": "https://blog.cloudflare.com/radar-2025-year-in-review/",
+  "publishedAt": "Mon, 15 Dec 2025 14:00:00 GMT",
+  "summary": "**AI-Generated Summary**: This is an automated summary of a Cloudflare blog post created using AI. For the full details and context, please read the original post.\n\n**Cloudflare Radar Year in Review 2025: Key Findings and Trends**\n\nCloudflare's sixth annual Radar Year in Review report provides insights into Internet trends and patterns observed in 2025. Based on Cloudflare's global network, which spans 330 cities in over 125 countries, the report analyzes data from Web and DNS services, as well as other complementary data sets. The report highlights key findings and trends across six sections: Traffic, AI, Adoption & Usage, Connectivity, Security, and Email Security.\n\n**Traffic Trends**\n\n* Global Internet traffic grew 19% in 2025, with significant growth starting in August.\n* Starlink traffic doubled in 2025, with traffic from over 20 new countries/regions.\n* Googlebot was responsible for the highest volume of request traffic to Cloudflare in 2025, crawling millions of Cloudflare customer sites for search indexing and AI training.\n\n**AI Trends**\n\n* The share of human-generated Web traffic that is post-quantum encrypted has grown to 52%.\n* Googlebot was responsible for more than a quarter of Verified Bot traffic.\n* AI \"user action\" crawling increased by over 15x in 2025.\n* Anthropic had the highest crawl-to-refer ratio among the leading AI and search platforms.\n\n**Practical Implications for Developers**\n\n* As AI-powered crawlers and bots become more prevalent, developers should ensure their websites are optimized for AI crawling and that their robots.txt files are up-to-date.\n* With the growth of post-quantum encryption, developers should consider implementing post-quantum encryption methods to protect their websites and applications.\n* The increasing popularity of cloud-based services and AI-powered tools may require developers to adapt their development strategies and consider cloud-based deployment options.\n\nOverall, the Cloudflare Radar Year in Review 2025 report provides valuable insights into Internet trends and patterns, highlighting key findings and trends across various sections. Developers can use this information to inform their development strategies and ensure their websites and applications are optimized for the evolving Internet landscape.",
+  "authors": [
+    "David Belson"
+  ],
+  "categories": [
+    "Year in Review",
+    "Radar",
+    "Trends",
+    "Internet Trends",
+    "Internet Traffic",
+    "Outage",
+    "Internet Quality",
+    "Security",
+    "AI"
+  ],
+  "guid": "2Mp06VKep73rBpdUmywpQ2"
+}
