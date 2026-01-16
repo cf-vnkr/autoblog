@@ -1,0 +1,17 @@
+{
+  "slug": "iran-protests-internet-shutdown",
+  "title": "What we know about Iran’s Internet shutdown",
+  "url": "https://blog.cloudflare.com/iran-protests-internet-shutdown/",
+  "publishedAt": "Tue, 13 Jan 2026 00:00:00 GMT",
+  "summary": "**AI-Generated Summary**: This is an automated summary of a Cloudflare blog post created using AI. For the full details and context, please read the original post.\n\n**Iran's Internet Shutdown: Key Technical Details and Implications**\n\nIn late December 2025, protests erupted in Iran, leading to a wide-scale Internet shutdown. Cloudflare Radar data reveals that Internet traffic from Iran effectively dropped to zero on January 8, 2026. The shutdown was preceded by a drop in announced IPv6 address space, which reduced IPv6's share of human-generated traffic from 12% to 2%. This was followed by a rapid decline in overall traffic levels, with a 90% drop between 16:30-17:00 UTC. By 18:45 UTC, Internet traffic from Iran had dropped to effectively zero.\n\n**Practical Implications for Developers**\n\nThe shutdown has significant implications for developers who rely on Iranian networks or services. With Internet connectivity effectively cut off, developers may experience:\n\n* Disruptions to cloud services, APIs, and data storage\n* Inability to access Iranian-based services, including DNS resolvers and CDNs\n* Potential data loss or corruption due to unavailability of critical systems\n* Difficulty in debugging and troubleshooting applications due to lack of access to Iranian networks\n\n**Timeline of Key Events**\n\n* January 8, 2026: IPv6-related shifts indicate changes to come\n* 11:50 UTC: Drop in announced IPv6 address space by 98.5%\n* 13:30 UTC: IPv6 traffic from Iran all but disappears\n* 16:30-17:00 UTC: Overall traffic levels from Iran decline rapidly\n* 18:45 UTC: Internet traffic from Iran drops to effectively zero\n\nDevelopers should be aware of these events and take necessary precautions to mitigate the impact of the shutdown on their applications and services.",
+  "authors": [
+    "David Belson"
+  ],
+  "categories": [
+    "Internet Shutdown",
+    "Radar",
+    "Internet Traffic",
+    "1.1.1.1"
+  ],
+  "guid": "5VetKk31z2RaNY9CI4lsye"
+}
