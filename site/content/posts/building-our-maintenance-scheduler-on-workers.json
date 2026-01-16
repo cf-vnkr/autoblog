@@ -1,0 +1,18 @@
+{
+  "slug": "building-our-maintenance-scheduler-on-workers",
+  "title": "How Workers powers our internal maintenance scheduling pipeline",
+  "url": "https://blog.cloudflare.com/building-our-maintenance-scheduler-on-workers/",
+  "publishedAt": "Mon, 22 Dec 2025 14:00:00 GMT",
+  "summary": "**AI-Generated Summary**: This is an automated summary of a Cloudflare blog post created using AI. For the full details and context, please read the original post.\n\n**Cloudflare's Internal Maintenance Scheduling Pipeline Powered by Workers**\n\nCloudflare, with data centers in over 330 cities globally, faces complex maintenance challenges due to the need for careful planning to avoid disrupting services. To address this, Cloudflare built a centralized, automated maintenance scheduler using Cloudflare Workers. This system programmatically enforces safety constraints, ensuring that maintenance operations do not compromise the reliability of services on which customers depend.\n\n**Key Technical Details**\n\nThe maintenance scheduler is built on top of Cloudflare Workers, which provides a scalable and event-driven architecture. The system aggregates product APIs, such as Aegis customer IP pools, to identify potential conflicts between maintenance events. Maintenance constraints are defined as a set of proposed maintenance items, overlap with maintenance events, and aggregation of product APIs. The scheduler notifies internal operators of potential conflicts, allowing them to propose a new time to avoid overlapping with other related data center maintenance events.\n\n**Practical Implications for Developers**\n\nThe maintenance scheduler is a critical component of Cloudflare's infrastructure, ensuring that maintenance operations are safe and reliable. Developers can leverage this technology to build similar systems for their own organizations, enabling them to automate maintenance scheduling and reduce the risk of downtime. By using Cloudflare Workers, developers can take advantage of a scalable and event-driven architecture, making it easier to build and maintain complex systems.",
+  "authors": [
+    "Kevin Deems",
+    "Michael Hoffmann"
+  ],
+  "categories": [
+    "Cloudflare Workers",
+    "Reliability",
+    "Prometheus",
+    "Infrastructure"
+  ],
+  "guid": "5pdspiP2m71MeIoVL8wv1i"
+}
