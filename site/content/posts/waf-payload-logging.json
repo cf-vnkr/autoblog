@@ -1,0 +1,16 @@
+{
+  "slug": "waf-payload-logging",
+  "title": "Get better visibility for the WAF with payload logging",
+  "url": "https://blog.cloudflare.com/waf-payload-logging/",
+  "publishedAt": "Mon, 24 Nov 2025 14:00:00 GMT",
+  "summary": "**AI-Generated Summary**: This is an automated summary of a Cloudflare blog post created using AI. For the full details and context, please read the original post.\n\n**Improved Visibility for Cloudflare's Web Application Firewall (WAF)**\n\nCloudflare's WAF has introduced payload logging, a feature that enhances visibility into the WAF's decision-making process. This feature addresses the inherent complexity of the WAF's rules engine, which can lead to false positives and make it challenging for customers to fine-tune their configurations. Payload logging provides a clear understanding of which fields in the request led to a match, reducing ambiguity and enabling customers to spot-check false positives.\n\n**Key Technical Details**\n\nThe WAF's rules engine is built on the Rulesets engine, which executes actions based on rule expressions. The Log action is used to simulate the behavior of rules and emit log events that can be accessed via Security Analytics, Security Events, Logpush, or Edge Log Delivery. However, debugging rule expressions can be challenging due to transformations applied to original representations of fields, such as Base64 decoding and URL decoding.\n\n**Practical Implications for Developers**\n\nPayload logging addresses these challenges by logging which fields in the request are associated with a rule that led to the WAF taking an action. This feature provides useful information that can help developers:\n\n* Spot-check false positives\n* Guarantee correctness\n* Aid in fine-tuning of rules for better performance\n\nBy understanding the specific fields and their respective values that led to a match, developers can make informed decisions about their WAF configurations and improve the overall security posture of their applications.",
+  "authors": [
+    "Paschal Obba"
+  ],
+  "categories": [
+    "Firewall",
+    "WAF",
+    "Logging"
+  ],
+  "guid": "2FEaxrBcxhN1nwrSuT9Jpd"
+}
