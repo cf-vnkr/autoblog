@@ -84,17 +84,19 @@ autoblog/
 ## Technology Stack
 
 ### Worker (Scraper + AI Summarizer)
+
 - **Runtime**: Cloudflare Workers
 - **Language**: TypeScript
 - **Tooling**: Wrangler CLI
 - **AI Model**: Workers AI with Llama 3.1 8B Instruct (`@cf/meta/llama-3.1-8b-instruct`)
 - **Storage**: Workers KV (track processed posts)
 - **Trigger**: Cron (`0 0 * * *` - midnight UTC daily)
-- **External APIs**: 
+- **External APIs**:
   - Cloudflare Blog RSS (blog.cloudflare.com/rss)
   - GitHub API (create/update files)
 
 ### Static Site (Astro)
+
 - **Framework**: Astro 5.x (latest stable)
 - **Language**: TypeScript
 - **Styling**: Tailwind CSS
@@ -103,6 +105,7 @@ autoblog/
 - **Theme**: Light theme, simple and readable
 
 ### Storage & Services
+
 - **Workers KV**: Store processed post IDs and metadata
 - **GitHub**: Version control + trigger Cloudflare Pages deployments
 - **Workers AI**: Generate post summaries
@@ -111,6 +114,7 @@ autoblog/
 ## Implementation Phases
 
 ### Phase 1: Project Setup ✓
+
 **Goal**: Initialize monorepo with proper structure and tooling
 
 1. Initialize git repository
@@ -123,11 +127,13 @@ autoblog/
 8. Create `.gitignore` file
 
 **Deliverables**:
+
 - Working monorepo structure
 - Both workspaces can build independently
 - Linting and formatting configured
 
 ### Phase 2: Worker - RSS Parser
+
 **Goal**: Fetch and parse Cloudflare blog RSS feed
 
 1. Create RSS parser module (`rss-parser.ts`)
@@ -147,11 +153,13 @@ autoblog/
 7. Add unit tests
 
 **Deliverables**:
+
 - `rss-parser.ts` module with types
 - Tested RSS parsing logic
 - Error handling for malformed feeds
 
 ### Phase 3: Worker - KV Storage Integration
+
 **Goal**: Track which posts have been processed
 
 1. Define KV namespace binding in `wrangler.jsonc`
@@ -165,26 +173,30 @@ autoblog/
 6. Add error handling for KV failures
 
 **Deliverables**:
+
 - KV utility module with types
 - Namespace created in Cloudflare
 - Integration tested locally with Wrangler
 
 ### Phase 4: Worker - AI Summarizer
+
 **Goal**: Generate summaries using Workers AI
 
 1. Create AI summarizer module (`ai-summarizer.ts`)
 2. Configure Workers AI binding in `wrangler.jsonc`
 3. Implement prompt engineering:
+
    ```
    System: You are a technical content summarizer for a developer blog.
-   
-   User: Summarize the following Cloudflare blog post in 2-3 concise paragraphs. 
-   Focus on the key technical details, main announcements, and practical implications 
+
+   User: Summarize the following Cloudflare blog post in 2-3 concise paragraphs.
+   Focus on the key technical details, main announcements, and practical implications
    for developers. Write in clear, professional language.
-   
+
    Title: {title}
    Content: {content}
    ```
+
 4. Call Workers AI with model `@cf/meta/llama-3.1-8b-instruct`
 5. Extract summary text from response
 6. Add disclaimer prefix: "**AI-Generated Summary**: This is an automated summary of a Cloudflare blog post..."
@@ -193,11 +205,13 @@ autoblog/
 9. Handle edge cases (very short/long content)
 
 **Deliverables**:
+
 - `ai-summarizer.ts` module
 - Tested prompt template
 - Error handling for AI service
 
 ### Phase 5: Worker - GitHub Publisher
+
 **Goal**: Commit post JSON files to GitHub repository
 
 1. Create GitHub publisher module (`github-publisher.ts`)
@@ -226,52 +240,58 @@ autoblog/
 8. Add error handling for GitHub API
 
 **Deliverables**:
+
 - `github-publisher.ts` module
 - GitHub token configuration
 - Tested file creation/updates
 
 ### Phase 6: Worker - Scheduled Handler
+
 **Goal**: Orchestrate the full workflow on cron schedule
 
 1. Implement `scheduled()` export in `index.ts`
 2. Workflow logic:
+
    ```typescript
    export default {
      async scheduled(event, env, ctx) {
        // 1. Fetch RSS feed
        const posts = await fetchBlogPosts();
-       
+
        // 2. Get last 20 posts (or filter new ones)
        const postsToProcess = posts.slice(0, 20);
-       
+
        // 3. For each post:
        for (const post of postsToProcess) {
          // Check if already processed
          if (await env.KV.isProcessed(post.guid)) continue;
-         
+
          // Generate AI summary
          const summary = await generateSummary(post, env.AI);
-         
+
          // Publish to GitHub
          await publishToGitHub(post, summary, env);
-         
+
          // Mark as processed
          await env.KV.markProcessed(post.guid);
        }
-     }
-   }
+     },
+   };
    ```
+
 3. Add comprehensive logging
 4. Implement error boundaries (continue on single post failure)
 5. Add execution time tracking
 6. Configure cron trigger in `wrangler.jsonc`
 
 **Deliverables**:
+
 - Complete Worker implementation
 - Cron trigger configured
 - Error handling and logging
 
 ### Phase 7: Astro Site - Project Setup
+
 **Goal**: Initialize Astro site with Tailwind CSS
 
 1. Create Astro project in `site/`
@@ -290,12 +310,15 @@ autoblog/
 5. Create base layout (`Layout.astro`)
 6. Design system tokens (spacing, colors, fonts)
 7. **IMPORTANT**: Add NLWeb chat widget integration in `Layout.astro` `<head>` section:
+
    ```html
    <!-- NLWeb Chat Widget CSS -->
-   <link rel="stylesheet" href="https://ask.cfdemo.site/nlweb-dropdown-chat.css">
-   <link rel="stylesheet" href="https://ask.cfdemo.site/common-chat-styles.css">
+   <link rel="stylesheet" href="https://ask.cfdemo.site/nlweb-dropdown-chat.css" />
+   <link rel="stylesheet" href="https://ask.cfdemo.site/common-chat-styles.css" />
    ```
+
    And before closing `</body>` tag:
+
    ```html
    <!-- NLWeb Chat Widget Container -->
    <div id="docs-search-container"></div>
@@ -308,17 +331,19 @@ autoblog/
        containerId: 'docs-search-container',
        site: 'https://ask.cfdemo.site',
        placeholder: 'Search for docs...',
-       endpoint: 'https://ask.cfdemo.site'
+       endpoint: 'https://ask.cfdemo.site',
      });
    </script>
    ```
 
 **Deliverables**:
+
 - Working Astro dev server
 - Tailwind CSS configured
 - Base layout component with NLWeb chat widget integrated
 
 ### Phase 8: Astro Site - Content Schema & Utils
+
 **Goal**: Load and validate post JSON files
 
 1. Create TypeScript types for posts:
@@ -343,11 +368,13 @@ autoblog/
 5. Add validation for required fields
 
 **Deliverables**:
+
 - Content utility module
 - Type definitions
 - Post loading logic
 
 ### Phase 9: Astro Site - Homepage
+
 **Goal**: Display list of summarized blog posts
 
 1. Create `src/pages/index.astro`
@@ -371,11 +398,13 @@ autoblog/
 6. Add pagination if >20 posts
 
 **Deliverables**:
+
 - Homepage with post list
 - Post card component
 - Responsive design
 
 ### Phase 10: Astro Site - Post Detail Page
+
 **Goal**: Display individual post with full summary
 
 1. Create dynamic route: `src/pages/post/[slug].astro`
@@ -393,11 +422,13 @@ autoblog/
 6. Implement proper heading hierarchy
 
 **Deliverables**:
+
 - Post detail page
 - Dynamic routing
 - SEO meta tags
 
 ### Phase 11: Astro Site - Header & Footer
+
 **Goal**: Create consistent site navigation and branding
 
 1. Header component (`Header.astro`):
@@ -413,11 +444,13 @@ autoblog/
 4. Ensure responsive design
 
 **Deliverables**:
+
 - Header component
 - Footer component
 - Consistent layout
 
 ### Phase 12: Deployment - Worker
+
 **Goal**: Deploy Worker to Cloudflare
 
 1. Create KV namespace:
@@ -448,11 +481,13 @@ autoblog/
    ```
 
 **Deliverables**:
+
 - Worker deployed to production
 - Cron trigger active
 - Secrets configured
 
 ### Phase 13: Deployment - Astro Site
+
 **Goal**: Deploy site to Cloudflare Pages
 
 1. Connect GitHub repository to Cloudflare Pages:
@@ -474,11 +509,13 @@ autoblog/
 5. Test build and deployment
 
 **Deliverables**:
+
 - Site live at cfdemo.site
 - Automatic deployments configured
 - Custom domain working
 
 ### Phase 14: Testing & Validation
+
 **Goal**: End-to-end testing of the full system
 
 1. **Worker Tests**:
@@ -487,31 +524,30 @@ autoblog/
    - Test GitHub file creation
    - Test KV read/write operations
    - Test error handling scenarios
-   
 2. **Site Tests**:
    - Test build process
    - Verify all posts load correctly
    - Test responsive design on mobile
    - Validate HTML/CSS
    - Check accessibility (basic)
-   
 3. **Integration Tests**:
    - Manually trigger Worker schedule
    - Verify new post appears in GitHub
    - Confirm Pages rebuild triggers
    - Check site updates with new content
-   
 4. **Performance Tests**:
    - Worker execution time (<10s)
    - Page load speed (<2s)
    - Lighthouse scores (>90)
 
 **Deliverables**:
+
 - Test results documented
 - Bugs fixed
 - Performance validated
 
 ### Phase 15: Documentation & Polish
+
 **Goal**: Complete documentation and final touches
 
 1. Update `README.md`:
@@ -528,6 +564,7 @@ autoblog/
 6. Create monitoring dashboard (optional)
 
 **Deliverables**:
+
 - Complete README
 - Documented codebase
 - Production-ready project
@@ -536,20 +573,21 @@ autoblog/
 
 ```typescript
 interface BlogPostSummary {
-  slug: string;              // URL-friendly identifier
-  title: string;             // Original post title
-  url: string;               // Link to original Cloudflare blog post
-  publishedAt: string;       // ISO 8601 date string
-  summary: string;           // AI-generated summary with disclaimer
-  authors: string[];         // Post authors
-  categories: string[];      // Post categories/tags
-  guid: string;              // Unique identifier from RSS
+  slug: string; // URL-friendly identifier
+  title: string; // Original post title
+  url: string; // Link to original Cloudflare blog post
+  publishedAt: string; // ISO 8601 date string
+  summary: string; // AI-generated summary with disclaimer
+  authors: string[]; // Post authors
+  categories: string[]; // Post categories/tags
+  guid: string; // Unique identifier from RSS
 }
 ```
 
 ## Configuration Files
 
 ### `worker/wrangler.jsonc`
+
 ```json
 {
   "$schema": "node_modules/wrangler/config-schema.json",
@@ -577,6 +615,7 @@ interface BlogPostSummary {
 ```
 
 ### `site/astro.config.mjs`
+
 ```javascript
 import { defineConfig } from 'astro/config';
 import tailwind from '@astrojs/tailwind';
@@ -592,15 +631,13 @@ export default defineConfig({
 ```
 
 ### Root `package.json`
+
 ```json
 {
   "name": "autoblog",
   "version": "1.0.0",
   "private": true,
-  "workspaces": [
-    "worker",
-    "site"
-  ],
+  "workspaces": ["worker", "site"],
   "scripts": {
     "dev:worker": "npm run dev --workspace=worker",
     "dev:site": "npm run dev --workspace=site",
@@ -618,11 +655,13 @@ export default defineConfig({
 ## Environment Variables & Secrets
 
 ### Worker Secrets (via Wrangler)
+
 - `GITHUB_TOKEN`: GitHub Personal Access Token with `repo` scope
 - `GITHUB_OWNER`: GitHub username (e.g., "alex")
 - `GITHUB_REPO`: Repository name (e.g., "autoblog")
 
 ### Worker Variables (in wrangler.jsonc)
+
 - `RSS_FEED_URL`: "https://blog.cloudflare.com/rss"
 - `POSTS_TO_FETCH`: "20"
 

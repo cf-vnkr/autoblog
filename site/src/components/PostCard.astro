@@ -1,0 +1,61 @@
+---
+import type { BlogPost } from '../lib/posts';
+import { formatDate, getExcerpt } from '../lib/posts';
+
+interface Props {
+  post: BlogPost;
+}
+
+const { post } = Astro.props;
+const excerpt = getExcerpt(post.summary, 200);
+---
+
+<article
+  class="bg-white rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition-shadow duration-200 overflow-hidden"
+>
+  <div class="p-6">
+    <!-- Categories -->
+    <div class="flex flex-wrap gap-2 mb-3">
+      {
+        post.categories
+          .slice(0, 3)
+          .map((category) => (
+            <span class="px-2 py-1 text-xs font-medium bg-gray-100 text-gray-700 rounded">
+              {category}
+            </span>
+          ))
+      }
+    </div>
+
+    <!-- Title -->
+    <h2 class="text-xl font-bold text-gray-900 mb-2">
+      <a href={`/post/${post.slug}`} class="hover:text-primary transition-colors">
+        {post.title}
+      </a>
+    </h2>
+
+    <!-- Meta -->
+    <div class="flex items-center text-sm text-gray-500 mb-4">
+      <time datetime={post.publishedAt}>{formatDate(post.publishedAt)}</time>
+      <span class="mx-2">•</span>
+      <span>{post.authors.join(', ')}</span>
+    </div>
+
+    <!-- Excerpt -->
+    <p class="text-gray-600 mb-4 line-clamp-3">
+      {excerpt}
+    </p>
+
+    <!-- Read more -->
+    <a
+      href={`/post/${post.slug}`}
+      class="inline-flex items-center text-primary hover:text-primary/80 font-medium transition-colors"
+    >
+      Read summary
+      <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"
+        ></path>
+      </svg>
+    </a>
+  </div>
+</article>

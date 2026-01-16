@@ -5,12 +5,14 @@ This document provides guidelines for AI coding agents working in this repositor
 ## Project Overview
 
 This is a Cloudflare Workers-based autoblog application that:
+
 - Scrapes the Cloudflare blog RSS feed daily (midnight UTC)
 - Generates AI summaries using Workers AI (Llama 3.1 8B Instruct)
 - Publishes summaries as JSON files to GitHub
 - Displays summaries on a static Astro site hosted at cfdemo.site
 
 ### Architecture
+
 - **Worker**: Cloudflare Worker with cron trigger, Workers AI, and Workers KV
 - **Site**: Astro static site with Tailwind CSS (light theme)
 - **Storage**: Workers KV (processed posts), GitHub (post JSON files)
@@ -21,11 +23,13 @@ See `IMPLEMENTATION_PLAN.md` for detailed architecture and implementation phases
 ## Build, Lint, and Test Commands
 
 ### Installation
+
 ```bash
 npm install
 ```
 
 ### Development
+
 ```bash
 npm run dev          # Start development server
 npm run build        # Build for production
@@ -33,6 +37,7 @@ npm run start        # Start production server
 ```
 
 ### Testing
+
 ```bash
 npm test             # Run all tests
 npm test -- <file>   # Run a single test file
@@ -41,6 +46,7 @@ npm run test:coverage # Run tests with coverage report
 ```
 
 ### Linting & Formatting
+
 ```bash
 npm run lint         # Run ESLint
 npm run lint:fix     # Fix auto-fixable lint issues
@@ -52,6 +58,7 @@ npm run type-check   # Run TypeScript compiler checks
 ## Code Style Guidelines
 
 ### Imports
+
 - Use ES6 import/export syntax
 - Group imports in this order:
   1. External dependencies (e.g., `react`, `express`)
@@ -76,6 +83,7 @@ import * as React from 'react';
 ```
 
 ### Formatting
+
 - Use 2 spaces for indentation
 - Use single quotes for strings
 - Add trailing commas in multi-line objects and arrays
@@ -83,6 +91,7 @@ import * as React from 'react';
 - Use semicolons at the end of statements
 
 ### TypeScript Types
+
 - Always define explicit return types for functions
 - Use `interface` for object types, `type` for unions/intersections
 - Avoid `any`; use `unknown` if type is truly unknown
@@ -112,6 +121,7 @@ function createPost(data: any) {
 ```
 
 ### Naming Conventions
+
 - **Variables/Functions**: camelCase (`getUserData`, `isActive`)
 - **Classes/Interfaces/Types**: PascalCase (`UserProfile`, `PostData`)
 - **Constants**: UPPER_SNAKE_CASE (`API_KEY`, `MAX_RETRIES`)
@@ -120,6 +130,7 @@ function createPost(data: any) {
 - Use descriptive names; avoid abbreviations unless well-known
 
 ### Functions
+
 - Keep functions small and focused (single responsibility)
 - Use async/await over raw Promises
 - Use arrow functions for callbacks and short functions
@@ -140,6 +151,7 @@ const activePosts = posts.filter((post) => post.status === 'active');
 ```
 
 ### Error Handling
+
 - Always handle errors explicitly
 - Use custom error classes for domain-specific errors
 - Log errors with context before re-throwing
@@ -155,7 +167,7 @@ async function publishPost(postId: string): Promise<void> {
 
   try {
     const post = await db.posts.findUnique({ where: { id: postId } });
-    
+
     if (!post) {
       throw new NotFoundError(`Post ${postId} not found`);
     }
@@ -172,12 +184,14 @@ async function publishPost(postId: string): Promise<void> {
 ```
 
 ### Comments
+
 - Write self-documenting code; use comments sparingly
 - Add comments for complex logic or non-obvious decisions
 - Use JSDoc for public APIs and exported functions
 - Keep comments up-to-date with code changes
 
 ## Testing Guidelines
+
 - Write tests for all business logic
 - Use descriptive test names: `it('should create post with valid data')`
 - Follow AAA pattern: Arrange, Act, Assert
@@ -185,12 +199,14 @@ async function publishPost(postId: string): Promise<void> {
 - Aim for high coverage on critical paths
 
 ## Git Commit Guidelines
+
 - Use conventional commits: `feat:`, `fix:`, `docs:`, `refactor:`, `test:`, `chore:`
 - Keep commits atomic and focused
 - Write clear, descriptive commit messages
 - Reference issue numbers when applicable
 
 ## Performance Considerations
+
 - Avoid unnecessary re-renders in React components
 - Use pagination for large data sets
 - Implement caching where appropriate
@@ -198,6 +214,7 @@ async function publishPost(postId: string): Promise<void> {
 - Use lazy loading for heavy components
 
 ## Security Best Practices
+
 - Never commit secrets or API keys
 - Sanitize user inputs
 - Use parameterized queries to prevent SQL injection

@@ -1,0 +1,63 @@
+---
+// Footer component
+const currentYear = new Date().getFullYear();
+---
+
+<footer class="bg-white border-t border-gray-200 mt-16">
+  <div class="container mx-auto px-4 py-8">
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <!-- About -->
+      <div>
+        <h3 class="font-semibold text-gray-900 mb-3">About</h3>
+        <p class="text-sm text-gray-600">
+          Automated summaries of Cloudflare blog posts, powered by AI. Get the latest insights
+          without reading full articles.
+        </p>
+      </div>
+
+      <!-- Links -->
+      <div>
+        <h3 class="font-semibold text-gray-900 mb-3">Links</h3>
+        <ul class="space-y-2 text-sm">
+          <li>
+            <a
+              href="https://blog.cloudflare.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="text-gray-600 hover:text-primary transition-colors"
+            >
+              Cloudflare Blog
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://github.com/cf-vnkr/autoblog"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="text-gray-600 hover:text-primary transition-colors"
+            >
+              GitHub Repository
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Powered By -->
+      <div>
+        <h3 class="font-semibold text-gray-900 mb-3">Powered By</h3>
+        <ul class="space-y-2 text-sm text-gray-600">
+          <li>Cloudflare Workers AI</li>
+          <li>Cloudflare Pages</li>
+          <li>Astro + Tailwind CSS</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="border-t border-gray-200 mt-8 pt-6 text-center text-sm text-gray-500">
+      <p>&copy; {currentYear} Cloudflare Blog Summaries. All rights reserved.</p>
+      <p class="mt-1">
+        Summaries are AI-generated and may not reflect the full content of the original posts.
+      </p>
+    </div>
+  </div>
+</footer>

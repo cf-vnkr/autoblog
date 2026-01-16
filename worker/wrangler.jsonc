@@ -1,0 +1,23 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "autoblog-scraper",
+  "main": "src/index.ts",
+  "compatibility_date": "2026-01-16",
+  "triggers": {
+    "crons": ["0 0 * * *"]
+  },
+  "kv_namespaces": [
+    {
+      "binding": "PROCESSED_POSTS",
+      "id": "a81d7b37a8a04dbc9e9c6c9e83232469",
+      "preview_id": "4db22bdb863a46bab10dc434ecd210b3"
+    }
+  ],
+  "ai": {
+    "binding": "AI"
+  },
+  "vars": {
+    "RSS_FEED_URL": "https://blog.cloudflare.com/rss",
+    "POSTS_TO_FETCH": "20"
+  }
+}

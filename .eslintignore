@@ -1,0 +1,9 @@
+node_modules/
+dist/
+build/
+.output/
+.astro/
+.wrangler/
+coverage/
+*.config.js
+*.config.mjs
