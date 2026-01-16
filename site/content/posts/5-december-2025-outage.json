@@ -1,0 +1,15 @@
+{
+  "slug": "5-december-2025-outage",
+  "title": "Cloudflare outage on December 5, 2025",
+  "url": "https://blog.cloudflare.com/5-december-2025-outage/",
+  "publishedAt": "Fri, 05 Dec 2025 00:00:00 GMT",
+  "summary": "**AI-Generated Summary**: This is an automated summary of a Cloudflare blog post created using AI. For the full details and context, please read the original post.\n\n**Cloudflare Outage on December 5, 2025: Technical Summary**\n\nOn December 5, 2025, Cloudflare experienced a network-wide outage lasting approximately 25 minutes, affecting around 28% of all HTTP traffic served by the company. The incident was not caused by a cyber attack or malicious activity, but rather by changes made to Cloudflare's body parsing logic while attempting to detect and mitigate an industry-wide vulnerability in React Server Components. The issue was triggered by an increase in buffer size from 128KB to 1MB, which was being rolled out using Cloudflare's gradual deployment system.\n\n**Key Technical Details**\n\n* The outage was caused by a bug in Cloudflare's FL1 proxy, which resulted in HTTP 500 error codes being served from the network.\n* The bug was triggered by a change to turn off Cloudflare's internal WAF testing tool, which was implemented using the global configuration system.\n* The issue was identified shortly after the change was applied, and was reverted at 09:12, after which all traffic was served correctly.\n* Customers that had their web assets served by the older FL1 proxy and had the Cloudflare Managed Ruleset deployed were impacted.\n\n**Practical Implications for Developers**\n\n* Developers who use Cloudflare's services should be aware of the potential for outages and plan accordingly.\n* The outage highlights the importance of testing and validation of changes before deploying them to production.\n* Developers should also be aware of the potential for errors in Cloudflare's rulesets system and take steps to mitigate them.\n* The incident also underscores the need for companies to have robust incident response plans in place to minimize the impact of outages.",
+  "authors": [
+    "Dane Knecht"
+  ],
+  "categories": [
+    "Outage",
+    "Post Mortem"
+  ],
+  "guid": "7lRsBDx09Ye8w2dhpF0Yc"
+}
