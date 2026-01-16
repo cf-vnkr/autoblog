@@ -1,0 +1,20 @@
+{
+  "slug": "cname-a-record-order-dns-standards",
+  "title": "What came first: the CNAME or the A record?",
+  "url": "https://blog.cloudflare.com/cname-a-record-order-dns-standards/",
+  "publishedAt": "Wed, 14 Jan 2026 00:00:00 GMT",
+  "summary": "**AI-Generated Summary**: This is an automated summary of a Cloudflare blog post created using AI. For the full details and context, please read the original post.\n\n**Summary of the Cloudflare Blog Post: \"What came first: the CNAME or the A record?\"**\n\nCloudflare recently experienced a DNS resolution failure due to a subtle change in the order of records within their DNS responses. The issue arose when a routine update to 1.1.1.1, aimed at reducing memory usage, introduced a change in the code that merges CNAME chains with the final resolved records. The change, which was released on January 7, 2026, caused CNAME records to appear at the bottom of the response, instead of at the top, where they were previously stored.\n\n**Key Technical Details:**\n\n* The change occurred in the `fill_cache` function of the `PartialChain` implementation, which is responsible for merging CNAME chains with the final resolved records.\n* The original code created a new list, inserted the existing CNAME chain, and then appended the new records.\n* The updated code, which was introduced to save memory allocations and copies, appends the CNAMEs to the existing answer list, resulting in CNAME records appearing at the bottom of the response.\n\n**Practical Implications for Developers:**\n\n* Some DNS client implementations expect CNAME records to appear at the top of the response, and may not handle the new order correctly.\n* Developers should be aware of the potential impact of this change on their DNS clients and take necessary measures to handle the new order of records.\n* Cloudflare has since reverted the change, but developers should be cautious when implementing similar changes in their own systems.\n\n**Timeline:**\n\n* December 2, 2025: The record reordering change was introduced to the 1.1.1.1 codebase.\n* December 10, 2025: The change was released to the testing environment.\n* January 7, 2026: The global release containing the change started.\n* January 8, 2026: The incident was declared, and the release was reverted.",
+  "authors": [
+    "Sebastiaan Neuteboom"
+  ],
+  "categories": [
+    "1.1.1.1",
+    "Post Mortem",
+    "DNS",
+    "Resolver",
+    "Standards",
+    "Bugs",
+    "Consumer Services"
+  ],
+  "guid": "3fP84BsxwSxKr7ffpmVO6s"
+}
