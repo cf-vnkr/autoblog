@@ -32,9 +32,6 @@ const { title, description = 'AI-powered summaries of the latest Cloudflare blog
     </main>
     <Footer />
 
-    <!-- NLWeb Chat Widget Container -->
-    <div id="docs-search-container"></div>
-
     <!-- NLWeb Chat Widget JavaScript -->
     <script type="module">
       import { NLWebDropdownChat } from 'https://ask.cfdemo.site/nlweb-dropdown-chat.js';
@@ -42,7 +39,7 @@ const { title, description = 'AI-powered summaries of the latest Cloudflare blog
       const chat = new NLWebDropdownChat({
         containerId: 'docs-search-container',
         site: 'https://ask.cfdemo.site',
-        placeholder: 'Search for docs...',
+        placeholder: 'AI search',
         endpoint: 'https://ask.cfdemo.site',
       });
     </script>
