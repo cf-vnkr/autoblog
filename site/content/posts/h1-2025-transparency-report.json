@@ -1,0 +1,14 @@
+{
+  "slug": "h1-2025-transparency-report",
+  "title": "Innovating to address streaming abuse — and our latest transparency report",
+  "url": "https://blog.cloudflare.com/h1-2025-transparency-report/",
+  "publishedAt": "Fri, 19 Dec 2025 14:00:00 GMT",
+  "summary": "**AI-Generated Summary**: This is an automated summary of a Cloudflare blog post created using AI. For the full details and context, please read the original post.\n\n**Cloudflare's Approach to Streaming Abuse and Transparency Report**\n\nCloudflare has released its latest transparency report, covering the first half of 2025. The report highlights the company's efforts to address streaming abuse and copyright infringement, as well as its approach to handling legal requests for customer information and reports of abuse. In this blog post, we'll focus on Cloudflare's approach to streaming abuse and its innovations in addressing this complex issue.\n\n**Key Technical Details**\n\nCloudflare has implemented new methods to identify and respond to allegations of streaming and copyright infringement. The company works closely with rightsholders to better identify domains and accounts that might be streaming copyrighted content, enabling faster response times and improved risk identification. This approach aligns with the interests of policymakers, rightsholders, and online service providers in preventing pirated streaming of sporting and other events over the Internet.\n\n**Practical Implications for Developers**\n\nDevelopers should be aware of the increased sophistication of bad actors in attempting to abuse systems to stream copyrighted content. Cloudflare's innovations in addressing streaming abuse and copyright infringement can help prevent unauthorized streaming and protect the performance, costs, and reliability of other users. By understanding Cloudflare's approach to streaming abuse, developers can better design and implement systems that prevent abuse and protect intellectual property rights.\n\n**Important Facts and Figures**\n\n* Approximately 20% of the web is behind Cloudflare's network.\n* Cloudflare has adapted its transparency reporting and commitments to reflect its growth and changes as a company.\n* The company has implemented a service-specific approach to abuse, reflecting the nature of the services provided, legal requirements, and human rights considerations.",
+  "authors": [
+    "Justin Paine"
+  ],
+  "categories": [
+    "Transparency"
+  ],
+  "guid": "5mt8quFYw1l3UpRAh6JsHU"
+}
