@@ -1,0 +1,21 @@
+{
+  "slug": "r2-sql-aggregations",
+  "title": "Announcing support for GROUP BY, SUM, and other aggregation queries in R2 SQL",
+  "url": "https://blog.cloudflare.com/r2-sql-aggregations/",
+  "publishedAt": "Thu, 18 Dec 2025 14:00:00 GMT",
+  "summary": "**AI-Generated Summary**: This is an automated summary of a Cloudflare blog post created using AI. For the full details and context, please read the original post.\n\n**Aggregation Support in R2 SQL: A Technical Overview**\n\nCloudflare has announced support for GROUP BY, SUM, and other aggregation queries in R2 SQL, its serverless, distributed analytics query engine. This release enables users to perform complex analytical workloads over vast amounts of data stored in R2 Data Catalog. Aggregations provide a bird's eye view of data, allowing developers to quickly gain insights, spot trends, and generate reports.\n\n**Key Technical Details**\n\nR2 SQL now supports various aggregation functions, including SUM, COUNT, and GROUP BY. These functions enable developers to split table rows into buckets, calculate aggregate values, and filter or sort results. The query engine can compute new columns on the fly, allowing for efficient execution of aggregation queries.\n\n**Practical Implications for Developers**\n\nThe addition of aggregation support in R2 SQL has significant implications for developers:\n\n* **Improved data analysis**: Aggregations enable developers to quickly gain insights from large datasets, making it easier to identify trends and patterns.\n* **Enhanced reporting**: Developers can generate reports with ease, using aggregation functions to summarize data and filter out irrelevant information.\n* **Scalability**: R2 SQL's distributed architecture ensures that aggregation queries can be executed efficiently, even with large datasets.\n\n**Two Approaches to Aggregation**\n\nWhen executing aggregation queries, the query engine can take two approaches:\n\n* **Compute sooner**: The engine computes new columns as soon as possible, allowing for efficient execution of queries that reference aggregate functions in HAVING or ORDER BY clauses.\n* **Compute later**: The engine computes aggregate functions partially and merges results just before returning them to the user, allowing for efficient execution of queries that only reference aggregate functions in SELECT clauses.\n\nBy understanding these technical details and practical implications, developers can leverage the power of aggregation support in R2 SQL to build more efficient and effective data analysis applications.",
+  "authors": [
+    "Jérôme Schneider",
+    "Nikita Lapkov",
+    "Marc Selwan"
+  ],
+  "categories": [
+    "R2",
+    "Data",
+    "Edge Computing",
+    "Rust",
+    "Serverless",
+    "SQL"
+  ],
+  "guid": "1qWQCp4QfhsZAs27s7fEc0"
+}
