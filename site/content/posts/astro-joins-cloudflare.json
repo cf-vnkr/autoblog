@@ -1,0 +1,20 @@
+{
+  "slug": "astro-joins-cloudflare",
+  "title": "Astro is joining Cloudflare",
+  "url": "https://blog.cloudflare.com/astro-joins-cloudflare/",
+  "publishedAt": "Fri, 16 Jan 2026 14:00:00 GMT",
+  "summary": "**AI-Generated Summary**: This is an automated summary of a Cloudflare blog post created using AI. For the full details and context, please read the original post.\n\n**Cloudflare Acquires Astro, a Popular Web Framework**\n\nCloudflare has announced its acquisition of Astro, a web framework for building fast, content-driven websites. Astro is used by a wide range of developers and companies, including established brands like Porsche and IKEA, as well as fast-growing AI companies like OpenAI. By joining forces with the Astro team, Cloudflare aims to make Astro the best framework for content-driven websites for years to come.\n\n**Key Technical Details**\n\nThe acquisition includes the Astro 6 release, which features a redesigned development server powered by Vite. The first public beta release of Astro 6 is now available, with a general availability (GA) release coming in the weeks ahead. Astro will remain open source, MIT-licensed, and open to contributions, with a public roadmap and open governance.\n\n**Practical Implications for Developers**\n\nDevelopers will continue to use Astro as they do today, with no changes to its core functionality. Astro's Islands Architecture, which allows for fast, static HTML and client-side rendering, will remain a key part of the framework. Cloudflare has committed to supporting Astro developers everywhere, and the acquisition will not affect Astro's portability across clouds and platforms.\n\n**Why Choose Astro?**\n\nAstro's success can be attributed to its focus on five design principles: content-driven, server-first, fast by default, easy to use, and developer-focused. These principles have allowed Astro to grow rapidly and become a popular choice among developers building content-driven websites.",
+  "authors": [
+    "Fred Schott",
+    "Brendan Irvine-Broque"
+  ],
+  "categories": [
+    "Application Services",
+    "Developer Platform",
+    "Cloudflare Workers",
+    "Workers AI",
+    "Security",
+    "AI"
+  ],
+  "guid": "6snDEFT5jgryV5wPhY4HEj"
+}
