@@ -1,0 +1,16 @@
+{
+  "slug": "route-leak-incident-january-22-2026",
+  "title": "Route leak incident on January 22, 2026",
+  "url": "https://blog.cloudflare.com/route-leak-incident-january-22-2026/",
+  "publishedAt": "Fri, 23 Jan 2026 14:00:00 GMT",
+  "summary": "**AI-Generated Summary**: This is an automated summary of a Cloudflare blog post created using AI. For the full details and context, please read the original post.\n\n**Route Leak Incident on January 22, 2026**\n\nOn January 22, 2026, Cloudflare experienced a 25-minute route leak incident due to an automated routing policy configuration error. The incident occurred when a router at our Miami data center unexpectedly advertised BGP prefixes to our peers and providers, causing congestion, elevated loss, and higher latency for some Cloudflare customer traffic. The route leak was caused by a misconfiguration on a router in our network, which only affected IPv6 traffic.\n\n**Technical Details**\n\nThe incident was triggered by a change in our network automation code repository at 19:52 UTC, which was merged and run on a single Miami edge-router at 20:25 UTC. The automation resulted in unexpected advertisements to BGP transit providers and peers, leading to the route leak. The incident was raised to coordinate a response at 20:44 UTC, and the bad configuration change was manually reverted by a network operator at 20:50 UTC. Automation was paused for the router to prevent further issues.\n\n**Practical Implications**\n\nThe route leak incident highlights the importance of careful configuration and testing of automated routing policies. It also emphasizes the need for continuous monitoring and incident response to mitigate the impact of such events. Cloudflare has taken steps to address the issue and prevent similar incidents in the future.\n\n**Timeline**\n\n* 2026-01-22 19:52 UTC: Change merged in network automation code repository\n* 2026-01-22 20:25 UTC: Automation run on single Miami edge-router, causing unexpected advertisements\n* 2026-01-22 20:40 UTC: Impact starts\n* 2026-01-22 20:44 UTC: Incident raised to coordinate response\n* 2026-01-22 20:50 UTC: Bad configuration change manually reverted\n* 2026-01-22 21:47 UTC: Change reverted from code repository\n* 2026-01-22 22:07 UTC: Automation confirmed healthy to run again\n* 2026-01-22 22:40 UTC: Automation unpaused on single router in Miami",
+  "authors": [
+    "Bryton Herdes",
+    "Tom Strickx"
+  ],
+  "categories": [
+    "BGP",
+    "Post Mortem"
+  ],
+  "guid": "1lDFdmcpnlPwczsEbswsTs"
+}
