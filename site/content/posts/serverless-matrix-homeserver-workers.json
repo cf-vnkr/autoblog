@@ -1,0 +1,25 @@
+{
+  "slug": "serverless-matrix-homeserver-workers",
+  "title": "Building a serverless, post-quantum Matrix homeserver",
+  "url": "https://blog.cloudflare.com/serverless-matrix-homeserver-workers/",
+  "publishedAt": "Tue, 27 Jan 2026 14:00:00 GMT",
+  "summary": "**AI-Generated Summary**: This is an automated summary of a Cloudflare blog post created using AI. For the full details and context, please read the original post.\n\n**Serverless Matrix Homeserver with Post-Quantum Cryptography**\n\nCloudflare has successfully ported a complete Matrix homeserver to Cloudflare Workers, eliminating the operational burden associated with traditional deployments. The resulting serverless architecture offers zero costs when idle, low latency globally, and built-in security with post-quantum cryptography.\n\n**Key Technical Details**\n\nThe implementation uses Rust, which compiles to WebAssembly, and leverages Cloudflare's Workers runtime via the workers-rs crate. The Durable Objects primitive provides strong consistency and atomicity for Matrix state resolution, replacing traditional SQL databases. The architecture maps as follows:\n\n* Monolith: PostgreSQL for persistence, Redis for caching, filesystem for media\n* Serverless: Durable Objects for storage, Workers for runtime\n\n**Practical Implications for Developers**\n\nMoving to Cloudflare Workers brings several advantages:\n\n* **Easy deployment**: Deployment is simplified with wrangler deploy, eliminating the need for server provisioning, database administration, and certificate renewal.\n* **Usage-based costs**: Costs scale to zero when idle, reducing expenses for low-traffic homeservers.\n* **Lower latency globally**: Workers run in 300+ locations worldwide, reducing latency for users globally.\n* **Built-in security**: Post-quantum cryptography is enabled by default, protecting Matrix homeservers from high-value targets.\n\nDevelopers can view the source code and deploy their own instance directly from GitHub, taking advantage of this serverless, post-quantum Matrix homeserver architecture.",
+  "authors": [
+    "Nick Kuntz"
+  ],
+  "categories": [
+    "Cloudflare Workers",
+    "Durable Objects",
+    "D1",
+    "Cloudflare Workers KV",
+    "R2",
+    "Security",
+    "Developer Platform",
+    "Developers",
+    "Rust",
+    "WebAssembly",
+    "Post-Quantum",
+    "Encryption"
+  ],
+  "guid": "6VOVAMNwIZ18hMaUlC6aqp"
+}
