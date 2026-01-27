@@ -1,0 +1,21 @@
+{
+  "slug": "q4-2025-internet-disruption-summary",
+  "title": "Cable cuts, storms, and DNS: a look at Internet disruptions in Q4 2025",
+  "url": "https://blog.cloudflare.com/q4-2025-internet-disruption-summary/",
+  "publishedAt": "Mon, 26 Jan 2026 14:00:00 GMT",
+  "summary": "**AI-Generated Summary**: This is an automated summary of a Cloudflare blog post created using AI. For the full details and context, please read the original post.\n\n**Key Technical Details and Main Announcements**\n\nIn Q4 2025, Cloudflare observed over 180 Internet disruptions, with multiple causes including government-directed shutdowns, cable cuts, power outages, and extreme weather. Notably, a single government-directed Internet shutdown occurred in Tanzania on October 29, lasting approximately 26 hours before restoration. The shutdown resulted in a significant decrease in traffic, with a nominal drop in announced IPv4 and IPv6 address space.\n\n**Practical Implications for Developers**\n\nDevelopers should be aware of the potential for Internet disruptions and plan accordingly. This may involve implementing redundancy and failover mechanisms to ensure continued service availability. Additionally, developers should consider using Cloudflare's Radar Outage Center to monitor for verified anomalies and confirmed outages.\n\n**Important Facts and Figures**\n\n* 180 Internet disruptions observed in Q4 2025\n* Single government-directed Internet shutdown in Tanzania on October 29\n* Nominal drop in announced IPv4 and IPv6 address space during shutdown\n* Restoration of service in Tanzania on November 3\n* Multiple cable cuts affecting Digicel Haiti's international fiber optic infrastructure\n* Significant decrease in traffic for Cybernet/StormFiber (Pakistan) on October 20.",
+  "authors": [
+    "David Belson"
+  ],
+  "categories": [
+    "Radar",
+    "Internet Shutdown",
+    "Internet Traffic",
+    "Outage",
+    "Internet Trends",
+    "AWS",
+    "Microsoft Azure",
+    "Consumer Services"
+  ],
+  "guid": "6dRT0oOSVcyQzjnZCkzH7S"
+}
