@@ -1,0 +1,21 @@
+{
+  "slug": "moltworker-self-hosted-ai-agent",
+  "title": "Introducing Moltworker: a self-hosted personal AI agent, minus the minis",
+  "url": "https://blog.cloudflare.com/moltworker-self-hosted-ai-agent/",
+  "publishedAt": "Thu, 29 Jan 2026 14:00:00 GMT",
+  "summary": "**AI-Generated Summary**: This is an automated summary of a Cloudflare blog post created using AI. For the full details and context, please read the original post.\n\n**Introducing Moltworker: A Self-Hosted Personal AI Agent on Cloudflare**\n\nCloudflare has introduced Moltworker, a middleware solution that allows running Moltbot, an open-source personal AI agent, on Cloudflare's Sandbox SDK and Developer Platform APIs. This enables developers to create a personal assistant without the need for dedicated hardware. Moltworker utilizes Cloudflare Workers, which now supports Node.js APIs natively, making it easier to build tools and applications on the platform.\n\n**Key Technical Details**\n\n* Moltworker utilizes Cloudflare Workers, which supports Node.js APIs natively, reducing complexity and maintainability.\n* The solution uses an entrypoint Worker as an API router and proxy between Cloudflare APIs and the isolated environment.\n* Moltbot is adapted to run on Cloudflare using a combination of an entrypoint Worker and a Sandbox container.\n\n**Practical Implications for Developers**\n\n* Developers can create a personal AI agent without the need for dedicated hardware.\n* Moltworker provides a secure and scalable solution for running AI applications on Cloudflare.\n* The solution utilizes Cloudflare's global network, providing instant benefits such as security and scalability.\n\n**Important Facts and Figures**\n\n* Cloudflare has achieved 1.5% failure rate in running popular NPM packages on Cloudflare Workers, excluding build tools and browser-only packages.\n* The list of Node.js APIs supported natively by Cloudflare Workers continues to grow.\n* Cloudflare's Developer Platform has grown to support complex and demanding applications, and provides a secure and scalable global network for launched applications.",
+  "authors": [
+    "Celso Martinho",
+    "Brian Brunner",
+    "Sid Chatterjee",
+    "Andreas Jansson"
+  ],
+  "categories": [
+    "AI",
+    "Agents",
+    "Cloudflare Workers",
+    "Containers",
+    "Sandbox"
+  ],
+  "guid": "45LuZGCXAcs7EMnB64zTQm"
+}
