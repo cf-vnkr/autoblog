@@ -1,0 +1,19 @@
+{
+  "slug": "uk-google-ai-crawler-policy",
+  "title": "Google’s AI advantage: why crawler separation is the only path to a fair Internet",
+  "url": "https://blog.cloudflare.com/uk-google-ai-crawler-policy/",
+  "publishedAt": "Fri, 30 Jan 2026 17:01:04 GMT",
+  "summary": "**AI-Generated Summary**: This is an automated summary of a Cloudflare blog post created using AI. For the full details and context, please read the original post.\n\n**Google's AI Advantage: Why Crawler Separation is Key to a Fair Internet**\n\nThe UK's Competition and Markets Authority (CMA) has proposed conduct requirements for Google to address the lack of choice and transparency faced by publishers over how Google uses search to fuel its generative AI services and features. These requirements aim to ensure that publishers have access to tools that enable them to control the inclusion of their content in generative AI services and have a level playing field on which to compete with AI companies.\n\n**Key Technical Details:**\n\n* The CMA has designated Google as having Strategic Market Status (SMS) in general search and search advertising, given its 90% share of the search market in the UK.\n* This designation encompasses AI Overviews and AI Mode, with the CMA now having the authority to impose conduct requirements on Google's search ecosystem.\n* Publishers need a meaningful way to opt out of Google's use of their content for generative AI, as the same content that Google scrapes for search indexing is also used for inference/grounding purposes in AI Overviews and AI Mode.\n\n**Practical Implications for Developers:**\n\n* The proposed conduct requirements aim to ensure that publishers have control over how their content is used in generative AI applications.\n* Developers may need to update their content management systems to allow publishers to opt out of Google's use of their content for generative AI.\n* The designation of Google as having SMS may lead to changes in the way Google's search ecosystem operates, potentially affecting the way developers interact with Google's APIs and services.",
+  "authors": [
+    "Maria Palmieri",
+    "Sebastian Hufnagel"
+  ],
+  "categories": [
+    "AI",
+    "AI Bots",
+    "Google",
+    "Legal",
+    "Policy & Legal"
+  ],
+  "guid": "1csdasmGFE5gWnYFDBbN9j"
+}
