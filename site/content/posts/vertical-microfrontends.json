@@ -1,0 +1,19 @@
+{
+  "slug": "vertical-microfrontends",
+  "title": "Building vertical microfrontends on Cloudflare’s platform",
+  "url": "https://blog.cloudflare.com/vertical-microfrontends/",
+  "publishedAt": "Fri, 30 Jan 2026 14:00:00 GMT",
+  "summary": "**AI-Generated Summary**: This is an automated summary of a Cloudflare blog post created using AI. For the full details and context, please read the original post.\n\n**Introducing Vertical Microfrontends on Cloudflare's Platform**\n\nCloudflare has introduced a new Worker template for Vertical Microfrontends (VMFE), enabling teams to work in complete silos while presenting a single, seamless application to users. Unlike traditional horizontal microfrontend architectures, VMFE splits the application by URL path, allowing teams to own the entire vertical stack for a specific route, including framework, library choice, CI/CD, and more.\n\n**Key Technical Details**\n\n* Vertical microfrontends are an architectural pattern where a single independent team owns an entire slice of the application's functionality, from the user interface to the CI/CD pipeline.\n* Teams can associate individual Workers with specific paths on a domain, such as `/ = Marketing` or `/docs = Documentation`.\n* Workers can be further segmented by sub-paths, such as `/dash/product-a` and `/dash/product-b`, each with their own frontend project and framework.\n\n**Practical Implications for Developers**\n\n* Developers can now own their own code from end to end, with full autonomy and control over their domains.\n* Teams can work independently, shipping their own features and updates without affecting other teams' work.\n* Cloudflare's Worker template provides a simple way to stitch together individual projects and create a unified user experience, using only a few lines of CSS magic.\n\n**Example Use Case**\n\nCloudflare's own dashboard is a prime example of vertical microfrontends in action. When users navigate from the core dashboard to the ZeroTrust product, they are routed to a separate project, but the user experience feels seamless and unified. This is achieved through the use of view transitions and CSS magic, without leaking implementation details to users.",
+  "authors": [
+    "Brayden Wilmoth"
+  ],
+  "categories": [
+    "Cloudflare Workers",
+    "Developer Platform",
+    "Developers",
+    "Dashboard",
+    "Front End",
+    "Micro-frontends"
+  ],
+  "guid": "2u7SNZ4BZcQYHZYKqmdEaM"
+}
