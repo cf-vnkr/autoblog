@@ -1,0 +1,18 @@
+{
+  "slug": "r2-local-uploads",
+  "title": "Improve global upload performance with R2 Local Uploads",
+  "url": "https://blog.cloudflare.com/r2-local-uploads/",
+  "publishedAt": "Tue, 03 Feb 2026 14:00:00 GMT",
+  "summary": "**AI-Generated Summary**: This is an automated summary of a Cloudflare blog post created using AI. For the full details and context, please read the original post.\n\n**Improve Global Upload Performance with R2 Local Uploads**\n\nCloudflare glides into open beta with Local Uploads for R2, a feature designed to accelerate global upload performance. With Local Uploads enabled, object data is first written to a storage location close to the client, then asynchronously copied to the bucket's location. This approach ensures immediate accessibility and strong consistency, leading to faster uploads and a more global feel.\n\n**Key Technical Details**\n\nLocal Uploads solve the distance problem by allowing uploads to be written to a storage location close to the client, reducing the distance data must travel to reach the bucket. R2's architecture is composed of multiple components, including the R2 Gateway Worker, Durable Object Metadata Service, and Distributed Storage Infrastructure. With Local Uploads, the upload process is optimized to write data locally, then asynchronously copy it to the bucket's location.\n\n**Practical Implications for Developers**\n\nEnabling Local Uploads can result in a 75% reduction in total request duration for global uploads. Developers can try Local Uploads in the Cloudflare Dashboard or with a single Wrangler command. This feature is particularly beneficial for applications that require global performance, such as media content uploads from different regions or devices sending logs and telemetry from around the world.\n\n**Benefits and Use Cases**\n\nLocal Uploads make upload requests faster, reducing Time to Last Byte (TTLB) by up to 75%. This feature is ideal for applications that require fast and reliable uploads, such as:\n\n* Media content uploads from different regions\n* Devices sending logs and telemetry from around the world\n* Applications that require strong consistency and zero egress fees\n\nBy enabling Local Uploads, developers can improve the performance and reliability of their applications, ensuring a better user experience for their customers.",
+  "authors": [
+    "Frank Chen",
+    "Rahul Suresh",
+    "Anni Wang"
+  ],
+  "categories": [
+    "R2",
+    "Performance",
+    "Storage"
+  ],
+  "guid": "453lZMuYluqGqfRKADhf9K"
+}
