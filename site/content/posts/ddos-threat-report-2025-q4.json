@@ -1,0 +1,21 @@
+{
+  "slug": "ddos-threat-report-2025-q4",
+  "title": "2025 Q4 DDoS threat report: A record-setting 31.4 Tbps attack caps a year of massive DDoS assaults",
+  "url": "https://blog.cloudflare.com/ddos-threat-report-2025-q4/",
+  "publishedAt": "Thu, 05 Feb 2026 14:00:00 GMT",
+  "summary": "**AI-Generated Summary**: This is an automated summary of a Cloudflare blog post created using AI. For the full details and context, please read the original post.\n\n**Record-Breaking DDoS Attack in 2025 Q4: Key Takeaways and Implications**\n\nCloudflare's latest DDoS threat report reveals a record-breaking 31.4 Tbps attack in the fourth quarter of 2025, fueled by the Aisuru-Kimwolf botnet. This massive assault, dubbed \"The Night Before Christmas\" DDoS campaign, targeted Cloudflare customers and infrastructure with hyper-volumetric HTTP DDoS attacks exceeding 200 million requests per second.\n\n**Key Statistics:**\n\n* DDoS attacks surged by 121% in 2025, reaching an average of 5,376 attacks per hour.\n* Network-layer DDoS attacks more than tripled in 2025, with 34.4 million attacks mitigated.\n* The Aisuru-Kimwolf botnet, consisting of 1-4 million infected Android TVs, launched a 18-day DDoS campaign targeting global Internet infrastructure.\n* The number of DDoS attacks grew by 31% in Q4 2025 compared to the previous quarter and 58% compared to 2024.\n\n**Practical Implications for Developers:**\n\n* The increasing complexity and scale of DDoS attacks highlight the need for robust security measures, including AI-powered DDoS mitigation solutions.\n* Developers should prioritize infrastructure security, including network-layer protection and HTTP DDoS mitigation.\n* The Aisuru-Kimwolf botnet's use of hyper-volumetric HTTP DDoS attacks underscores the importance of monitoring and detecting such attacks in real-time.\n\n**Recommendations:**\n\n* Implement AI-powered DDoS mitigation solutions to detect and mitigate complex attacks.\n* Monitor network-layer traffic and HTTP requests to detect potential DDoS attacks.\n* Regularly update and patch infrastructure to prevent exploitation by malware-infected devices.",
+  "authors": [
+    "Omer Yoachimik",
+    "Jorge Pacheco",
+    "Cloudforce One"
+  ],
+  "categories": [
+    "DDoS Reports",
+    "DDoS",
+    "Cloudforce One",
+    "Security",
+    "Advanced DDoS",
+    "AI"
+  ],
+  "guid": "4RtH1xA4p0tuaD6gFL46Pf"
+}
