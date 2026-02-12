@@ -1,0 +1,18 @@
+{
+  "slug": "markdown-for-agents",
+  "title": "Introducing Markdown for Agents",
+  "url": "https://blog.cloudflare.com/markdown-for-agents/",
+  "publishedAt": "Thu, 12 Feb 2026 14:03:12 GMT",
+  "summary": "**AI-Generated Summary**: This is an automated summary of a Cloudflare blog post created using AI. For the full details and context, please read the original post.\n\n**Introducing Markdown for Agents: Simplifying AI Content Processing**\n\nCloudflare has introduced a new feature, Markdown for Agents, which enables real-time content conversion at the source, allowing AI systems to receive structured markdown directly from the source. This feature is designed to simplify the process of parsing and converting HTML to markdown, which is essential for AI content processing.\n\n**Key Technical Details**\n\nMarkdown for Agents uses content negotiation headers to enable the conversion of HTML to markdown. When an AI system requests a page from a website that uses Cloudflare and has Markdown for Agents enabled, it can express its preference for text/markdown in the request. Cloudflare's network will automatically convert the HTML to markdown on the fly, with the converted response including an x-markdown-tokens header indicating the token count.\n\n**Practical Implications for Developers**\n\nDevelopers can use Markdown for Agents to simplify their AI content processing pipelines. By enabling Markdown for Agents on their Cloudflare zones, they can ensure that AI systems receive structured markdown directly from the source, reducing the need for manual conversion and parsing. This feature is particularly useful for developers building AI agents using Workers, who can use TypeScript to request the markdown version of a page.\n\n**Example Code**\n\nHere's an example of how to use Markdown for Agents with Workers:\n```typescript\nconst r = await fetch(\n  `https://developers.cloudflare.com/fundamentals/reference/markdown-for-agents/`,\n  {\n    headers: {\n      Accept: \"text/markdown, text/html\",\n    },\n  }\n);\nconst tokenCount = r.headers.get(\"x-markdown-tokens\");\nconst markdown = await r.text();\n```\nOverall, Markdown for Agents is a significant improvement in AI content processing, enabling developers to simplify their pipelines and improve the efficiency of their AI systems.",
+  "authors": [
+    "Celso Martinho",
+    "Will Allen"
+  ],
+  "categories": [
+    "AI",
+    "Agents",
+    "Developers",
+    "Developer Platform"
+  ],
+  "guid": "5uEb99xvnHVk3QfN0KMjb6"
+}
