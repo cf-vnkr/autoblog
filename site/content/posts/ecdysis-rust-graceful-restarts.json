@@ -1,0 +1,22 @@
+{
+  "slug": "ecdysis-rust-graceful-restarts",
+  "title": "Shedding old code with ecdysis: graceful restarts for Rust services at Cloudflare",
+  "url": "https://blog.cloudflare.com/ecdysis-rust-graceful-restarts/",
+  "publishedAt": "Fri, 13 Feb 2026 06:00:00 GMT",
+  "summary": "**AI-Generated Summary**: This is an automated summary of a Cloudflare blog post created using AI. For the full details and context, please read the original post.\n\n**Cloudflare's ecdysis: A Solution for Zero-Downtime Upgrades in Rust Services**\n\nCloudflare has open-sourced ecdysis, a Rust library that enables zero-downtime upgrades for network services handling millions of requests per second. This solution has been production-tested for five years, saving millions of requests with every restart across Cloudflare's global network. Ecdysis addresses the challenge of upgrading services without disrupting live connections, a critical requirement for services like traffic routing, TLS lifecycle management, and firewall rules enforcement.\n\n**The Problem with Naive Restart Approaches**\n\nThe traditional approach to restarting a service involves stopping the old process and starting a new one. However, this creates a window of time where connections are refused and requests are dropped. For services handling thousands of requests per second, even a brief restart can result in hundreds of dropped connections. This approach also kills already-established connections, causing clients to be abruptly disconnected.\n\n**How ecdysis Solves the Problem**\n\nEcdysis implements a more sophisticated approach to restarting services, ensuring that no live connections are dropped and no new connections are refused. By using a combination of techniques, including load balancing and connection queuing, ecdysis enables zero-downtime upgrades for services that require continuous operation. This solution has been production-tested at Cloudflare and has proven to be reliable and efficient.\n\n**Practical Implications for Developers**\n\nDevelopers can use ecdysis to implement zero-downtime upgrades for their own Rust services, ensuring that their applications remain available and responsive to users. By adopting ecdysis, developers can avoid the limitations of traditional restart approaches and provide a better experience for their users.",
+  "authors": [
+    "Manuel Olguín Muñoz"
+  ],
+  "categories": [
+    "Rust",
+    "Open Source",
+    "Infrastructure",
+    "Engineering",
+    "Edge",
+    "Developers",
+    "Developer Platform",
+    "Application Services",
+    "Rust"
+  ],
+  "guid": "GMarF75NkFuiwVuyFJk77"
+}
