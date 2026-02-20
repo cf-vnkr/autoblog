@@ -1,0 +1,20 @@
+{
+  "slug": "code-mode-mcp",
+  "title": "Code Mode: give agents an entire API in 1,000 tokens",
+  "url": "https://blog.cloudflare.com/code-mode-mcp/",
+  "publishedAt": "Fri, 20 Feb 2026 14:00:00 GMT",
+  "summary": "**AI-Generated Summary**: This is an automated summary of a Cloudflare blog post created using AI. For the full details and context, please read the original post.\n\n**Cloudflare Introduces Code Mode for MCP Servers**\n\nCloudflare has introduced a new technique called Code Mode for Model Context Protocol (MCP) servers, which enables AI agents to access entire APIs with minimal context window usage. This approach reduces the number of input tokens required by 99.9% compared to traditional MCP servers. Code Mode allows agents to write code against a typed SDK and execute it safely in a Dynamic Worker Loader, effectively acting as a compact plan.\n\n**Key Technical Details**\n\n* Code Mode uses two tools: `search()` and `execute()`, which are powered by Code Mode.\n* The `search()` tool allows agents to filter endpoints by product, path, tags, or metadata, narrowing thousands of endpoints to the handful needed.\n* The `execute()` tool enables agents to write code that can make API requests, handle pagination, check responses, and chain operations together in a single execution.\n* Both tools run generated code inside a Dynamic Worker isolate, a lightweight V8 sandbox with no file system, environment variables, or external fetches.\n\n**Practical Implications for Developers**\n\n* Cloudflare's new MCP server uses Code Mode to provide access to the entire Cloudflare API with minimal context window usage.\n* Developers can start using this new MCP server today and access the entire Cloudflare API with just two tools.\n* Cloudflare is also open-sourcing a new Code Mode SDK in the Cloudflare Agents SDK, allowing developers to use the same approach in their own MCP servers and AI agents.",
+  "authors": [
+    "Matt Carey"
+  ],
+  "categories": [
+    "Developers",
+    "Developer Platform",
+    "AI",
+    "Workers AI",
+    "Cloudflare Workers",
+    "Optimization",
+    "Open Source"
+  ],
+  "guid": "2lWwgP33VT0NJjZ3pWShsw"
+}
