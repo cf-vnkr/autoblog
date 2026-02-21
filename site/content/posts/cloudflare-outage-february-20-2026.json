@@ -1,0 +1,17 @@
+{
+  "slug": "cloudflare-outage-february-20-2026",
+  "title": "Cloudflare outage on February 20, 2026",
+  "url": "https://blog.cloudflare.com/cloudflare-outage-february-20-2026/",
+  "publishedAt": "Sat, 21 Feb 2026 00:00:00 GMT",
+  "summary": "**AI-Generated Summary**: This is an automated summary of a Cloudflare blog post created using AI. For the full details and context, please read the original post.\n\n**Cloudflare Outage Summary**\n\nOn February 20, 2026, Cloudflare experienced a 6-hour and 7-minute service outage affecting a subset of customers using the Bring Your Own IP (BYOIP) service. The issue was caused by a change to how Cloudflare manages IP addresses onboarded through the BYOIP pipeline, which unintentionally withdrew customer prefixes from the Border Gateway Protocol (BGP) network. This resulted in services and applications being unreachable from the Internet, causing timeouts and failures to connect.\n\n**Technical Details**\n\n* The outage affected 1,100 BYOIP prefixes out of a total of 6,500 prefixes advertised to a BGP neighbor.\n* 25% of BYOIP prefixes were unintentionally withdrawn.\n* The issue was caused by a software bug that removed service configurations for some prefixes from the edge.\n* Cloudflare engineers were able to detect the issue and revert the change before all customers were affected.\n\n**Practical Implications**\n\n* Affected customers experienced BGP Path Hunting, where end-user connections traversed networks trying to find a route to the destination IP.\n* The loop-until-failure scenario affected any product that uses BYOIP for advertisement to the Internet.\n* Cloudflare provided guidance to customers to self-remediate the issue by re-advertising their prefixes through the Cloudflare dashboard.\n* Engineers manually restored ~300 prefixes that were unable to be remediated through the dashboard.\n\n**Lessons Learned**\n\nCloudflare has taken steps to prevent outages like this from happening again, including re-examining their IP address management processes and implementing additional checks to prevent similar issues in the future.",
+  "authors": [
+    "David Tuber",
+    "Dzevad Trumic"
+  ],
+  "categories": [
+    "Post Mortem",
+    "Incident Response",
+    "Outage"
+  ],
+  "guid": "6apSdbZfHEgeIzBwCqn5ob"
+}
