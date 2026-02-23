@@ -1,0 +1,20 @@
+{
+  "slug": "post-quantum-sase",
+  "title": "Cloudflare One is the first SASE offering modern post-quantum encryption across the full platform",
+  "url": "https://blog.cloudflare.com/post-quantum-sase/",
+  "publishedAt": "Mon, 23 Feb 2026 06:00:00 GMT",
+  "summary": "**AI-Generated Summary**: This is an automated summary of a Cloudflare blog post created using AI. For the full details and context, please read the original post.\n\n**Cloudflare One: A Secure Access Service Edge (SASE) Platform with Post-Quantum Encryption**\n\nCloudflare has announced the completion of its Secure Access Service Edge (SASE) platform, Cloudflare One, with the integration of modern standards-compliant post-quantum (PQ) encryption across all major use cases. This includes the Secure Web Gateway (SWG), Zero Trust, and Wide Area Network (WAN) use cases. The platform now offers post-quantum hybrid ML-KEM (Module-Lattice-based Key-Encapsulation Mechanism) across all on-ramps and off-ramps.\n\n**Practical Implications for Developers**\n\nThe integration of post-quantum encryption in Cloudflare One provides built-in crypto agility, simplifying how organizations offer remote access and site-to-site connectivity. This is particularly important as the deadline for depreciating RSA and Elliptic Curve Cryptography (ECC) approaches, and organizations risk being out of compliance and vulnerable to quantum threats. Cloudflare IPsec, a cloud-native WAN-as-a-Service, uses the IPsec protocol to establish encrypted tunnels from a customer's network to Cloudflare's global network, providing high availability and simplifying configuration.\n\n**Key Technical Details**\n\n* Cloudflare One supports post-quantum hybrid ML-KEM across all major on-ramps and off-ramps.\n* Cloudflare IPsec uses the IPsec protocol to establish encrypted tunnels from a customer's network to Cloudflare's global network.\n* Cloudflare IPsec provides high availability and simplifies configuration.\n* The Cloudflare One Appliance upgrade is generally available as of appliance version 2026.2.0.\n* The Cloudflare IPsec upgrade is in closed beta, and developers can get on the list by reaching out to their account team.",
+  "authors": [
+    "Sharon Goldberg",
+    "Amos Paul",
+    "David Gauch"
+  ],
+  "categories": [
+    "Post-Quantum",
+    "Zero Trust",
+    "Cryptography",
+    "Cloudflare One",
+    "IPsec"
+  ],
+  "guid": "4R1725ncbcxxmKyZueXmhw"
+}
