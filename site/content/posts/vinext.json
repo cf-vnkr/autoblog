@@ -1,0 +1,21 @@
+{
+  "slug": "vinext",
+  "title": "How we rebuilt Next.js with AI in one week",
+  "url": "https://blog.cloudflare.com/vinext/",
+  "publishedAt": "Tue, 24 Feb 2026 20:00:00 GMT",
+  "summary": "**AI-Generated Summary**: This is an automated summary of a Cloudflare blog post created using AI. For the full details and context, please read the original post.\n\n**Rebuilding Next.js with AI in One Week: A Breakthrough in Front-end Framework Development**\n\nCloudflare engineers have achieved a remarkable feat by rebuilding the popular front-end framework Next.js from scratch with the help of an AI model in just one week. The result is vinext, a drop-in replacement for Next.js built on Vite, which deploys to Cloudflare Workers with a single command. Early benchmarks show that vinext builds production apps up to 4x faster and produces client bundles up to 57% smaller compared to Next.js 16.\n\n**Key Technical Details**\n\nvinext is not a wrapper or adapter around Next.js output, but a clean reimplementation of the Next.js API surface on Vite directly. This approach avoids the limitations and fragilities of building on top of Next.js output as a foundation. vinext uses Vite as a plugin, leveraging the Vite Environment API to run on any platform. The framework's API surface includes routing, server rendering, React Server Components, server actions, caching, and middleware.\n\n**Practical Implications for Developers**\n\nDevelopers can seamlessly replacing Next.js with vinext in their projects by running `npm install vinext` and updating their scripts to use `vinext` instead of `next`. Existing app, pages, and next.config.js files work as-is. vinext provides a development server with HMR, a production build, and a deploy command to Cloudflare Workers. The framework's Vite output runs on any platform, making it a versatile and efficient solution for front-end development.\n\n**Early Benchmarks**\n\nEarly benchmarks show promising results, with vinext outperforming Next.js 16 in both production build time and client bundle size. The benchmarks, run on GitHub CI, demonstrate the speed and efficiency of vinext, making it an attractive option for developers looking to improve their front-end development workflow.",
+  "authors": [
+    "Steve Faulkner"
+  ],
+  "categories": [
+    "AI",
+    "Cloudflare Workers",
+    "Workers AI",
+    "Developers",
+    "Developer Platform",
+    "JavaScript",
+    "Open Source",
+    "Performance"
+  ],
+  "guid": "2w61xT0J7H7ECzhiABytS"
+}
