@@ -1,0 +1,15 @@
+{
+  "slug": "toxic-combinations-security",
+  "title": "Toxic combinations: when small signals add up to a security incident",
+  "url": "https://blog.cloudflare.com/toxic-combinations-security/",
+  "publishedAt": "Fri, 27 Feb 2026 07:00:00 GMT",
+  "summary": "**AI-Generated Summary**: This is an automated summary of a Cloudflare blog post created using AI. For the full details and context, please read the original post.\n\n**Toxic Combinations: Identifying Security Incidents through Contextualized Detections**\n\nCloudflare's network observes requests to web applications, allowing it to identify security incidents known as \"toxic combinations.\" These are exploits where an attacker discovers and compounds minor issues, such as debug flags or unauthenticated application paths, to breach systems or exfiltrate data. Cloudflare's detections for toxic combinations analyze the confluence of context surrounding multiple signals, including bot traffic, specific application paths, request anomalies, and misconfigurations.\n\n**Key Technical Details**\n\n* Cloudflare's framework for identifying toxic combinations includes:\n\t+ Bot signals\n\t+ Application paths (especially sensitive ones like admin, debug, metrics, search, and payment flows)\n\t+ Anomalies (unexpected HTTP codes, geo jumps, identity mismatch, high ID churn, rate-limit evasion, and request or success rate spikes)\n\t+ Vulnerabilities or misconfigurations (missing session cookies or auth headers, predictable identifiers)\n* Cloudflare analyzed a 24-hour window of data to identify toxic combinations on popular application stacks, finding that about 11% of hosts were susceptible to these combinations, skewed by vulnerable WordPress websites.\n\n**Practical Implications for Developers**\n\n* Developers can use Cloudflare's intelligence to identify and address weaknesses in their stack caused by toxic combinations.\n* By understanding the common types of toxic combinations and the vulnerabilities they present, developers can take proactive steps to prevent these incidents.\n* Cloudflare's detections for toxic combinations can help developers shift their focus from evaluating the risk of individual requests to analyzing the broader intent and context surrounding multiple signals.",
+  "authors": [
+    "Bashyam Anant",
+    "Himanshu Anand"
+  ],
+  "categories": [
+    "Application Security"
+  ],
+  "guid": "1IAvxHyuyoZKYW249A4AvF"
+}
