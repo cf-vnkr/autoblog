@@ -1,0 +1,27 @@
+{
+  "slug": "the-most-seen-ui-on-the-internet-redesigning-turnstile-and-challenge-pages",
+  "title": "The most-seen UI on the Internet? Redesigning Turnstile and Challenge Pages",
+  "url": "https://blog.cloudflare.com/the-most-seen-ui-on-the-internet-redesigning-turnstile-and-challenge-pages/",
+  "publishedAt": "Fri, 27 Feb 2026 06:00:00 GMT",
+  "summary": "**AI-Generated Summary**: This is an automated summary of a Cloudflare blog post created using AI. For the full details and context, please read the original post.\n\n**Redesigning Turnstile and Challenge Pages for a Better User Experience**\n\nCloudflare's Turnstile widget and Challenge Pages are the most-seen UI on the internet, serving 7.67 billion times every day. With such a massive user base, Cloudflare recognized the need to redesign these products to provide a better user experience. The redesign aimed to address the frustration caused by security verification systems, which are becoming increasingly common due to the rise in bot attacks.\n\n**Key Technical Details:**\n\n* The redesign focused on improving the user experience, accessibility, and consistency across different states and error messages.\n* A comprehensive audit was conducted to identify inconsistencies and areas for improvement.\n* The redesign involved a unified approach to error scenarios, clear and concise messaging, and a consistent visual language.\n* The goal was to make the experience more human-friendly, not just secure.\n\n**Practical Implications for Developers:**\n\n* The redesign has significant implications for developers who use Turnstile and Challenge Pages on their websites.\n* The new design provides a better user experience, which can lead to increased user engagement and reduced frustration.\n* Developers can expect improved accessibility features, such as better support for visually impaired users.\n* The redesign also provides a more consistent and unified approach to error scenarios, making it easier for developers to integrate and manage security verification systems.\n\n**Timeline:**\n\n* The redesign was conducted in response to the increasing number of bot attacks and security verification requests.\n* The numbers tell the story: 2023: 2.14B daily security checks, 2024: 3B daily, 2025: 5.35B daily.\n* The redesign was a collaborative effort between design, engineering, and product teams to address the needs of the massive user base.",
+  "authors": [
+    "Leo Bacevicius",
+    "Ana Foppa",
+    "Marina Elmore"
+  ],
+  "categories": [
+    "Security Week",
+    "Turnstile",
+    "Challenge Page",
+    "Design",
+    "Product Design",
+    "User Research",
+    "Bots",
+    "Bot Management",
+    "WAF",
+    "Engineering",
+    "Product News",
+    "Accessibility"
+  ],
+  "guid": "19fiiQAG0XsaS9p0daOBus"
+}
