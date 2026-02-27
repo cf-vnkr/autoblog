@@ -1,0 +1,21 @@
+{
+  "slug": "a-better-web-streams-api",
+  "title": "We deserve a better streams API for JavaScript",
+  "url": "https://blog.cloudflare.com/a-better-web-streams-api/",
+  "publishedAt": "Fri, 27 Feb 2026 06:00:00 GMT",
+  "summary": "**AI-Generated Summary**: This is an automated summary of a Cloudflare blog post created using AI. For the full details and context, please read the original post.\n\n**Summary of the Cloudflare Blog Post: \"We deserve a better streams API for JavaScript\"**\n\nThe WHATWG Streams Standard, also known as \"Web streams,\" was designed to provide a common API for working with streaming data across browsers and servers. However, after years of implementing and debugging Web streams in various runtimes, including Cloudflare Workers and Node.js, the author of this blog post, James M Snell, believes that the standard API has fundamental usability and performance issues that cannot be fixed with incremental improvements alone.\n\n**Key Technical Details and Main Announcements**\n\nThe author proposes an alternative approach to Web streams, built around JavaScript language primitives, which demonstrates significant performance improvements (2x to 120x faster) in various runtimes. The alternative approach leverages modern JavaScript language features, such as async iteration, to provide a more idiomatic way to consume asynchronous sequences.\n\n**Practical Implications for Developers**\n\nThe Web streams API has excessive ceremony for common operations, such as reading a stream to completion, which can lead to complexity and performance issues. The proposed alternative approach aims to simplify the API and improve performance by leveraging modern JavaScript language features.\n\n**Important Facts and Figures**\n\n* The WHATWG Streams Standard was developed between 2014 and 2016.\n* The Streams Standard predates async iteration in JavaScript, which was introduced in ES2018.\n* The proposed alternative approach demonstrates significant performance improvements (2x to 120x faster) in various runtimes.\n\nThis summary provides a clear, technical overview of the blog post, highlighting the key technical details, main announcements, and practical implications for developers.",
+  "authors": [
+    "James M Snell"
+  ],
+  "categories": [
+    "Standards",
+    "JavaScript",
+    "TypeScript",
+    "Open Source",
+    "Cloudflare Workers",
+    "Node.js",
+    "Performance",
+    "API"
+  ],
+  "guid": "37h1uszA2vuOfmXb3oAnZr"
+}
