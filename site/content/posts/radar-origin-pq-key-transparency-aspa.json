@@ -1,0 +1,25 @@
+{
+  "slug": "radar-origin-pq-key-transparency-aspa",
+  "title": "Bringing more transparency to post-quantum usage, encrypted messaging, and routing security",
+  "url": "https://blog.cloudflare.com/radar-origin-pq-key-transparency-aspa/",
+  "publishedAt": "Fri, 27 Feb 2026 06:00:00 GMT",
+  "summary": "**AI-Generated Summary**: This is an automated summary of a Cloudflare blog post created using AI. For the full details and context, please read the original post.\n\n**Cloudflare Enhances Post-Quantum Security and Routing Insights**\n\nCloudflare has introduced several new security-related data sets and tools on its Radar platform, providing developers with enhanced insights into post-quantum security and routing security. Key updates include:\n\n* **Post-Quantum Monitoring**: Cloudflare now monitors post-quantum connections on both client and origin-facing connections, providing a more comprehensive view of post-quantum adoption.\n* **Key Transparency**: A new section on Radar provides a public dashboard showing the real-time verification status of Key Transparency Logs for end-to-end encrypted messaging services like WhatsApp.\n* **Origin Post-Quantum Support**: Cloudflare has added a new graph on Radar illustrating the share of customer origins supporting X25519MLKEM768, a hybrid key exchange algorithm combining classical X25519 with ML-KEM, a lattice-based post-quantum scheme standardized by NIST.\n\n**Practical Implications for Developers**\n\nThese updates provide developers with valuable insights into post-quantum adoption and can help inform their security strategies. Key takeaways include:\n\n* **Post-quantum readiness**: Approximately 10% of origins could benefit from a post-quantum-preferred key agreement today, representing a significant jump from less than 1% at the start of 2025.\n* **Industry migration**: The industry's migration to post-quantum cryptographyRAM is expected to continue, with many server-side TLS libraries enabling hybrid post-quantum key exchange by default.\n* **Testing and validation**: Cloudflare's Radar API provides access to origin readiness data, allowing developers to independently validate post-quantum support and prepare for the transition to quantum-resistant security.",
+  "authors": [
+    "David Belson",
+    "Mingwei Zhang",
+    "André Jesus",
+    "Suleman Ahmad",
+    "Sabina Zejnilovic",
+    "Thibault Meunier",
+    "Mari Galicer"
+  ],
+  "categories": [
+    "Radar",
+    "Security",
+    "Privacy",
+    "Post-Quantum",
+    "Routing",
+    "Research"
+  ],
+  "guid": "1Iy1Qvw9TsOhRwgjUYqFxO"
+}
