@@ -1,0 +1,20 @@
+{
+  "slug": "aspa-secure-internet",
+  "title": "ASPA: making Internet routing more secure",
+  "url": "https://blog.cloudflare.com/aspa-secure-internet/",
+  "publishedAt": "Fri, 27 Feb 2026 06:00:00 GMT",
+  "summary": "**AI-Generated Summary**: This is an automated summary of a Cloudflare blog post created using AI. For the full details and context, please read the original post.\n\n**Cloudflare Introduces ASPA to Enhance Internet Routing Security**\n\nCloudflare has announced the adoption of a new cryptographic standard called ASPA (Autonomous System Provider Authorization) to secure Internet routing and prevent route leaks. ASPA builds on the existing RPKI (Resource Public Key Infrastructure) system, which verifies the destination of network traffic. ASPA takes it a step further by validating the entire path of network traffic, ensuring that it only travels through authorized networks.\n\n**How ASPA Works**\n\nASPA relies on the hierarchy of the Internet, where traffic generally follows a specific path: it travels \"up\" from a customer to a large provider, optionally crosses over to another big provider, and then flows \"down\" to the destination. ASPA provides networks with a way to officially publish a list of their authorized upstream providers within the RPKI system. This allows any receiving network to look at the AS_PATH, check the associated ASPA records, and verify that the traffic only traveled through an approved chain of networks.\n\n**Practical Implications for Developers**\n\nThe introduction of ASPA has significant implications for developers who rely on secure Internet routing. With ASPA, developers can ensure that their network traffic only travels through authorized networks, reducing the risk of route leaks and improving overall network security. Additionally, ASPA provides a way to verify the authenticity of network traffic, which can help prevent origin hijacks and other types of attacks.\n\n**Cloudflare Radar's ASPA Deployment Monitoring Feature**\n\nCloudflare Radar has introduced a new ASPA deployment monitoring feature, which allows users to track the rollout of ASPA across the five Regional Internet Registries (RIRs) and view ASPA records and changes over time at the Autonomous System (AS) level. This feature provides developers with valuable insights into the adoption of ASPA and helps them stay up-to-date with the latest developments in Internet routing security.",
+  "authors": [
+    "Mingwei Zhang",
+    "Bryton Herdes"
+  ],
+  "categories": [
+    "Security Week",
+    "BGP",
+    "RPKI",
+    "Routing",
+    "Routing Security",
+    "Radar"
+  ],
+  "guid": "5NwDf8fspgoSx9Pgcx1xLy"
+}
