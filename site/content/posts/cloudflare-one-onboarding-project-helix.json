@@ -1,0 +1,15 @@
+{
+  "slug": "cloudflare-one-onboarding-project-helix",
+  "title": "Beyond the blank slate: how Cloudflare accelerates your Zero Trust journey",
+  "url": "https://blog.cloudflare.com/cloudflare-one-onboarding-project-helix/",
+  "publishedAt": "Mon, 02 Mar 2026 06:00:00 GMT",
+  "summary": "**AI-Generated Summary**: This is an automated summary of a Cloudflare blog post created using AI. For the full details and context, please read the original post.\n\n**Cloudflare Introduces Project Helix to Simplify Zero Trust Adoption**\n\nCloudflare has announced Project Helix, a method designed to simplify the process of configuring Cloudflare One, a comprehensive SASE platform. The goal of Project Helix is to enable customers to quickly and easily take advantage of Cloudflare's powerful SASE platform, without the complexity barrier associated with deploying comparable functions from other vendors. By codifying expertise and automation, Project Helix aims to streamline the onboarding process and provide customers with access to the most powerful SASE platform available.\n\n**Key Technical Details**\n\nProject Helix is built on the concept of creating best-practice policies and templates to achieve optimal outcomes. This involves engaging the knowledge of Cloudflare's Solutions Engineers, Professional Service Engineers, and Partners to share their expertise and experience deploying Cloudflare One. The project uses a combination of automation and configuration to simplify the process of enabling advanced security capabilities, such as Secure Web Gateway, TLS inspection, DLP, and AV scanning.\n\n**Practical Implications for Developers**\n\nThe introduction of Project Helix has significant implications for developers who use Cloudflare One. By simplifying the configuration process, developers can quickly and easily take advantage of Cloudflare's powerful SASE platform, without the need for extensive expertise or customization. This enables developers to focus on building and deploying applications, rather than spending time configuring security settings and policies. Additionally, Project Helix provides a reliable way of taking the knowledge and expertise of Cloudflare's engineers and partners, and making it available to customers, which can help to reduce the complexity barrier associated with deploying comparable functions from other vendors.",
+  "authors": [
+    "Michael Koyfman"
+  ],
+  "categories": [
+    "Cloudflare One",
+    "Automation"
+  ],
+  "guid": "789OboluT5DiD55gWkWYQi"
+}
