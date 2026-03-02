@@ -1,0 +1,18 @@
+{
+  "slug": "programmable-sase",
+  "title": "The truly programmable SASE platform",
+  "url": "https://blog.cloudflare.com/programmable-sase/",
+  "publishedAt": "Mon, 02 Mar 2026 06:00:00 GMT",
+  "summary": "**AI-Generated Summary**: This is an automated summary of a Cloudflare blog post created using AI. For the full details and context, please read the original post.\n\n**Cloudflare Unveils Programmable SASE Platform**\n\nCloudflare has introduced a truly programmable SASE (Secure Access Service Edge) platform, empowering organizations to architect their security and networking with custom building blocks. This platform is designed to meet the unique needs of each organization, allowing developers to extend policy decisions with custom logic in real-time.\n\n**Key Technical Details**\n\n* Cloudflare's global network spans over 330 cities, operating within 50 milliseconds of 95% of the Internet-connected population.\n* The platform runs every service on every server in every data center, making it composable and programmable.\n* Developers can use Cloudflare Workers to augment inline SASE services like Access, enforcing custom policies at the edge in milliseconds.\n\n**Practical Implications for Developers**\n\n* With Cloudflare's programmable SASE platform, developers can:\n\t+ Dynamically inject headers based on user identity claims\n\t+ Call external risk engines for a real-time verdict before allowing access\n\t+ Enforce access controls based on location and working hours\n\t+ Route traffic based on business logic without adding latency or standing up separate infrastructure\n* This platform eliminates the need for separate infrastructure, manual configuration, and round-trip latency associated with standard SASE providers.\n\n**Unlocking the Power of Programmability**\n\nCloudflare's programmable SASE platform unlocks the true value of programmability, allowing developers to intercept security events, enrich them with external context, and act on them in real-time. This enables organizations to create custom policies that go beyond predefined actions, such as allow, block, isolate, or quarantine. By leveraging this platform, developers can build more secure, flexible, and scalable applications that meet the unique needs of their organization.",
+  "authors": [
+    "Abe Carryl"
+  ],
+  "categories": [
+    "Cloudflare One",
+    "Zero Trust",
+    "SASE",
+    "Developer Platform",
+    "Cloudflare Workers"
+  ],
+  "guid": "5XVjmkVenwJsJX1GQkMC9U"
+}
