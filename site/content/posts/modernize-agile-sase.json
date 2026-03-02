@@ -1,0 +1,16 @@
+{
+  "slug": "modernize-agile-sase",
+  "title": "Modernizing with agile SASE: a Cloudflare One blog takeover",
+  "url": "https://blog.cloudflare.com/modernize-agile-sase/",
+  "publishedAt": "Mon, 02 Mar 2026 06:00:00 GMT",
+  "summary": "**AI-Generated Summary**: This is an automated summary of a Cloudflare blog post created using AI. For the full details and context, please read the original post.\n\n**Modernizing with Agile SASE: A Cloudflare One Blog Takeover**\n\nCloudflare is announcing innovations to its Cloudflare One platform, which converges networking and security into a single, global connectivity cloud. This agile and composable SASE (Secure Access Service Edge) platform is designed to break the inertia of legacy systems and propel high-speed business growth. Key technical details include:\n\n* **Single-pass architecture**: Cloudflare One eliminates service-chaining, where data is processed sequentially through fragmented tools, by running every security check on every server simultaneously.\n* **Native developer platform**: Cloudflare Workers allows developers to write code that intercepts security events in real-time, moving beyond simple \"allow/block\" rules to sophisticated, automated operations.\n* **Composable and programmable platform**: Cloudflare One is designed to be customized and extended by developers, enabling them to create tailored security and networking solutions.\n\nPractical implications for developers include:\n\n* **Faster and safer growth**: By consolidating onto Cloudflare One, organizations can clear the path for faster, safer growth and modernize their infrastructure.\n* **Improved security**: Cloudflare One's single-pass architecture and native developer platform enable more effective security and networking solutions.\n* **Increased agility**: Cloudflare One's composable and programmable platform allows developers to create tailored security and networking solutions, enabling organizations to respond quickly to changing business needs.\n\n**What to Expect This Week**\n\nCloudflare will release technical deep-dives on five core themes:\n\n* Monday: Securing the next decade of the Internet\n* Tuesday: Evolution of identity\n* Wednesday: Fighting AI with AI\n* Thursday: Performance as a security feature\n* Friday: Standardizing on Cloudflare One for modernization at scale\n\nDevelopers can expect to learn more about Cloudflare One's capabilities and how to get started with their SASE journey.",
+  "authors": [
+    "Warnessa Weaver",
+    "Yumna Moazzam"
+  ],
+  "categories": [
+    "Cloudflare One",
+    "SASE"
+  ],
+  "guid": "37CrGNF3f6yX76PegZnE5Y"
+}
