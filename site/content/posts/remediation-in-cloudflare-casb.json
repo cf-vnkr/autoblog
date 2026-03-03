@@ -1,0 +1,20 @@
+{
+  "slug": "remediation-in-cloudflare-casb",
+  "title": "See risk, fix risk: introducing Remediation in Cloudflare CASB",
+  "url": "https://blog.cloudflare.com/remediation-in-cloudflare-casb/",
+  "publishedAt": "Tue, 03 Mar 2026 06:00:00 GMT",
+  "summary": "**AI-Generated Summary**: This is an automated summary of a Cloudflare blog post created using AI. For the full details and context, please read the original post.\n\n**Cloudflare CASB Introduces Remediation for Risky File-Sharing Across SaaS Apps**\n\nCloudflare has launched Remediation, a new feature in its Cloud Access Security Broker (CASB) product, allowing customers to fix risky file-sharing issues directly from the Cloudflare One dashboard. This marks a significant advancement for Cloudflare's CASB, which has focused on providing robust visibility and detection since its release. Remediation enables security and IT teams to address misconfigurations, overshared data, and risky access patterns across popular SaaS tools like Microsoft 365, Google Workspace, and others.\n\n**Key Technical Details:**\n\n* Remediation allows customers to fix file-share issues in Microsoft 365 and Google Workspace, including public links, company-wide sharing, and sharing outside the organization.\n* The feature removes risky sharing configurations without deleting files or changing ownership.\n* Remediation actions are logged in Cloudflare One's Admin logs, providing visibility into who took action on which files.\n* The feature is available in the Cloudflare One dashboard, eliminating the need to export CSVs or send tickets to app owners.\n\n**Practical Implications for Developers:**\n\n* Remediation simplifies the process of addressing file-sharing risks, reducing the administrative burden on security and IT teams.\n* Developers can use CASB Remediation to drive clean-up directly from the Cloudflare One dashboard, ensuring that risks are addressed promptly.\n* The feature provides a centralized view of misconfigurations, overshared files, and risky access patterns across multiple SaaS tools, enabling developers to identify and address issues more effectively.\n\n**Timeline:**\n\n* The launch of Remediation marks a major shift forward for Cloudflare's CASB product and Cloudflare One.\n* Cloudflare plans to release additional updates and features in the next year, building on the momentum of Remediation.",
+  "authors": [
+    "Alex Dunbrack",
+    "Michael Leslie"
+  ],
+  "categories": [
+    "CASB",
+    "Microsoft 365",
+    "Google Workspace",
+    "Cloudflare One",
+    "SASE",
+    "SAAS Security"
+  ],
+  "guid": "5qLzg7UQ9OtFryC8YVeSo5"
+}
