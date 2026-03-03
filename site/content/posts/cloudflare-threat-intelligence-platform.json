@@ -1,0 +1,20 @@
+{
+  "slug": "cloudflare-threat-intelligence-platform",
+  "title": "Evolving Cloudflare’s Threat Intelligence Platform: actionable, scalable, and ETL-less",
+  "url": "https://blog.cloudflare.com/cloudflare-threat-intelligence-platform/",
+  "publishedAt": "Tue, 03 Mar 2026 14:00:00 GMT",
+  "summary": "**AI-Generated Summary**: This is an automated summary of a Cloudflare blog post created using AI. For the full details and context, please read the original post.\n\n**Cloudflare Evolves Threat Intelligence Platform: Actionable, Scalable, and ETL-less**\n\nCloudflare has revamped its Threat Intelligence Platform (TIP) to address the \"data gravity\" problem plaguing the cybersecurity industry. The new platform eliminates the need for complex Extract, Transform, Load (ETL) pipelines by utilizing a sharded, SQLite-backed architecture. This design enables sub-second query latency, even when aggregating millions of events across global datasets. The platform's GraphQL endpoint is built directly on the edge, allowing security teams to visualize and automate threat response in real-time.\n\n**Key Features and Technical Details**\n\n* Sharded, SQLite-backed architecture for efficient data storage and retrieval\n* GraphQL endpoint built on the edge for real-time query handling\n* Distributed Threat Events across thousands of logical shards for sub-second query latency\n* Integration with Cloudflare Workers for rapid innovation and scalability\n* Support for multi-tenancy, group-based sharing, and tenant-to-tenant sharing\n* Next-generation developer stack for efficient data processing and analysis\n\n**Practical Implications for Developers**\n\nThe Cloudflare TIP provides a fully integrated, visual, and automated command center for security operations centers (SOCs). Developers can now synthesize millions of threat events into real-time graphs and diagrams, instantly answering critical questions about threat activity. The platform's extensible design allows for easy integration with multiple datasets, making it an ideal solution for organizations seeking to enhance their threat intelligence capabilities.",
+  "authors": [
+    "Blake Darché",
+    "Alexandra Moraru",
+    "Brian Seel",
+    "Jacob Crisp"
+  ],
+  "categories": [
+    "Threat Intelligence",
+    "Threats",
+    "Threat Data",
+    "Digital Forensics"
+  ],
+  "guid": "605qle9d3d8PLHdnRVGMxE"
+}
