@@ -1,0 +1,18 @@
+{
+  "slug": "cloudy-upgrades-for-cloudflare-one",
+  "title": "How Cloudy translates complex security into human action",
+  "url": "https://blog.cloudflare.com/cloudy-upgrades-for-cloudflare-one/",
+  "publishedAt": "Tue, 03 Mar 2026 06:00:00 GMT",
+  "summary": "**AI-Generated Summary**: This is an automated summary of a Cloudflare blog post created using AI. For the full details and context, please read the original post.\n\n**Cloudflare Introduces Cloudy: An LLM-Powered Explanation Layer for Security**\n\nCloudflare has announced the extension of its Cloudy explanation layer across Phishnet and API CASB, aiming to improve decision-making and reduce unnecessary noise in security operations. Cloudy is a machine learning (ML) powered explanation layer built into Cloudflare One, which translates complex security signals into human-readable guidance for security teams and end-users. This improvement is particularly relevant for Cloudflare Email Security, where users can now understand why a message was flagged before escalating it to the security operations center (SOC).\n\n**Key Technical Details:**\n\n* Cloudy uses large language models (LLMs) to generate human-readable explanations for security detections.\n* The explanation layer is integrated directly into Cloudflare One, allowing for seamless access to contextual guidance.\n* Cloudflare Email Security now provides LLM-powered summaries for detections, enabling users to understand the reasoning behind flagged messages.\n* Phishnet, a tool for submitting suspicious messages to the SOC, will now include clearer explanations and contextual education to help users make better decisions.\n\n**Practical Implications for Developers:**\n\n* Cloudy's LLM-powered explanations can be integrated into various security workflows, including Phishnet and API CASB.\n* Developers can leverage Cloudflare's API to access and utilize Cloudy's explanation layer in their own applications.\n* By providing clearer explanations and contextual guidance, Cloudy can help reduce unnecessary noise and improve decision-making in security operations.",
+  "authors": [
+    "Ayush Kumar",
+    "Alex Dunbrack"
+  ],
+  "categories": [
+    "Email Security",
+    "Security",
+    "Cloudflare One",
+    "CASB"
+  ],
+  "guid": "6S9GOOoOPdJX0xziMyNShi"
+}
