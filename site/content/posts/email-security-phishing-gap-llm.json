@@ -1,0 +1,18 @@
+{
+  "slug": "email-security-phishing-gap-llm",
+  "title": "From reactive to proactive: closing the phishing gap with LLMs",
+  "url": "https://blog.cloudflare.com/email-security-phishing-gap-llm/",
+  "publishedAt": "Tue, 03 Mar 2026 06:00:00 GMT",
+  "summary": "**AI-Generated Summary**: This is an automated summary of a Cloudflare blog post created using AI. For the full details and context, please read the original post.\n\n**Closing the Phishing Gap with LLMs: A Proactive Approach to Email Security**\n\nCloudflare has integrated Large Language Models (LLMs) into its email security tools to enhance phishing protection and move from reactive to proactive detection. Traditional email security systems rely on user-reported misses, which are inherently reactive and often driven by what attackers have already succeeded at. In contrast, LLMs can systematically observe the \"planes that didn't make it back\" by analyzing millions of messages and characterizing complex concepts like intent, urgency, and deception.\n\n**Key Technical Details:**\n\n* LLMs use deep learning and massive datasets to predict the next token in a sequence, allowing them to understand context and nuance.\n* Cloudflare processes millions of unwanted emails daily, which were previously not feasible to deeply characterize beyond coarse classifications.\n* LLM-driven categorization shows clear spikes and persistent trends across several distinct categories, including \"PrizeNotification\" and \"SalesOutreach\".\n* Tasks that previously required hours of manual investigation and complex querying can now be surfaced automatically, with relevant context attached.\n\n**Practical Implications for Developers:**\n\n* Cloudflare's LLM-driven approach provides high-fidelity signals in near real-time, increasing the velocity at which new targeted Machine Learning models can be built or existing ones retrained to address emerging behaviors.\n* Developers can leverage this intelligence to build more effective email security solutions, focusing on proactive detection and prevention rather than reactive response.\n* The integration of LLMs into email security tools marks a significant shift towards a more proactive and comprehensive approach to threat detection and mitigation.",
+  "authors": [
+    "Sebastian Alovisi",
+    "Ayush Kumar"
+  ],
+  "categories": [
+    "Email Security",
+    "Security",
+    "Cloudflare One",
+    "Zero Trust"
+  ],
+  "guid": "6bn8ZofdSYZHfiOOkBl2qq"
+}
