@@ -1,0 +1,19 @@
+{
+  "slug": "deepfakes-insider-threats-identity-verification",
+  "title": "Defeating the deepfake: stopping laptop farms and insider threats",
+  "url": "https://blog.cloudflare.com/deepfakes-insider-threats-identity-verification/",
+  "publishedAt": "Wed, 04 Mar 2026 06:00:00 GMT",
+  "summary": "**AI-Generated Summary**: This is an automated summary of a Cloudflare blog post created using AI. For the full details and context, please read the original post.\n\n**Cloudflare Defeats Deepfakes with Identity-Verified Zero Trust**\n\nCloudflare has announced a partnership with Nametag to bring identity-verified onboarding and continuous identity assurance to its SASE platform, Cloudflare One. This move aims to close the identity assurance gap in zero trust onboarding models, which currently verify devices and credentials but not people. The partnership is a response to the growing threat of \"remote IT worker\" fraud, where attackers use stolen identities to infiltrate companies and steal intellectual property.\n\n**Key Technical Details**\n\n* Cloudflare Access serves as the aggregation layer for security policies, checking attributes such as device posture, location, and user group membership before granting access.\n* Nametag is integrated using OpenID Connect (OIDC) and can be configured as an IdP within Cloudflare Access or chained as an external evaluation factor.\n* The integration verifies the identity of users throughout the onboarding process, ensuring that the person receiving, configuring, and connecting a device to protected resources is a real person, a legitimate person, and the right person.\n\n**Practical Implications for Developers**\n\n* Developers can now use Cloudflare Access with Nametag to uncover and stop bad actors, including North Korean IT workers, before they gain access to internal resources or data.\n* The integration provides a critical new layer of security for organizations, allowing them to assume breach and verify every request, including user identity.\n* Developers can configure Nametag as an IdP within Cloudflare Access or chain it as an external evaluation factor, providing flexibility and customization options.",
+  "authors": [
+    "Ann Ming Samborski"
+  ],
+  "categories": [
+    "SASE",
+    "Cloudflare Zero Trust",
+    "Cloudflare One",
+    "Access",
+    "Cloudflare Access",
+    "Partners"
+  ],
+  "guid": "iteras2eloIu0LJ7zULaP"
+}
