@@ -1,0 +1,20 @@
+{
+  "slug": "adaptive-access-user-risk-scoring",
+  "title": "Stop reacting to breaches and start preventing them with User Risk Scoring",
+  "url": "https://blog.cloudflare.com/adaptive-access-user-risk-scoring/",
+  "publishedAt": "Wed, 04 Mar 2026 06:00:00 GMT",
+  "summary": "**AI-Generated Summary**: This is an automated summary of a Cloudflare blog post created using AI. For the full details and context, please read the original post.\n\n**Cloudflare Introduces User Risk Scoring to Enhance Zero Trust Network Access**\n\nCloudflare has announced the integration of User Risk Scoring into its Cloudflare One platform, enabling organizations to make more informed decisions about user access. This feature continuously calculates a risk score for each user based on their behavior, such as login attempts, device health, and data movement. Administrators can define which behaviors are considered high-risk and adjust access policies accordingly.\n\n**Key Technical Details:**\n\n* Cloudflare's risk engine evaluates telemetry from across the SASE platform, including logs from Cloudflare Access and Gateway, as well as third-party signals from partners like CrowdStrike and SentinelOne.\n* The calculation logic is deterministic, with three steps:\n\t1. Selection: Administrators choose which risk behaviors to enable.\n\t2. Aggregation: The engine identifies all risk events associated with a user.\n\t3. Scoring: A user's risk score is determined by the highest risk level of any enabled behavior.\n* Administrators can manually reset a user's score if an incident is cleared.\n* Adaptive Access policies can be created to automatically adjust access based on a user's risk score.\n\n**Practical Implications for Developers:**\n\n* Developers can now create more granular access policies based on user behavior, reducing the risk of security breaches.\n* The feature provides a more dynamic and adaptive approach to access control, ensuring that access is automatically adjusted based on changing user risk scores.\n* The integration with third-party signals and Cloudflare's risk engine provides a more comprehensive view of user risk, enabling more informed decision-making.",
+  "authors": [
+    "Nevins Bartolomeo",
+    "Noelle Kagan",
+    "Ann Ming Samborski"
+  ],
+  "categories": [
+    "Cloudflare Zero Trust",
+    "Cloudflare One",
+    "Access",
+    "Cloudflare Access",
+    "Cloudflare One User Risk Score"
+  ],
+  "guid": "1YQO5CPesGaryX68LLpSmv"
+}
