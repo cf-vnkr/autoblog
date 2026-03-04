@@ -1,0 +1,18 @@
+{
+  "slug": "gateway-authorization-proxy-identity-aware-policies",
+  "title": "Moving from license plates to badges: the Gateway Authorization Proxy",
+  "url": "https://blog.cloudflare.com/gateway-authorization-proxy-identity-aware-policies/",
+  "publishedAt": "Wed, 04 Mar 2026 06:00:00 GMT",
+  "summary": "**AI-Generated Summary**: This is an automated summary of a Cloudflare blog post created using AI. For the full details and context, please read the original post.\n\n**Introducing the Gateway Authorization Proxy: Simplifying Identity-Based Access Control**\n\nCloudflare has introduced the Gateway Authorization Proxy, a new feature that addresses the limitations of traditional proxy endpoint systems. By combining browser-native proxy capabilities with Cloudflare's global network, the Gateway Authorization Proxy enables granular policy enforcement and user verification on any device that can reach the internet. This solution is particularly useful for companies with unmanaged devices, such as those acquired through mergers and acquisitions, or those operating in highly regulated environments.\n\n**Key Technical Details**\n\nThe Gateway Authorization Proxy uses a Cloudflare Access-style login to verify user identity before enforcing Gateway filtering. This approach moves from a license plate-based system (where IP addresses are used to identify users) to a badge reader system (where each user has their own unique identity). The proxy uses signed JWT cookies to maintain user identity, but when visiting a new domain, the cookie is not present, and the user is redirected to Cloudflare Access for authentication.\n\n**Practical Implications for Developers**\n\nThe Gateway Authorization Proxy offers several benefits, including:\n\n* True identity integration: Logs related to proxy endpoints now show exactly which user is accessing which site.\n* Multiple identity providers: Large companies or those undergoing M&A can choose which identity providers to show users.\n* Simplified billing: Each user occupies a \"seat\" exactly like they do with the Cloudflare One Client, with no complicated new metrics to track.\n\n**Technical Hurdles Overcome**\n\nTo make this possible, Cloudflare had to overcome the technical hurdle of associating a user's identity with every request, without a device client. The solution involves using signed JWT cookies to maintain user identity and redirecting users to Cloudflare Access for authentication when visiting a new domain.",
+  "authors": [
+    "Ankur Aggarwal",
+    "Alex Holland"
+  ],
+  "categories": [
+    "SASE",
+    "Secure Web Gateway",
+    "Cloudflare Gateway",
+    "Cloudflare Zero Trust"
+  ],
+  "guid": "2K6ieiC5putSKvW7Jg65kR"
+}
