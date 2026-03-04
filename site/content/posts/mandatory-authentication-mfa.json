@@ -1,0 +1,23 @@
+{
+  "slug": "mandatory-authentication-mfa",
+  "title": "Mind the gap: new tools for continuous enforcement from boot to login",
+  "url": "https://blog.cloudflare.com/mandatory-authentication-mfa/",
+  "publishedAt": "Wed, 04 Mar 2026 14:00:00 GMT",
+  "summary": "**AI-Generated Summary**: This is an automated summary of a Cloudflare blog post created using AI. For the full details and context, please read the original post.\n\n**Closing the Gap in Network Security: Cloudflare's New Tools for Continuous Enforcement**\n\nCloudflare has introduced two new tools to modernize remote access and eliminate \"dark corners\" in network security: mandatory authentication and Cloudflare's own multi-factor authentication (MFA). These tools aim to close the visibility gap between device installation and user authentication, ensuring that every managed device is accounted for and secure.\n\n**Mandatory Authentication**\n\nMandatory authentication is a new feature that becomes the gatekeeper of Internet access from the moment a device boots up. When enabled via mobile device management (MDM) configuration, the Cloudflare One Client will block all Internet traffic by default and prompt users to authenticate, guiding them through the process. This ensures that every managed device is accounted for and secure, eliminating the risk of unknown devices accessing the network.\n\n**Cloudflare's Independent MFA**\n\nCloudflare's MFA is a secondary root of trust that lives at the network edge, independent of identity providers (IdPs). This step-up MFA requires users to \"sign off\" on any access to protected resources, even if their primary IdP credentials are compromised or spoofed. This adds an extra layer of security, ensuring that attackers will hit a wall when trying to access sensitive resources.\n\n**Practical Implications for Developers**\n\nThese new tools will have a significant impact on developers who use Cloudflare's services. Mandatory authentication will require developers to update their MDM configurations to enable this feature, while Cloudflare's MFA will require developers to integrate this step-up MFA into their applications. This will ensure that developers can provide a secure and seamless user experience for their users, while also protecting their applications and data from potential threats.",
+  "authors": [
+    "Alex Holland",
+    "Shahed El Baba",
+    "Yi Huang",
+    "Rhett Griggs"
+  ],
+  "categories": [
+    "Security Week",
+    "Cloudflare Zero Trust",
+    "Cloudflare One",
+    "Cloudflare Access",
+    "Access",
+    "Zero Trust",
+    "WARP"
+  ],
+  "guid": "KiwO7JTmCDekuq75t4Jf4"
+}
