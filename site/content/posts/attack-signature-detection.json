@@ -1,0 +1,18 @@
+{
+  "slug": "attack-signature-detection",
+  "title": "Always-on detections: eliminating the WAF “log versus block” trade-off",
+  "url": "https://blog.cloudflare.com/attack-signature-detection/",
+  "publishedAt": "Wed, 04 Mar 2026 15:00:00 GMT",
+  "summary": "**AI-Generated Summary**: This is an automated summary of a Cloudflare blog post created using AI. For the full details and context, please read the original post.\n\n**Eliminating the WAF \"Log versus Block\" Trade-off with Always-on Detections**\n\nCloudflare has introduced a new feature called Attack Signature Detection, which eliminates the traditional trade-off between logging and blocking malicious traffic. This feature is part of the company's managed rules and provides complete visibility into every signature match without sacrificing protection or performance. When enabled, Attack Signature Detection inspects every request for malicious payloads and attaches rich detection metadata before any action is taken.\n\n**Key Technical Details**\n\n* Attack Signature Detection is an always-on feature that separates detection from mitigation, allowing for continuous detection and enrichment of analytics with metadata about triggered detections.\n* The detection is executed on every request, and the results are immediately visible in Security Analytics.\n* The detection metadata is also added to the request as a new field, which customers can use to create custom policies within security rules.\n* The always-on framework does not introduce additional latency to the request, as the detection can be executed after the request has been sent to the origin server.\n\n**Practical Implications for Developers**\n\n* With Attack Signature Detection, developers can gain valuable insights into how their application is being attacked and can create precise mitigation policies based on past traffic.\n* The feature reduces the risk of false positives and provides a more accurate understanding of the threats facing the application.\n* Developers can use the detection metadata to create custom policies within security rules, allowing for more tailored and effective security measures.\n\n**Future Development**\n\n* Cloudflare is also developing Full-Transaction Detection, which will analyze the entire HTTP transaction (request and response) to uncover threats that others may miss.\n* Developers can register interest in Full-Transaction Detection and be among the first to try it when it's ready.",
+  "authors": [
+    "Daniele Molteni"
+  ],
+  "categories": [
+    "WAF",
+    "WAF Rules",
+    "Managed Rules",
+    "Vulnerabilities",
+    "Security Analytics"
+  ],
+  "guid": "1oOFMFJ55pkBU09IKiw8fm"
+}
