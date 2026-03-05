@@ -1,0 +1,23 @@
+{
+  "slug": "faster-sase-proxy-mode-quic",
+  "title": "A QUICker SASE client: re-building Proxy Mode",
+  "url": "https://blog.cloudflare.com/faster-sase-proxy-mode-quic/",
+  "publishedAt": "Thu, 05 Mar 2026 06:00:00 GMT",
+  "summary": "**AI-Generated Summary**: This is an automated summary of a Cloudflare blog post created using AI. For the full details and context, please read the original post.\n\n**Cloudflare Rebuilds Proxy Mode for Cloudflare One Client**\n\nCloudflare has revamped its proxy mode for the Cloudflare One Client, a key component of its SASE (Secure Access Service Edge) platform. The update addresses performance issues associated with the previous implementation, which used a Layer 3 (L3) protocol (WireGuard) to handle Layer 4 (L4) traffic. This caused inefficiencies, particularly on media-heavy sites, resulting in high latency and sluggish load times.\n\n**Technical Improvements**\n\nTo overcome these limitations, Cloudflare has introduced direct L4 proxying using QUIC (Quick UDP Internet Connections), a modern transport protocol that enables efficient and secure communication. The update leverages MASQUE (part of QUIC) for proxying IP packets and QUIC streams for direct L4 proxying. This architectural shift provides several technical advantages:\n\n1. **Bypassing smoltcp**: Eliminating the L3 translation layer removes IP packet handling and the limitations of smoltcp's TCP implementation.\n2. **Native QUIC benefits**: Cloudflare benefits from modern congestion control and flow control, handled natively by the transport layer.\n3. **Tuneability**: The Client and Cloudflare's edge can tune QUIC's parameters to optimize performance.\n\n**Practical Implications**\n\nThe update has significant implications for developers and users:\n\n1. **Improved performance**: Download and upload speeds have doubled, and latency has decreased significantly.\n2. **Unblocked use cases**: The update specifically unblocks three key common use cases:\n\t* Coexistence with third-party VPNs.\n\t* High-bandwidth application partitioning.\n\t* Streaming high-definition content or handling media-heavy sites.\n\nOverall, Cloudflare's rebuild of proxy mode for the Cloudflare One Client has addressed performance issues and introduced a more efficient and secure solution for handling L4 traffic.",
+  "authors": [
+    "Koko Uko",
+    "Logan Praneis",
+    "Gregor Maier"
+  ],
+  "categories": [
+    "SASE",
+    "Proxying",
+    "Cloudflare Zero Trust",
+    "Zero Trust",
+    "Cloudflare One",
+    "Cloudflare One Client",
+    "Connectivity",
+    "TCP"
+  ],
+  "guid": "11I7Snst3LH2T0tJC5HLbN"
+}
