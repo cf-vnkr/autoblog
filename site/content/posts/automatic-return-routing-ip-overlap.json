@@ -1,0 +1,18 @@
+{
+  "slug": "automatic-return-routing-ip-overlap",
+  "title": "How Automatic Return Routing solves IP overlap",
+  "url": "https://blog.cloudflare.com/automatic-return-routing-ip-overlap/",
+  "publishedAt": "Thu, 05 Mar 2026 06:00:00 GMT",
+  "summary": "**AI-Generated Summary**: This is an automated summary of a Cloudflare blog post created using AI. For the full details and context, please read the original post.\n\n**Automatic Return Routing (ARR) Solves IP Overlap Challenges**\n\nCloudflare has introduced Automatic Return Routing (ARR) in Closed Beta, a tool for Cloudflare One customers that enables flexible traffic routing without requiring IP routes in a routing table. This feature addresses the issue of IP overlap in private networks, where duplicate IP addresses can cause traders and administrators to make decisions on how to route traffic. ARR allows overlapping networks to coexist without the need for Network Address Translation (NAT) or complex Virtual Routing and Forwarding (VRF) configuration.\n\n**Key Technical Details**\n\nARR solves the ambiguity problem in enterprise networking by providing a flexible routing mechanism that can handle overlapping networks. The feature is designed to work with Cloudflare One, which is expanding to become the connectivity cloud for enterprise backbones. ARR is an optional tool that can be used to route traffic back to where it originated, eliminating the need for IP routes in a routing table.\n\n**Practical Implications for Developers**\n\nThe introduction of ARR has significant implications for developers working with Cloudflare One. By providing a flexible routing mechanism, ARR can simplify the management of overlapping networks and reduce administrative overhead. Developers can use ARR to route traffic back to where it originated, eliminating the need for complex VRF configurations or NAT mappings. This feature can help reduce the complexity of managing cross-VRF communication and route leaking, making it easier to manage and scale networks.\n\n**Timeline and Availability**\n\nARR is currently available in Closed Beta for Cloudflare One customers. The feature is expected to be widely available in the future, but a specific timeline has not been announced. Developers interested in trying ARR can sign up for the Closed Beta program to access the feature and provide feedback to the Cloudflare team.",
+  "authors": [
+    "Steve Welham",
+    "Lauren Joplin",
+    "Jackson Kruger",
+    "Thea Heinen"
+  ],
+  "categories": [
+    "SASE",
+    "Cloudflare One"
+  ],
+  "guid": "Fvm2xTFInpKNW6WLw63Bw"
+}
