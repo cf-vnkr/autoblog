@@ -1,0 +1,22 @@
+{
+  "slug": "client-dynamic-path-mtu-discovery",
+  "title": "Ending the \"silent drop\": how Dynamic Path MTU Discovery makes the Cloudflare One Client more resilient",
+  "url": "https://blog.cloudflare.com/client-dynamic-path-mtu-discovery/",
+  "publishedAt": "Thu, 05 Mar 2026 14:00:00 GMT",
+  "summary": "**AI-Generated Summary**: This is an automated summary of a Cloudflare blog post created using AI. For the full details and context, please read the original post.\n\n**Cloudflare Introduces Dynamic Path MTU Discovery in Cloudflare One Client**\n\nCloudflare has announced the implementation of Path MTU Discovery (PMTUD) in its Cloudflare One Client, a feature that enables the client to dynamically adjust to the optimal packet size for most network paths. This ensures that a user's connection remains stable, whether they are on a high-speed corporate backbone or a restrictive cellular network. The new feature uses active probing with PMTUD to remove the reliance on fragile, legacy feedback loops.\n\n**Key Technical Details:**\n\n* The Cloudflare One Client uses the MASQUE protocol, built on top of Cloudflare's open-source QUIC library, to perform active, end-to-end interrogation of the network path.\n* The client sends encrypted packets of varying sizes to the Cloudflare edge to test MTUs from the upper bound of the supported MTU range to the midpoint.\n* The client dynamically resizes its virtual interface MTU on the fly by periodically validating the capacity of the path established at connection onset.\n\n**Practical Implications for Developers:**\n\n* The new feature ensures that users can maintain a stable connection even when moving between different network paths with varying MTUs.\n* Developers can rely on the Cloudflare One Client to handle PMTUD, reducing the complexity of implementing this feature in their own applications.\n* The Cloudflare One Client's dynamic MTU adjustment ensures that applications can continue to function smoothly even when faced with network constraints.",
+  "authors": [
+    "Koko Uko",
+    "Rhett Griggs",
+    "Todd Murray"
+  ],
+  "categories": [
+    "Security Week",
+    "Cloudflare Zero Trust",
+    "Cloudflare One",
+    "Cloudflare One Client",
+    "Zero Trust",
+    "Connectivity",
+    "SASE"
+  ],
+  "guid": "XzwjagUzAbLvFCj2KNgGB"
+}
