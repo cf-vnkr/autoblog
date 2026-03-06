@@ -1,0 +1,20 @@
+{
+  "slug": "unified-data-security",
+  "title": "From the endpoint to the prompt: a unified data security vision in Cloudflare One",
+  "url": "https://blog.cloudflare.com/unified-data-security/",
+  "publishedAt": "Fri, 06 Mar 2026 14:00:00 GMT",
+  "summary": "**AI-Generated Summary**: This is an automated summary of a Cloudflare blog post created using AI. For the full details and context, please read the original post.\n\n**Cloudflare One Unifies Data Security Vision**\n\nCloudflare One has expanded its security suite to cover not only network traffic but also endpoint and SaaS application security. The company's core mission is to provide data security as the foundation of enterprise security. This vision is centered around a single model that follows data across its movement, encompassing protection in transit, visibility and control at rest, enforcement in use, and now, coverage at the prompt.\n\n**Key Updates and Features**\n\nCloudflare One has introduced several updates to push this vision forward:\n\n1. **Browser-based RDP Clipboard Controls**: Cloudflare One now offers clipboard controls for browser-based RDP, allowing administrators to decide whether users can copy or paste information between their local device and the browser-based RDP session.\n2. **Operation Mapping in Logs**: Cloudflare One provides operation mapping to give visibility to user actions inside SaaS apps, simplifying the process of tuning remote access controls.\n3. **Endpoint Data Loss Prevention (DLP)**: Cloudflare One offers endpoint DLP to prevent sensitive data from leaving the organization.\n4. **AI Security Scanning for Microsoft 365 Copilot**: Cloudflare One will integrate AI security scanning for Microsoft 365 Copilot, providing an additional layer of security for enterprise data.\n\n**Practical Implications for Developers**\n\nThese updates and features are significant for developers working on enterprise security solutions. They provide a unified data security vision that follows data across its movement, reducing the complexity of implementing multiple security controls. By using Cloudflare One, developers can:\n\n* Provide granular control over data movement, reducing the risk of data breaches.\n* Gain visibility into user actions inside SaaS apps, simplifying the process of tuning remote access controls.\n* Integrate AI security scanning for Microsoft 365 Copilot, providing an additional layer of security for enterprise data.\n\nOverall, Cloudflare One's unified data security vision provides a comprehensive security suite that covers network traffic, endpoint, and SaaS application security, making it an attractive solution for developers working on enterprise security solutions.",
+  "authors": [
+    "Alex Dunbrack"
+  ],
+  "categories": [
+    "Cloudflare One",
+    "Data Protection",
+    "CASB",
+    "Cloudflare Access",
+    "WARP",
+    "DLP",
+    "Cloudflare Gateway"
+  ],
+  "guid": "66d1PG4KE6FjrBqG2OqMCW"
+}
