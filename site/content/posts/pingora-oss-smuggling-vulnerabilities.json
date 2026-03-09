@@ -1,0 +1,19 @@
+{
+  "slug": "pingora-oss-smuggling-vulnerabilities",
+  "title": "Fixing request smuggling vulnerabilities in Pingora OSS deployments",
+  "url": "https://blog.cloudflare.com/pingora-oss-smuggling-vulnerabilities/",
+  "publishedAt": "Mon, 09 Mar 2026 14:00:00 GMT",
+  "summary": "**AI-Generated Summary**: This is an automated summary of a Cloudflare blog post created using AI. For the full details and context, please read the original post.\n\n**Pingora OSS Deployment Vulnerabilities: Fixing Request Smuggling Issues**\n\nCloudflare has addressed HTTP/1.x request smuggling vulnerabilities in the Pingora open source framework, specifically when used as an ingress proxy. The vulnerabilities, reported in December 2025, are CVE-2026-2833, CVE-2026-2835, and CVE-2026-2836. These issues were responsibly disclosed by Rajat Raghav (xclow3n) through Cloudflare's Bug Bounty Program.\n\n**Vulnerability Overview**\n\nThe vulnerabilities allow attackers to bypass Pingora proxy-layer security controls, desync HTTP request/responses with backends for cross-user hijacking attacks (session or credential theft), and poison Pingora proxy-layer caches retrieving content from shared backends. The issues arise from Pingora's non-RFC-compliant interpretations of request bodies within its HTTP/1 stack.\n\n**Fix and Recommendations**\n\nCloudflare has released Pingora 0.8.0 with fixes and hardening. While Cloudflare customers were not affected, users of the Pingora framework are strongly recommended to upgrade as soon as possible to prevent potential security risks.\n\n**Practical Implications for Developers**\n\nDevelopers using Pingora as an ingress proxy should prioritize upgrading to Pingora 0.8.0 to ensure the security of their applications. Additionally, they should review their HTTP/1.1 Upgrade process to ensure compliance with RFC 9110 and prevent potential desync attacks.",
+  "authors": [
+    "Edward Wang",
+    "Fei Deng",
+    "Andrew Hauck"
+  ],
+  "categories": [
+    "Pingora",
+    "Application Security",
+    "Open Source",
+    "Security"
+  ],
+  "guid": "1b0iJgL57wbfiLHXhEjuwR"
+}
