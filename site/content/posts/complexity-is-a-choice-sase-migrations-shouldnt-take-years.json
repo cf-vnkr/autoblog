@@ -1,0 +1,15 @@
+{
+  "slug": "complexity-is-a-choice-sase-migrations-shouldnt-take-years",
+  "title": "Complexity is a choice. SASE migrations shouldn’t take years.",
+  "url": "https://blog.cloudflare.com/complexity-is-a-choice-sase-migrations-shouldnt-take-years/",
+  "publishedAt": "Mon, 09 Mar 2026 06:00:00 GMT",
+  "summary": "**AI-Generated Summary**: This is an automated summary of a Cloudflare blog post created using AI. For the full details and context, please read the original post.\n\n**Cloudflare One Accelerates SASE Migrations by Weeks, Not Years**\n\nCloudflare is challenging the traditional approach to Secure Access Service Edge (SASE) migrations, which often take years to complete. By leveraging its agile SASE platform, Cloudflare One, partners like TachTech and Adapture have compressed migration timelines from 18 months to just six weeks. This rapid transition is made possible by a unified connectivity cloud that replaces legacy tools with robust telemetry and a global network.\n\n**Key Technical Details:**\n\n* Cloudflare One decouples security policy from the physical network, eliminating the need for complex service chaining and reducing latency.\n* Identity-first on-ramps use existing identity provider (IdP) groups to define access, while consolidated policy engines enable a single pass for both Secure Web Gateway (SWG) and Zero Trust Network Access (ZTNA).\n* Cloud-native connectors, such as cloudflared, provide instant connectivity without opening inbound firewall ports.\n\n**Practical Implications for Developers:**\n\n* Cloudflare One's software-defined and extensible architecture allows partners to unblock specific requirements without compromising the organization's overall security posture.\n* The platform's ease of use and rapid deployment capabilities enable organizations to scale at the speed of business, bypassing legacy deployment hurdles.\n* By leveraging Cloudflare One, developers can focus on building secure, agile, and scalable applications, rather than getting bogged down in complex migration processes.",
+  "authors": [
+    "Warnessa Weaver"
+  ],
+  "categories": [
+    "SASE",
+    "Cloudflare One"
+  ],
+  "guid": "2trwfE3PdI9gDi9VrtnlMc"
+}
