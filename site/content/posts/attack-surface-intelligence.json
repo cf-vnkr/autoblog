@@ -1,0 +1,18 @@
+{
+  "slug": "attack-surface-intelligence",
+  "title": "Translating risk insights into actionable protection: leveling up security posture with Cloudflare and Mastercard",
+  "url": "https://blog.cloudflare.com/attack-surface-intelligence/",
+  "publishedAt": "Tue, 10 Mar 2026 05:00:00 GMT",
+  "summary": "**AI-Generated Summary**: This is an automated summary of a Cloudflare blog post created using AI. For the full details and context, please read the original post.\n\n**Cloudflare and Mastercard Partner to Enhance Security Posture Management**\n\nCloudflare and Mastercard are collaborating to integrate Mastercard's RiskRecon attack surface intelligence capabilities into the Cloudflare dashboard. This integration will enable continuous discovery, monitoring, and remediation of internet-facing blind spots, providing security teams with real-time visibility into external vulnerabilities. The partnership aims to address the growing challenge of \"target-rich, resource-poor\" environments, where unmanaged infrastructure becomes an easy entry point for attackers.\n\n**Key Technical Details and Practical Implications**\n\nMastercard's RiskRecon attack surface intelligence identifies and prioritizes external vulnerabilities by mapping an organization's entire internet footprint using publicly accessible data. This outside-in scanner can be deployed instantly to uncover \"shadow IT,\" forgotten subdomains, and unauthorized cloud servers that internal, credentialed scans often miss. By integrating this capability with Cloudflare's proxy, organizations can secure these blind spots by routing traffic through Cloudflare's proxy, allowing for the immediate deployment of security controls without changing the underlying website or application.\n\nAccording to a 2025 study by Mastercard, organizations with significant cybersecurity posture gaps in areas such as unpatched software, exposed services, weak application security, and outdated web encryption were 5.3x more likely to be hit by a ransomware attack and 3.6x more likely to suffer a data breach compared to companies that maintain good cybersecurity hygiene. By leveraging this integration, organizations can proactively close security gaps before they can be exploited, reducing the risk of breaches and improving their overall security posture.",
+  "authors": [
+    "Bashyam Anant",
+    "Kelly White (Guest author)"
+  ],
+  "categories": [
+    "Security Posture Management",
+    "Security Posture",
+    "Application Security",
+    "Risk Management"
+  ],
+  "guid": "50TFdPHZwAQHUcskN0xNgX"
+}
