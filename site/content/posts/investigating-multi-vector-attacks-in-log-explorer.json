@@ -1,0 +1,23 @@
+{
+  "slug": "investigating-multi-vector-attacks-in-log-explorer",
+  "title": "Investigating multi-vector attacks in Log Explorer",
+  "url": "https://blog.cloudflare.com/investigating-multi-vector-attacks-in-log-explorer/",
+  "publishedAt": "Tue, 10 Mar 2026 13:00:00 GMT",
+  "summary": "**AI-Generated Summary**: This is an automated summary of a Cloudflare blog post created using AI. For the full details and context, please read the original post.\n\n**Cloudflare Log Explorer Enhances Security Forensics with Multi-Vector Attack Detection**\n\nCloudflare has introduced significant enhancements to its Log Explorer, a powerful tool for security forensics and incident response. By integrating 14 new datasets, Log Explorer now provides 360-degree visibility into multi-vector attacks, enabling security analysts to detect and respond to sophisticated threats more effectively. The new datasets cover various aspects of Cloudflare's Application Services and Cloudflare One product portfolios, including application-layer HTTP requests, network-layer DDoS and Firewall logs, and Zero Trust Access events.\n\n**Key Features and Implications for Developers**\n\nThe updated Log Explorer supports various log types, including:\n\n* Zone-Scoped Logs: Website traffic, security events, and edge performance\n* HTTP Requests: Comprehensive dataset for reconstructing session activity, exploit attempts, and bot patterns\n* Firewall Events: Critical evidence of blocked or challenged threats\n* DNS Logs: Identify cache poisoning attempts, domain hijacking, and infrastructure-level reconnaissance\n* NEL (Network Error Logging) Reports: Distinguish between coordinated DDoS attacks and legitimate network connectivity issues\n* Spectrum Events: Visibility into L4 traffic (TCP/UDP) for non-web applications\n* Page Shield: Track and audit unauthorized changes to client-side environment\n* Zaraz Events: Examine third-party tool interactions with user data\n\nThese enhancements enable developers to:\n\n* Detect and respond to multi-vector attacks more effectively\n* Improve Mean Time to Detect (MTTD) and Mean Time to Respond (MTTR)\n* Gain deeper insights into application performance, security, and user behavior\n* Enhance overall security posture and compliance with regulatory requirements\n\nBy leveraging the updated Log Explorer, developers can strengthen their security defenses and improve incident response capabilities, ultimately reducing the risk of data breaches and other security incidents.",
+  "authors": [
+    "Jen Sells",
+    "Claudio Jolowicz",
+    "Nico Gutierrez"
+  ],
+  "categories": [
+    "Analytics",
+    "Logs",
+    "Security",
+    "R2",
+    "Storage",
+    "SIEM",
+    "Product News",
+    "Connectivity Cloud"
+  ],
+  "guid": "1hirraqs3droftHovXp1G6"
+}
