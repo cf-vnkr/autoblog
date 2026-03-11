@@ -1,0 +1,18 @@
+{
+  "slug": "rfc-9457-agent-error-pages",
+  "title": "Slashing agent token costs by 98% with RFC 9457-compliant error responses",
+  "url": "https://blog.cloudflare.com/rfc-9457-agent-error-pages/",
+  "publishedAt": "Wed, 11 Mar 2026 13:00:00 GMT",
+  "summary": "**AI-Generated Summary**: This is an automated summary of a Cloudflare blog post created using AI. For the full details and context, please read the original post.\n\n**Cloudflare Introduces RFC 9457-Compliant Error Responses for AI Agents**\n\nCloudflare has announced a significant improvement in its error response handling for AI agents, reducing agent token costs by over 98%. The company now returns RFC 9457-compliant structured Markdown and JSON error payloads to AI agents, replacing heavyweight HTML pages with machine-readable instructions. This enhancement allows agents to receive actionable guidance on how to handle errors, such as retrying with exponential backoff or contacting the site owner.\n\n**Key Technical Details**\n\n* Cloudflare returns RFC 9457-compliant structured responses for all 1xxx-class error paths, including DNS resolution issues, access denials, and rate limits.\n* Agents can request specific formats, such as Markdown, JSON, or application/problem+json, by including the corresponding `Accept` header.\n* Structured error responses are live across the Cloudflare network, automatically, without requiring site owners to configure anything.\n\n**Practical Implications for Developers**\n\n* AI agents can now handle Cloudflare errors more efficiently, reducing token usage and improving overall performance.\n* Developers can rely on a consistent default machine response from Cloudflare, making it easier to handle errors in their applications.\n* The introduction of structured error responses enables agents to receive actionable guidance, reducing the need for manual intervention and improving overall system reliability.",
+  "authors": [
+    "Sam Marsh"
+  ],
+  "categories": [
+    "AI",
+    "Developer Platform",
+    "Developers",
+    "WAF",
+    "Edge Computing"
+  ],
+  "guid": "46xdz0GQfFtpCKRKNbfj3b"
+}
