@@ -1,0 +1,21 @@
+{
+  "slug": "ai-security-for-apps-ga",
+  "title": "AI Security for Apps is now generally available",
+  "url": "https://blog.cloudflare.com/ai-security-for-apps-ga/",
+  "publishedAt": "Wed, 11 Mar 2026 13:00:00 GMT",
+  "summary": "**AI-Generated Summary**: This is an automated summary of a Cloudflare blog post created using AI. For the full details and context, please read the original post.\n\n**Cloudflare Announces General Availability of AI Security for Apps**\n\nCloudflare has announced the general availability of AI Security for Apps, a solution designed to detect and mitigate threats to AI-powered applications. This new capability is part of Cloudflare's reverse proxy and is now available to all customers, including those on Free, Pro, and Business plans. AI Security for Apps provides three key benefits: (1) discovery of AI-powered apps across web properties, (2) detection of malicious or off-policy behavior, and (3) mitigation of threats via the WAF rule builder.\n\n**Key Technical Details**\n\nAI Security for Apps uses a detection system that looks at how endpoints behave, rather than just their names or path patterns. This approach allows it to identify AI-powered endpoints that don't have a traditional chat interface, such as product search or recommendation engines. The system requires sufficient valid traffic to confidently identify AI-powered endpoints, which are then visible under Security → Web Assets, labeled as cf-llm.\n\n**Practical Implications for Developers**\n\nWith AI Security for Apps, developers can now gain visibility into where AI is deployed across their Internet-facing apps, regardless of where the models are hosted or what provider is used. This capability is essential for identifying and mitigating threats to AI-powered applications, which are increasingly being used to interact with customers and process sensitive data. By using AI Security for Apps, developers can ensure that their AI-powered applications are secure and compliant with industry standards.\n\n**Expanded Collaboration and Partnerships**\n\nCloudflare has also announced an expanded collaboration with IBM, which has chosen Cloudflare to deliver AI security to its cloud customers. Additionally, Cloudflare is partnering with Wiz to give mutual customers a unified view of their AI security posture. These partnerships demonstrate Cloudflare's commitment to providing a comprehensive and integrated security solution for AI-powered applications.",
+  "authors": [
+    "Liam Reese",
+    "Zhiyuan Zheng",
+    "Catherine Newcomb"
+  ],
+  "categories": [
+    "Product News",
+    "AI",
+    "WAF",
+    "Security",
+    "Application Security",
+    "Application Services"
+  ],
+  "guid": "4MBDCV6FV61Xbyav3cW8Xy"
+}
