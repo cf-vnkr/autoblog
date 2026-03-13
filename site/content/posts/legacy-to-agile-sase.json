@@ -1,0 +1,16 @@
+{
+  "slug": "legacy-to-agile-sase",
+  "title": "From legacy architecture to Cloudflare One",
+  "url": "https://blog.cloudflare.com/legacy-to-agile-sase/",
+  "publishedAt": "Mon, 16 Mar 2026 05:00:00 GMT",
+  "summary": "**AI-Generated Summary**: This is an automated summary of a Cloudflare blog post created using AI. For the full details and context, please read the original post.\n\n**Migrating to Cloudflare One: A Strategic Roadmap for Zero Trust Adoption**\n\nCloudflare and Technology Solutions Provider CDW are collaborating to provide a strategic roadmap for organizations to migrate to Cloudflare One, a global Zero Trust platform. This approach aims to de-risk the journey by leveraging partner expertise and a risk-aware, tiered methodology. The traditional \"big bang\" migration approach is often fraught with risks, including misconfigured firewall rules and timed-out sessions, which can lead to operational gridlock. By treating migration as an application modernization project, CDW ensures that security requirements are built into the foundation of the move rather than bolted on as an afterthought.\n\n**Key Technical Details**\n\nCloudflare Access is the foundation of the solution, replacing the broad, vulnerable perimeter of a traditional VPN with a Zero Trust model. This evaluates every single request based on identity, device posture, and other contextual signals, significantly reducing the attack surface and preventing lateral movement. To modernize legacy applications, Cloudflare Access is used to \"wrap\" them in a secure layer, using a specific logic to mitigate risks such as lack of Multi-Factor Authentication (MFA). This approach effectively hides the application from the public Internet, as it no longer has a public IP address.\n\n**Practical Implications for Developers**\n\nDevelopers can benefit from this approach by:\n\n* Understanding the value of Cloudflare Access as a Zero Trust model that evaluates every single request based on identity, device posture, and other contextual signals.\n* Learning how to modernize legacy applications by \"wrapping\" them in Cloudflare Access, using a specific logic to mitigate risks such as lack of MFA.\n* Appreciating the strategic roadmap provided by Cloudflare and CDW, which leverages partner expertise and a risk-aware, tiered methodology to de-risk the journey to Zero Trust adoption.",
+  "authors": [
+    "Warnessa Weaver"
+  ],
+  "categories": [
+    "Cloudflare One",
+    "SASE",
+    "Partners"
+  ],
+  "guid": "12Trubi4t23iB1Q6AlcjYH"
+}
