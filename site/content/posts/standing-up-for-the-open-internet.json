@@ -1,0 +1,19 @@
+{
+  "slug": "standing-up-for-the-open-internet",
+  "title": "Standing up for the open Internet: why we appealed Italy’s \"Piracy Shield\" fine",
+  "url": "https://blog.cloudflare.com/standing-up-for-the-open-internet/",
+  "publishedAt": "Mon, 16 Mar 2026 19:00:00 GMT",
+  "summary": "**AI-Generated Summary**: This is an automated summary of a Cloudflare blog post created using AI. For the full details and context, please read the original post.\n\n**Cloudflare Appeals €14 Million Fine for Challenging Italy's \"Piracy Shield\"**\n\nCloudflare has appealed a €14 million fine imposed by the Italian communications regulator, AGCOM, for resisting the registration of \"Piracy Shield,\" a controversial Italian regulatory scheme designed to protect large rightsholder interests at the expense of the broader Internet. The scheme, marketed as an innovative tool to fight copyright infringement, operates as a \"black box\" where private companies can submit websites and IP addresses for blocking without judicial oversight, transparency, or due process.\n\n**Key Technical Details**\n\n* Piracy Shield requires service providers to engage in IP address blocking, which creates an unavoidable risk of overblocking innocent websites due to shared IP addresses.\n* The scheme has a 30-minute deadline for blocking, which is unworkable and has led to significant problems, including:\n\t+ Outages for legitimate sites, including government and educational websites.\n\t+ Disruption of small businesses and NGOs focused on social programs.\n\t+ Loss of essential services, such as access to Google Drive.\n\t+ Persistent collateral blocking.\n\n**Practical Implications for Developers**\n\n* The Piracy Shield scheme highlights the importance of transparency, due process, and oversight in Internet regulation.\n* Developers should be aware of the risks of overblocking and the potential for collateral damage when implementing IP address blocking.\n* The case also underscores the need for robust safeguards to prevent the misuse of regulatory schemes and protect the rights of Internet users.\n\nBy appealing the fine, Cloudflare continues to challenge the legality of Piracy Shield and advocate for a more open and transparent Internet.",
+  "authors": [
+    "Patrick Nemeroff",
+    "Emily Terrell"
+  ],
+  "categories": [
+    "Policy & Legal",
+    "Privacy",
+    "Transparency",
+    "Internet Regulation",
+    "Cybersecurity"
+  ],
+  "guid": "6V4c3s6W2nqoSNaUeUpqWX"
+}
