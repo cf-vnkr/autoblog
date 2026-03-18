@@ -1,0 +1,17 @@
+{
+  "slug": "custom-regions",
+  "title": "Introducing Custom Regions for precision data control",
+  "url": "https://blog.cloudflare.com/custom-regions/",
+  "publishedAt": "Wed, 18 Mar 2026 13:00:00 GMT",
+  "summary": "**AI-Generated Summary**: This is an automated summary of a Cloudflare blog post created using AI. For the full details and context, please read the original post.\n\n**Introducing Custom Regions for Precision Data Control**\n\nCloudflare has expanded its Regional Services product to include four new pre-defined regions: Turkey, the United Arab Emirates (UAE), IRAP (Australian compliance), and ISMAP (Japanese compliance). Additionally, the company is introducing Custom Regions, a new feature that allows customers to define their own geographical boundaries for traffic processing.\n\n**Key Technical Details**\n\nRegional Services leverages Cloudflare's global network to provide local compliance and global-scale security. Traffic is ingested at the closest Cloudflare data center, where DDoS mitigation is applied at the network and transport layers. Intelligent in-region routing ensures that traffic is forwarded to a data center within the customer's specified region, using the most performant pathway. In-region TLS termination and L7 processing occur only once the traffic is confirmed to be within the chosen region.\n\n**Practical Implications for Developers**\n\nCustom Regions give developers the power to define their own geographical boundaries for traffic processing, unlocking a new level of control. This flexibility can be used to regionalize AI inference, launch hyper-targeted promotions, and optimize for performance and data localization legal obligations. With Custom Regions, developers can choose from a list of countries, unique combinations of countries, or exclude a set of countries from a region, providing a high degree of customization.\n\n**Timeline**\n\nCloudflare has already added 35 regions to its Regional Services product, including the new pre-defined regions of Turkey, the UAE, IRAP, and ISMAP. Custom Regions are launching today, providing customers with the ability to request a custom region that meets their account needs.",
+  "authors": [
+    "Andrew Berglund",
+    "Erik Engstrom"
+  ],
+  "categories": [
+    "Regional Services",
+    "Data Localization Suite",
+    "Data Sovereignty"
+  ],
+  "guid": "7zfn4cHE2C5bgEo1cWSL4u"
+}
