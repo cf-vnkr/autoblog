@@ -1,0 +1,22 @@
+{
+  "slug": "workers-ai-large-models",
+  "title": "Powering the agents: Workers AI now runs large models, starting with Kimi K2.5",
+  "url": "https://blog.cloudflare.com/workers-ai-large-models/",
+  "publishedAt": "Thu, 19 Mar 2026 19:53:16 GMT",
+  "summary": "**AI-Generated Summary**: This is an automated summary of a Cloudflare blog post created using AI. For the full details and context, please read the original post.\n\n**Cloudflare Workers AI Now Runs Large Models, Starting with Kimi K2.5**\n\nCloudflare has announced that its Workers AI platform now supports large models, starting with Moonshot AI's Kimi K2.5 model. This model has a full 256k context window and supports multi-turn tool calling, vision inputs, and structured outputs, making it suitable for a wide range of agentic tasks. With this update, developers can now run the entire agent lifecycle on a single, unified platform, eliminating the need for multiple infrastructure components.\n\n**Key Technical Details and Practical Implications**\n\nThe Kimi K2.5 model has been integrated into Cloudflare's internal development tools and automated code review pipeline, demonstrating its efficiency and cost-effectiveness. In production, the model has proven to be a fast and efficient alternative to larger proprietary models without sacrificing quality. For example, an agent that processes over 7B tokens per day using Kimi has caught more than 15 confirmed issues in a single codebase, while saving 77% of the costs compared to running on a mid-tier proprietary model.\n\n**Large Model Inference Stack and Future Plans**\n\nCloudflare has made changes to its inference stack to support large models like Kimi K2.5. The company plans to continue facilitating the shift to open-source models that offer frontier-level reasoning without the proprietary price tag. Workers AI will provide everything from serverless endpoints for personal agents to dedicated instances powering autonomous agents across entire organizations.",
+  "authors": [
+    "Michelle Chen",
+    "Kevin Flansburg",
+    "Ashish Datta",
+    "Kevin Jain"
+  ],
+  "categories": [
+    "Developer Platform",
+    "Developers",
+    "Workers AI",
+    "Cloudflare Workers",
+    "AI",
+    "Agents"
+  ],
+  "guid": "1wSO33KRdd5aUPAlSVDiqU"
+}
