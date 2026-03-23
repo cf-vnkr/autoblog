@@ -1,0 +1,21 @@
+{
+  "slug": "gen13-launch",
+  "title": "Launching Cloudflare’s Gen 13 servers: trading cache for cores for 2x edge compute performance",
+  "url": "https://blog.cloudflare.com/gen13-launch/",
+  "publishedAt": "Mon, 23 Mar 2026 13:00:00 GMT",
+  "summary": "**AI-Generated Summary**: This is an automated summary of a Cloudflare blog post created using AI. For the full details and context, please read the original post.\n\n**Cloudflare Launches Gen 13 Servers with 2x Edge Compute Performance**\n\nCloudflare has announced the launch of its Gen 13 servers, powered by AMD EPYC 5th Gen Turin-based processors. The new servers feature a significant increase in core count, up to 192 cores, and improved instructions-per-cycle (IPC) compared to the previous Gen 12 servers. However, the Turin processors make a deliberate tradeoff by prioritizing throughput over per-core cache, resulting in a significant reduction in L3 cache per core.\n\n**Key Technical Details:**\n\n* Gen 13 servers feature up to 192 cores and 384 threads, compared to 96 cores and 192 threads on Gen 12 servers.\n* The Turin processors deliver improved IPC and better power efficiency, consuming up to 32% fewer watts per core compared to Genoa-X processors.\n* The new servers support DDR5-6400 memory, providing higher memory bandwidth to feed the increased core count.\n* However, the Turin processors have a higher density OPN, resulting in a reduction in L3 cache per core, from 12MB on Gen 12 to 2MB on Gen 13.\n\n**Practical Implications for Developers:**\n\n* The reduction in L3 cache per core may result in increased latency and memory fetch latency for workloads that rely heavily on cache locality.\n* Developers may need to optimize their code to take advantage of the increased core count and improved IPC, while also managing the reduced cache capacity.\n* Cloudflare's FL2 request handling layer, a Rust-based rewrite of its core request handling layer, has been optimized to take advantage of the Gen 13 servers and their increased performance capabilities.\n\n**Timeline:**\n\n* Cloudflare has announced the launch of its Gen 13 servers, with the new hardware available for deployment.\n* Developers can expect to see improved performance and throughput on Cloudflare's edge network, with the potential for increased latency and memory fetch latency for workloads that rely heavily on cache locality.",
+  "authors": [
+    "Syona Sarma",
+    "JQ Lau",
+    "Jesse Brandeburg"
+  ],
+  "categories": [
+    "Hardware",
+    "Performance",
+    "Infrastructure",
+    "Rust",
+    "AMD",
+    "Engineering"
+  ],
+  "guid": "4shbA7eyT2KredK7RJyizK"
+}
