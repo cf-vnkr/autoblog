@@ -1,0 +1,20 @@
+{
+  "slug": "gen13-config",
+  "title": "Inside Gen 13: how we built our most powerful server yet",
+  "url": "https://blog.cloudflare.com/gen13-config/",
+  "publishedAt": "Mon, 23 Mar 2026 13:00:00 GMT",
+  "summary": "**AI-Generated Summary**: This is an automated summary of a Cloudflare blog post created using AI. For the full details and context, please read the original post.\n\n**Cloudflare's Gen 13 Server: A Technical Overview**\n\nCloudflare has introduced its latest server design, Gen 13, which leverages the 5th generation AMD EPYC Turin processor. This new design aims to improve performance, efficiency, and scalability while reducing data center expansion costs. Key features of Gen 13 include:\n\n* **Up to 2x throughput compared to Gen 12** while maintaining latency SLA\n* **Up to 50% improvement in performance/watt efficiency**, reducing data center expansion costs\n* **Up to 60% higher throughput per rack** while keeping rack power budget constant\n* **2x memory capacity**, **1.5x storage capacity**, and **4x network bandwidth** compared to Gen 12\n* **Introduced PCIe encryption hardware support** in addition to memory encryption\n* **Improved support for thermally demanding powerful drop-in PCIe accelerators**\n\nThe Gen 13 server is designed with a 192-core AMD EPYC 9965 Turin processor, 768 GB of DDR5-6400 memory, 24 TB of PCIe 5.0 NVMe storage, and dual 100 GbE port network interface card. The selection of the AMD Turin 9965 processor was based on its ability to balance core count, efficiency, and power consumption. The 9965 has 192 cores, 384 MB of L3 cache, and a maximum configurable TDP of 500W.\n\n**Key Takeaways for Developers**\n\n* Gen 13 servers offer significant performance and efficiency improvements compared to Gen 12\n* The AMD Turin 9965 processor provides a good balance of core count, efficiency, and power consumption\n* Developers can expect improved performance, scalability, and reduced data center expansion costs with Gen 13 servers\n* The introduction of PCIe encryption hardware support and improved support for thermally demanding accelerators provide additional benefits for developers.",
+  "authors": [
+    "Syona Sarma",
+    "JQ Lau",
+    "Ma Xiong",
+    "Victor Hwang"
+  ],
+  "categories": [
+    "Hardware",
+    "Infrastructure",
+    "Engineering",
+    "AMD"
+  ],
+  "guid": "7KkjVfneO6PwoHTEAiSYVM"
+}
