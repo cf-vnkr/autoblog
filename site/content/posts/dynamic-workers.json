@@ -1,0 +1,20 @@
+{
+  "slug": "dynamic-workers",
+  "title": "Sandboxing AI agents, 100x faster",
+  "url": "https://blog.cloudflare.com/dynamic-workers/",
+  "publishedAt": "Tue, 24 Mar 2026 13:00:00 GMT",
+  "summary": "**AI-Generated Summary**: This is an automated summary of a Cloudflare blog post created using AI. For the full details and context, please read the original post.\n\n**Sandboxing AI Agents with Dynamic Worker Loader**\n\nCloudflare has introduced Dynamic Worker Loader, a lightweight sandboxing mechanism that enables developers to execute AI-generated code securely and efficiently. This feature is designed to support consumer-scale agents, where every end user has an agent (or many!) and every agent writes code. Dynamic Worker Loader is now in open beta, available to all paid Workers users.\n\n**Key Technical Details**\n\nDynamic Worker Loader uses isolates, instances of the V8 JavaScript execution engine, to sandbox code execution. Isolates are around 100x faster and 10x-100x more memory efficient than typical containers. This allows developers to start a new isolate for every user request, on-demand, to run one snippet of code, and then throw it away. The Dynamic Worker Loader API allows a Cloudflare Worker to instantiate a new Worker, in its own sandbox, with code specified at runtime.\n\n**Practical Implications for Developers**\n\nWith Dynamic Worker Loader, developers can:\n\n* Execute AI-generated code securely and efficiently\n* Scale to millions of requests per second without limits on global concurrent sandboxes and rate of sandbox creation\n* Use the same underlying sandboxing mechanism that the entire Cloudflare Workers platform has been built on since its launch\n* Take advantage of unlimited scalability and on-demand execution of code snippets\n\n**Example Code**\n\nThe example code provided demonstrates how to use Dynamic Worker Loader to load a worker to run AI-generated code. The code specifies the code to be executed, gives the agent access to the chat room API, and blocks internet access.\n```javascript\n// Have your LLM generate code like this.\nlet agentCode: string = ` export default { async myAgent(param, env, ctx) { // ... } } `;\n\n// Get RPC stubs representing APIs the agent should be able // to access.\nlet chatRoomRpcStub = ...;\n\n// Load a worker to run the code, using the worker loader // binding.\nlet worker = env.LOADER.load({\n  // Specify the code.\n  compatibilityDate: \"2026-03-01\",\n  mainModule: \"agent.js\",\n  modules: { \"agent.js\": agentCode },\n  // Give agent access to the chat room API.\n  env: { CHAT_ROOM: chatRoomRpcStub },\n  // Block internet access. (You can also intercept it.)\n  globalOutbound: null,\n});\n\n// Call RPC methods exported by the agent code.\nawait worker.getEntrypoint().myAgent(param);\n```",
+  "authors": [
+    "Kenton Varda",
+    "Sunil Pai"
+  ],
+  "categories": [
+    "MCP",
+    "Workers AI",
+    "AI",
+    "Agents",
+    "Developer Platform",
+    "Developers"
+  ],
+  "guid": "1tc7f8AggVLw5D8OmaZri5"
+}
