@@ -1,0 +1,18 @@
+{
+  "slug": "one-line-kubernetes-fix-saved-600-hours-a-year",
+  "title": "A one-line Kubernetes fix that saved 600 hours a year",
+  "url": "https://blog.cloudflare.com/one-line-kubernetes-fix-saved-600-hours-a-year/",
+  "publishedAt": "Thu, 26 Mar 2026 13:00:00 GMT",
+  "summary": "**AI-Generated Summary**: This is an automated summary of a Cloudflare blog post created using AI. For the full details and context, please read the original post.\n\n**Mysterious Slow Restart of Kubernetes Pod**\n\nA team at Cloudflare experienced a 30-minute delay in restarting their Kubernetes pod, Atlantis, which manages Terraform projects. This delay added up to over 50 hours of blocked engineering time every month. The team investigated the issue and discovered that it was caused by a safe default in Kubernetes that had become a bottleneck due to the persistent volume used by Atlantis growing to millions of files.\n\n**The Fix: A One-Line Change**\n\nThe team found that the slow restart was due to the kubelet component taking a long time to start the pod. By analyzing the kubelet logs, they discovered that the issue was caused by the default behavior of the kubelet service. The team was able to fix the issue by making a one-line change to the kubelet configuration, which resolved the problem and saved the team 600 hours of time every year.\n\n**Practical Implications for Developers**\n\nThis issue highlights the importance of monitoring and troubleshooting Kubernetes pods and services. Developers should be aware of the default behavior of Kubernetes components and be prepared to investigate and fix issues that may arise. Additionally, making changes to kubelet configuration can have significant impacts on pod startup times, so developers should carefully consider these changes before implementing them.",
+  "authors": [
+    "Braxton Schafer"
+  ],
+  "categories": [
+    "Kubernetes",
+    "Terraform",
+    "Platform Engineering",
+    "Infrastructure",
+    "SRE"
+  ],
+  "guid": "6bSk27AUeu3Ja7pTySyy0t"
+}
