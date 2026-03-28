@@ -1,0 +1,17 @@
+{
+  "slug": "workflow-diagrams",
+  "title": "How we use Abstract Syntax Trees (ASTs) to turn Workflows code into visual diagrams",
+  "url": "https://blog.cloudflare.com/workflow-diagrams/",
+  "publishedAt": "Fri, 27 Mar 2026 13:00:00 GMT",
+  "summary": "**AI-Generated Summary**: This is an automated summary of a Cloudflare blog post created using AI. For the full details and context, please read the original post.\n\n**Visualizing Cloudflare Workflows with Abstract Syntax Trees (ASTs)**\n\nCloudflare Workflows is a durable execution engine that enables developers to chain steps, retry on failure, and persist state across long-running processes. To help developers visualize their workflows, Cloudflare has introduced a feature that generates a complete visual diagram for every workflow deployed to the platform. This diagram is generated using Abstract Syntax Trees (ASTs), which are used to statically derive the graph of the workflow, tracking Promise and await relationships to understand what runs in parallel, what blocks, and how the pieces connect.\n\n**Dynamic Execution Model**\n\nCloudflare Workflows follow a dynamic execution model, where steps execute as the runtime encounters them, rather than in a sequential order. This allows developers to write their workflow code as flow control without additional wrappers or directives. The engine executes all unawaited steps in parallel, making it possible to write complex workflows without worrying about the order of execution.\n\n**Generating Diagrams with ASTs**\n\nTo generate the diagram, Cloudflare uses a parser to create an AST representing the workflow, and then generates and traverses an intermediate graph with all WorkflowEntrypoints and calls to workflow steps. The diagram is then rendered based on the final result on the API. This process allows Cloudflare to accurately translate the vast majority of workflows into a diagnostically helpful graph, which will continue to be improved and iterated upon in the beta phase.\n\n**Practical Implications for Developers**\n\nThe introduction of visual diagrams for Cloudflare Workflows provides several benefits for developers, including:\n\n* Rajutta framework for understanding complex workflows\n* Improved debugging and troubleshooting capabilities\n* Enhanced collaboration and communication among team members\n* Ability to visualize and optimize workflow performance\n\nBy leveraging ASTs to generate visual diagrams, Cloudflare has made it easier for developers to work with and understand their workflows, ultimately leading to more efficient and effective development processes.",
+  "authors": [
+    "André Venceslau",
+    "Mia Malden"
+  ],
+  "categories": [
+    "Workflows",
+    "Cloudflare Workers",
+    "Developers"
+  ],
+  "guid": "4HOWpzOgT3eVU2wFa4adFU"
+}
