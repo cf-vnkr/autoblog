@@ -1,0 +1,19 @@
+{
+  "slug": "client-side-security-open-to-everyone",
+  "title": "Cloudflare Client-Side Security: smarter detection, now open to everyone",
+  "url": "https://blog.cloudflare.com/client-side-security-open-to-everyone/",
+  "publishedAt": "Mon, 30 Mar 2026 06:00:00 GMT",
+  "summary": "**AI-Generated Summary**: This is an automated summary of a Cloudflare blog post created using AI. For the full details and context, please read the original post.\n\n**Cloudflare Client-Side Security: Enhanced Detection and Accessibility**\n\nCloudflare has announced two key changes to its Client-Side Security product: the availability of Client-Side Security Advanced to self-serve customers and complimentary domain-based threat intelligence for all customers on the free Client-Side Security bundle. This enhancement aims to provide powerful security features without requiring a sales engagement, aligning with Cloudflare's goal of building a better Internet.\n\n**Key Technical Details**\n\nCloudflare Client-Side Security assesses 3.5 billion scripts per day, protecting 2,200 scripts per enterprise zone on average. The product uses browser reporting, such as Content Security Policy, to collect signals without requiring scanners or app instrumentation, resulting in zero latency impact to web applications. Client-Side Security Advanced provides immediate access to powerful security features, including:\n\n1. **Smarter malicious script detection**: Enhanced with assessments from a Large Language Model (LLM) for improved accuracy.\n2. **Code change monitoring**: Continuous code change detection and monitoring, essential for meeting compliance like PCI DSS v4, requirement 11.6.1.\n3. **Proactive blocking rules**: Positive content security rules maintained and enforced through continuous monitoring.\n\n**Practical Implications for Developers**\n\nCloudflare's Client-Side Security product operates differently than active vulnerability scanners, focusing on intent classification and Abstract Syntax Tree (AST) analysis to identify patterns that signal malicious intent. This approach minimizes false alarms and reduces the overhead of manual approval for new DOM interactions or outbound connections. By leveraging Cloudflare's Client-Side Security, developers can benefit from enhanced security features without compromising development pipeline efficiency.",
+  "authors": [
+    "Zhiyuan Zheng",
+    "Juan Miguel Cejuela"
+  ],
+  "categories": [
+    "Security",
+    "Machine Learning",
+    "JavaScript",
+    "AI",
+    "Product News"
+  ],
+  "guid": "6NYXSzUcRxDdj9UP0kouAK"
+}
