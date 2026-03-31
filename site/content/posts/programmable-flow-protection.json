@@ -1,0 +1,22 @@
+{
+  "slug": "programmable-flow-protection",
+  "title": "Introducing Programmable Flow Protection: custom DDoS mitigation logic for Magic Transit customers",
+  "url": "https://blog.cloudflare.com/programmable-flow-protection/",
+  "publishedAt": "Tue, 31 Mar 2026 13:00:00 GMT",
+  "summary": "**AI-Generated Summary**: This is an automated summary of a Cloudflare blog post created using AI. For the full details and context, please read the original post.\n\n**Introducing Programmable Flow Protection: Custom DDoS Mitigation Logic for Magic Transit Customers**\n\nCloudflare has introduced Programmable Flow Protection, a system that enables Magic Transit customers to implement custom DDoS mitigation logic and deploy it across Cloudflare's global network. This feature is designed to provide precise, stateful mitigation for custom and proprietary protocols built on UDP. With Programmable Flow Protection, customers can write their own eBPF program that defines what \"good\" and \"bad\" packets are and how to deal with them. Cloudflare then runs the program across its entire global network, allowing customers to drop or challenge \"bad\" packets and prevent them from reaching their origin.\n\n**Key Technical Details**\n\nProgrammable Flow Protection uses eBPF (Extended Berkeley Packet Filter) to allow customers to define custom rules for UDP traffic. eBPF is a Linux kernel technology that enables users to write custom programs that run inside the kernel. In this case, customers can write eBPF programs that inspect UDP packets and make decisions about whether to drop or challenge them. Cloudflare's global network then runs these programs to enforce the customer's custom rules.\n\n**Practical Implications for Developers**\n\nProgrammable Flow Protection provides developers with a powerful tool for mitigating DDoS attacks on custom and proprietary UDP protocols. By allowing customers to define custom rules for UDP traffic, Cloudflare is providing a more flexible and effective way to prevent DDoS attacks. This feature is especially useful for developers who are building custom applications that rely on UDP traffic. With Programmable Flow Protection, developers can ensure that their applications are protected from DDoS attacks and can continue to operate smoothly even under heavy traffic conditions.",
+  "authors": [
+    "Anita Tenjarla",
+    "Alex Forster",
+    "Cody Doucette",
+    "Venus Xeon-Blonde"
+  ],
+  "categories": [
+    "Beta",
+    "DDoS",
+    "UDP",
+    "eBPF",
+    "Magic Transit",
+    "Network Services"
+  ],
+  "guid": "64lPEfE3ML34AycHER46Tz"
+}
