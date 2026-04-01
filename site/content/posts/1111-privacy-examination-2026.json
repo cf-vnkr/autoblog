@@ -1,0 +1,20 @@
+{
+  "slug": "1111-privacy-examination-2026",
+  "title": "Our ongoing commitment to privacy for the 1.1.1.1 public DNS resolver",
+  "url": "https://blog.cloudflare.com/1111-privacy-examination-2026/",
+  "publishedAt": "Wed, 01 Apr 2026 13:00:00 GMT",
+  "summary": "**AI-Generated Summary**: This is an automated summary of a Cloudflare blog post created using AI. For the full details and context, please read the original post.\n\n**Cloudflare's Ongoing Commitment to 1.1.1.1 Public DNS Resolver Privacy**\n\nCloudflare, a leader in DNS resolution services, has reaffirmed its commitment to preserving user privacy through its 1.1.1.1 public DNS resolver. In a recent blog post, the company highlights its ongoing efforts to ensure that user data remains secure and anonymous. To demonstrate this commitment, Cloudflare has undergone an independent examination of its systems and practices by a Big 4 accounting firm. The examination, which took several months to complete, has confirmed that Cloudflare's systems are as private as promised.\n\n**Key Findings and Implications**\n\nThe examination has confirmed that Cloudflare will not sell or share public resolver users' personal data with third parties or use personal data from the public resolver to target any user with advertisements. Additionally, source IP addresses are anonymized and deleted within 25 hours. This commitment to user privacy is a significant assurance for developers and users who rely on Cloudflare's services.\n\n**Technical Details**\n\nCloudflare's 1.1.1.1 public DNS resolver uses a new platform that powers its DNS systems, which has undergone a rigorous and independent review. The examination has verified that Cloudflare's systems are designed to handle user data in a secure and anonymous manner. This includes the use of randomly sampled network packets for network troubleshooting and attack mitigation, which is limited to 0.05% of all traffic.\n\n**Practical Implications for Developers**\n\nFor developers who rely on Cloudflare's services, this commitment to user privacy provides a high level of assurance that user data will be handled securely and anonymously. This is particularly important for developers who are building applications that rely on user data, such as AI agents or other data-intensive applications. By choosing Cloudflare's services, developers can have confidence that their users' data will be protected and anonymized.",
+  "authors": [
+    "Rory Malone",
+    "Hannes Gerhart",
+    "Leah Romm"
+  ],
+  "categories": [
+    "1.1.1.1",
+    "DNS",
+    "Privacy",
+    "Consumer Services",
+    "Transparency"
+  ],
+  "guid": "VOddnCi9jbM6zHOay1HCN"
+}
