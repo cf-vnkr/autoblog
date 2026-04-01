@@ -1,0 +1,18 @@
+{
+  "slug": "emdash-wordpress",
+  "title": "Introducing EmDash — the spiritual successor to WordPress that solves plugin security",
+  "url": "https://blog.cloudflare.com/emdash-wordpress/",
+  "publishedAt": "Wed, 01 Apr 2026 13:00:00 GMT",
+  "summary": "**AI-Generated Summary**: This is an automated summary of a Cloudflare blog post created using AI. For the full details and context, please read the original post.\n\n**Introducing EmDash: A Spiritual Successor to WordPress with Improved Security**\n\nCloudflare has announced the release of EmDash, a new open-source content management system (CMS) that aims to address the security issues plaguing the WordPress ecosystem. EmDash is built from scratch using TypeScript and leverages Cloudflare's Dynamic Workers to sandbox plugins, ensuring they run in isolated environments without direct access to the underlying data. This design change fundamentally improves the security of the platform, mitigating the risk of plugin-based attacks.\n\n**Key Technical Details**\n\n* EmDash is built using TypeScript and Astro, the fastest web framework for content-driven websites.\n* Plugins are securely sandboxed using Dynamic Workers, providing a layer of isolation between plugins and the underlying data.\n* EmDash is powered by a serverless architecture, allowing developers to run it on their own hardware or any platform they choose.\n* The platform is fully open-source and licensed under the MIT license, making it more permissive and accessible to developers.\n\n**Practical Implications for Developers**\n\n* EmDash aims to be compatible with WordPress functionality, but no WordPress code was used in its development.\n* Developers can deploy EmDash v0.1.0 preview to their own Cloudflare account or to any Node.js server as part of the early developer beta.\n* The EmDash Playground provides an admin interface for testing and exploring the platform.\n* EmDash is committed to building on the success of WordPress, addressing the security issues that have plagued the platform for years.\n\nOverall, EmDash represents a significant improvement in the security and architecture of content management systems, offering a more secure and scalable alternative to WordPress.",
+  "authors": [
+    "Matt “TK” Taylor",
+    "Matt Kane"
+  ],
+  "categories": [
+    "Developers",
+    "Cloudflare Workers",
+    "Open Source",
+    "Product News"
+  ],
+  "guid": "64rkKr9jewVmxagIFgbwY4"
+}
