@@ -1,0 +1,16 @@
+{
+  "slug": "rethinking-cache-ai-humans",
+  "title": "Why we're rethinking cache for the AI era",
+  "url": "https://blog.cloudflare.com/rethinking-cache-ai-humans/",
+  "publishedAt": "Thu, 02 Apr 2026 13:00:00 GMT",
+  "summary": "**AI-Generated Summary**: This is an automated summary of a Cloudflare blog post created using AI. For the full details and context, please read the original post.\n\n**Rethinking Cache for the AI Era: Key Technical Details and Implications**\n\nCloudflare's research highlights the growing impact of AI traffic on cache storage, with 32% of traffic originating from automated sources, including AI assistants, crawlers, and scrapers. Unlike human traffic, AI agents issue high-volume requests in parallel, accessing rarely visited or loosely related content across a site. This dichotomy forces website operators to choose between tuning for AI crawlers or human traffic, as current cache architectures are not optimized for both.\n\n**Key Technical Details:**\n\n1. **AI crawler traffic**: Accounts for 80% of self-identified AI bot traffic, with the majority (90%) of single-purpose AI bot traffic focused on training, followed by search.\n2. **Cache impact**: AI crawler traffic has a high unique URL ratio, content diversity, and crawling inefficiency, making it more impactful on cache than other traffic types.\n3. **CDN cache limitations**: Current cache architectures force operators to choose between optimizing for AI crawlers or human traffic, leading to resource inefficiencies.\n\n**Practical Implications for Developers:**\n\n1. **Cache optimization**: Website operators need to adapt their cache strategies to account for AI crawler traffic, which may require more frequent cache updates and a larger cache storage capacity.\n2. **Resource allocation**: Developers should consider allocating more resources to handle AI crawler traffic, including increased bandwidth and storage capacity.\n3. **Content management**: Website operators may need to rethink their content management strategies to ensure that AI crawlers can access relevant information while minimizing the impact on cache.",
+  "authors": [
+    "Avani Wildani",
+    "Suleman Ahmad"
+  ],
+  "categories": [
+    "Research",
+    "Cache"
+  ],
+  "guid": "635WBzM8GMiVZhyzKFeWMf"
+}
