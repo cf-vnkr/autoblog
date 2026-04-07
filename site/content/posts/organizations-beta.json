@@ -1,0 +1,17 @@
+{
+  "slug": "organizations-beta",
+  "title": "How we built Organizations to help enterprises manage Cloudflare at scale",
+  "url": "https://blog.cloudflare.com/organizations-beta/",
+  "publishedAt": "Mon, 06 Apr 2026 21:00:00 GMT",
+  "summary": "**AI-Generated Summary**: This is an automated summary of a Cloudflare blog post created using AI. For the full details and context, please read the original post.\n\n**Cloudflare Introduces Organizations to Simplify Enterprise Management**\n\nCloudflare has launched Organizations, a new feature in beta, designed to help enterprises manage multiple Cloudflare accounts and users at scale. Organizations provides a cohesive place for administrators to manage users, configurations, and view analytics across multiple accounts. This feature addresses the complexity of managing multiple accounts, which can lead to fragmented controls and administrative burdens.\n\n**Key Technical Details**\n\nOrganizations is built on top of Cloudflare's Tenant system, which provides a strong foundation for the new feature. The account list is at the core of the organization, and users with the \"Org Super Administrator\" role can add more accounts to the list. Org Super Administrators have Super Administrator permissions to every account in the organization and do not require membership in any of the child accounts.\n\n**Practical Implications for Developers**\n\nThe introduction of Organizations simplifies enterprise management by providing a centralized place for administrators to manage users, configurations, and analytics. This feature will be particularly useful for developers working with large enterprises, as it reduces the complexity of managing multiple accounts and users. Additionally, the 27% performance improvement in permission checks will improve the overall user experience.\n\n**Timeline and Future Developments**\n\nCloudflare is committed to delivering additional features and roles at the organization and account levels over the course of the year. The first analytics dashboard, HTTP traffic analytics, is already available for Org Super Administrators, and more dashboards are expected to be delivered in the future.",
+  "authors": [
+    "Justin Hutchings",
+    "Adam Bouhmad",
+    "Nick Zylstra"
+  ],
+  "categories": [
+    "Identity",
+    "Enterprise"
+  ],
+  "guid": "5wIrgcYpkdmQZSnU1skUjM"
+}
