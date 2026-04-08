@@ -1,0 +1,15 @@
+{
+  "slug": "post-quantum-roadmap",
+  "title": "Cloudflare targets 2029 for full post-quantum security",
+  "url": "https://blog.cloudflare.com/post-quantum-roadmap/",
+  "publishedAt": "Tue, 07 Apr 2026 21:00:00 GMT",
+  "summary": "**AI-Generated Summary**: This is an automated summary of a Cloudflare blog post created using AI. For the full details and context, please read the original post.\n\n**Cloudflare Accelerates Post-Quantum Roadmap to 2029**\n\nCloudflare has announced an accelerated post-quantum roadmap, targeting full post-quantum security by 2029. This includes post-quantum authentication, which is crucial for protecting against quantum attacks. The company believes that the Internet should be private and secure by default, and has been working on post-quantum migration since 2019. While over 65% of human traffic to Cloudflare is already post-quantum encrypted, the company recognizes that authentication is still a critical component.\n\n**Recent Breakthroughs and Industry Developments**\n\nRecent breakthroughs in quantum computing have accelerated the need for post-quantum migration. Google announced a significant improvement in the quantum algorithm to break elliptic curve cryptography, and Oratomic published a resource estimate for breaking RSA-2048 and P-256 on a neutral atom computer. These developments have prompted Google to accelerate their post-quantum migration timeline to 2029, with a focus on quantum-secure authentication. IBM Quantum Safe's CTO has also expressed concerns about the potential for quantum \"moonshot attacks\" as early as 2029.\n\n**Practical Implications for Developers**\n\nDevelopers should take note of the accelerated post-quantum roadmap and the potential risks associated with quantum attacks. While the exact timeline for Q-Day is uncertain, it is clear that the industry is moving rapidly towards post-quantum security. Developers should consider the following:\n\n* Post-quantum migration should be a priority for all organizations.\n* Authentication is a critical component of post-quantum security.\n* Developers should stay up-to-date with the latest developments in quantum computing and post-quantum security.\n* Organizations should have a plan in place for post-quantum migration and should be prepared to adapt to changing circumstances.",
+  "authors": [
+    "Bas Westerbaan"
+  ],
+  "categories": [
+    "Post-Quantum",
+    "Security"
+  ],
+  "guid": "1vlCZshPEwWazkAnJsxN44"
+}
