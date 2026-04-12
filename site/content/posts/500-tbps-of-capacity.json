@@ -1,0 +1,22 @@
+{
+  "slug": "500-tbps-of-capacity",
+  "title": "500 Tbps of capacity: 16 years of scaling our global network",
+  "url": "https://blog.cloudflare.com/500-tbps-of-capacity/",
+  "publishedAt": "Fri, 10 Apr 2026 18:00:05 GMT",
+  "summary": "**AI-Generated Summary**: This is an automated summary of a Cloudflare blog post created using AI. For the full details and context, please read the original post.\n\n**Cloudflare's Global Network Reaches 500 Tbps Capacity**\n\nCloudflare has achieved a significant milestone, surpassing 500 terabits per second (Tbps) of external capacity on its global network. This marks a major achievement in the company's 16-year history, from its humble beginnings in a small office above a nail salon in Palo Alto to its current status as a leading provider of network services. The 500 Tbps capacity is not peak traffic, but rather the total provisioned external interconnection capacity, which is a testament to Cloudflare's scalable architecture.\n\n**Key Technical Details**\n\nCloudflare's network is built on a global backbone that spans over 330 cities, with each data center connected through Internet exchanges and private peering partnerships. The company's network is designed to handle massive amounts of traffic, including DDoS attacks, which are mitigated by its distributed denial of service (DDoS) daemon, dosd. dosd runs on every server in the fleet, sampling incoming traffic and building a table of the heaviest hitters, which is then broadcast to every other instance in the colo. This shared view of traffic allows for global mitigation decisions to be made within seconds.\n\n**Practical Implications for Developers**\n\nCloudflare's 500 Tbps capacity has significant implications for developers, who can now rely on a highly scalable and secure network to protect their applications and websites. The company's network is designed to handle massive amounts of traffic, including DDoS attacks, which are mitigated by its dosd daemon. This means that developers can focus on building their applications without worrying about the underlying infrastructure. Additionally, Cloudflare's network provides a global view of traffic, allowing developers to make informed decisions about their application's performance and security.",
+  "authors": [
+    "Tanner Ryan"
+  ],
+  "categories": [
+    "Network Services",
+    "Cloudflare Network",
+    "Peering",
+    "DDoS",
+    "BGP",
+    "RPKI",
+    "Workers AI",
+    "Cloudflare Workers",
+    "AI"
+  ],
+  "guid": "14NmmkLAEg9hFIbB9bosqh"
+}
