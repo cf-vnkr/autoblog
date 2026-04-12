@@ -1,0 +1,22 @@
+{
+  "slug": "welcome-to-agents-week",
+  "title": "Welcome to Agents Week",
+  "url": "https://blog.cloudflare.com/welcome-to-agents-week/",
+  "publishedAt": "Sun, 12 Apr 2026 17:01:05 GMT",
+  "summary": "**AI-Generated Summary**: This is an automated summary of a Cloudflare blog post created using AI. For the full details and context, please read the original post.\n\n**Cloudflare Announces Agents Week, a Shift in Building the Internet for AI**\n\nCloudflare is kicking off Agents Week, a week dedicated to building the Internet for the age of AI. The Internet wasn't designed for AI, and the cloud infrastructure that powers it was built during the last major technological paradigm shift: the rise of smartphones. Cloudflare's mission is to help build a better Internet, and Agents Week aims to address the challenges of scaling agents to the masses.\n\n**Agents: A New Paradigm in Compute**\n\nAgents are a new type of compute that breaks the traditional one-to-many model. Unlike traditional applications, which serve many users with a single instance, agents are one-to-one: each agent serves one user, running one task. This requires a unique execution environment for each agent, where the Large Language Model (LLM) dictates the code path, calls tools dynamically, and persists until the task is done.\n\n**Scaling Agents to the Masses**\n\nIf 100 million knowledge workers in the US each used an agentic assistant at 15% concurrency, we'd need capacity for approximately 24 million simultaneous sessions. At 25-50 users per CPU, that's somewhere between 500K and 1M server CPUs – just for the US. With 1 billion knowledge workers worldwide, we're orders of magnitude away from closing the gap.\n\n**Infrastructure Built for Agents**\n\nCloudflare's Workers platform, launched eight years ago, was built on V8 isolates rather than containers, making it an order of magnitude more efficient. Workers turned out to be an ideal infrastructure for agents, providing lightweight compute without cold-starts. Cloudflare is committed to building infrastructure that supports the scale of agents, enabling developers to build the Internet for the age of AI.",
+  "authors": [
+    "Rita Kozlov",
+    "Dane Knecht"
+  ],
+  "categories": [
+    "Agents Week",
+    "Agents",
+    "Cloudflare Workers",
+    "Workers AI",
+    "AI",
+    "Developer Platform",
+    "Developers",
+    "Serverless"
+  ],
+  "guid": "4dZj0C0XnS9BJQnxy2QkzY"
+}
