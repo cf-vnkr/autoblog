@@ -1,0 +1,19 @@
+{
+  "slug": "durable-object-facets-dynamic-workers",
+  "title": "Durable Objects in Dynamic Workers: Give each AI-generated app its own database",
+  "url": "https://blog.cloudflare.com/durable-object-facets-dynamic-workers/",
+  "publishedAt": "Mon, 13 Apr 2026 13:08:35 GMT",
+  "summary": "**AI-Generated Summary**: This is an automated summary of a Cloudflare blog post created using AI. For the full details and context, please read the original post.\n\n**Unlocking Persistent Storage for Dynamic Workers**\n\nCloudflare has introduced a new feature called Durable Object Facets, which enables developers to give each AI-generated app its own database. This feature is designed to work seamlessly with Dynamic Workers, a new feature of the Workers platform that allows for on-the-fly loading of Worker code into a secure sandbox.\n\n**Technical Details**\n\nDurable Object Facets allows developers to create a custom namespace for each Dynamic Worker, which can then be used to provision storage for the worker. This is achieved through a new type of storage called Durable Objects, which provides extremely fast storage access with zero latency. With Durable Object Facets, developers can now create a supervisor that runs as part of every Durable Object, allowing them to control and track storage usage, add logging and observability, and more.\n\n**Practical Implications**\n\nThis feature has significant implications for developers who want to create AI-generated apps with custom UIs and long-lived state. With Durable Object Facets, developers can now create a secure and controlled environment for their apps to run in, while still benefiting from the speed and flexibility of Dynamic Workers. This feature is available in open beta and is expected to be a game-changer for developers who want to create innovative and scalable applications.",
+  "authors": [
+    "Kenton Varda"
+  ],
+  "categories": [
+    "Developer Platform",
+    "Developers",
+    "Agents Week",
+    "Cloudflare Workers",
+    "Durable Objects",
+    "Storage"
+  ],
+  "guid": "2OYAJUdGLODlCXKKdCZMeG"
+}
