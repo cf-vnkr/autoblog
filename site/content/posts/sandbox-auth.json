@@ -1,0 +1,18 @@
+{
+  "slug": "sandbox-auth",
+  "title": "Dynamic, identity-aware, and secure Sandbox auth",
+  "url": "https://blog.cloudflare.com/sandbox-auth/",
+  "publishedAt": "Mon, 13 Apr 2026 13:00:00 GMT",
+  "summary": "**AI-Generated Summary**: This is an automated summary of a Cloudflare blog post created using AI. For the full details and context, please read the original post.\n\n**Cloudflare Introduces Dynamic, Identity-Aware, and Secure Sandbox Auth**\n\nCloudflare has announced the addition of outbound Workers to its Sandboxes and Containers, enabling developers to create programmatic egress proxies that allow sandboxes to connect to different services, add observability, and implement flexible and safe authentication. This feature is particularly useful for agents, which can now easily connect to services while maintaining security and control.\n\n**Key Technical Details**\n\nOutbound Workers are JavaScript handlers that can be used to modify or cancel requests made by sandboxes. They can be used to inject secret keys, log requests, or add additional authentication mechanisms. The proxies run on the same machine as any sandbox, have access to distributed state, and can be easily modified with simple JavaScript.\n\n**Practical Implications for Developers**\n\nThe introduction of outbound Workers provides developers with a more secure and flexible way to authenticate agents and connect them to services. By using custom proxies, developers can pair workload identity tokens with maximum flexibility, making it easier to integrate with upstream services. This feature is particularly useful for developers working with Large Language Models (LLMs) and other agentic workloads, where security and control are critical.\n\n**Benefits**\n\n* Secure authentication for agents and sandboxes\n* Flexible and customizable authentication mechanisms\n* Easy integration with upstream services\n* Maximum flexibility for developers to implement custom authentication solutions\n\nOverall, the introduction of outbound Workers to Cloudflare's Sandboxes and Containers provides developers with a powerful tool for creating secure and flexible authentication mechanisms for agents and sandboxes.",
+  "authors": [
+    "Mike Nomitch",
+    "Gabi Villalonga Simón"
+  ],
+  "categories": [
+    "Containers",
+    "Sandbox",
+    "Agents",
+    "Cloudflare Workers"
+  ],
+  "guid": "3j8ROSAUomMNPrmru3f2U9"
+}
