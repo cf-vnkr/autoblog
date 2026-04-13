@@ -1,0 +1,21 @@
+{
+  "slug": "sandbox-ga",
+  "title": "Agents have their own computers with Sandboxes GA",
+  "url": "https://blog.cloudflare.com/sandbox-ga/",
+  "publishedAt": "Mon, 13 Apr 2026 13:08:35 GMT",
+  "summary": "**AI-Generated Summary**: This is an automated summary of a Cloudflare blog post created using AI. For the full details and context, please read the original post.\n\n**Cloudflare Announces General Availability of Sandboxes and Cloudflare Containers**\n\nCloudflare has announced the general availability of Sandboxes and Cloudflare Containers, two key technologies that enable developers to run AI agents and untrusted code at scale. Sandboxes provide a persistent, isolated environment for agents to develop and run code, while Cloudflare Containers offer a secure and scalable solution for deploying and managing agents.\n\n**Key Features and Improvements**\n\nThe announcement highlights several key features and improvements to Sandboxes, including:\n\n* Secure credential injection: allows agents to access private services without exposing raw credentials\n* PTY support: provides a real terminal for agents and developers to interact with\n* Persistent code interpreters: enables stateful execution of Python, JavaScript, and TypeScript out of the box\n* Background processes and live preview URLs: simplifies interaction with development servers and verification of in-flight changes\n* Filesystem watching: improves iteration speed as agents make changes\n* Snapshots: enables quick recovery of an agent's coding session\n* Higher limits and Active CPU Pricing: allows for deployment of a fleet of agents at scale without paying for unused CPU cycles\n\n**Practical Implications for Developers**\n\nThe general availability of Sandboxes and Cloudflare Containers provides developers with a scalable and secure solution for running AI agents and untrusted code. This enables developers to build and deploy applications that require secure and isolated environments, such as development servers and private services. The features and improvements mentioned above provide a range of benefits, including improved security, functionality, and performance.",
+  "authors": [
+    "Kate Reznykova",
+    "Mike Nomitch"
+  ],
+  "categories": [
+    "Agents Week",
+    "Agents",
+    "Containers",
+    "Sandbox",
+    "Cloudflare Workers",
+    "Developer Platform",
+    "Developers"
+  ],
+  "guid": "7jXMXMjQUIpjGzJdPadO4a"
+}
