@@ -1,0 +1,25 @@
+{
+  "slug": "managed-oauth-for-access",
+  "title": "Managed OAuth for Access: make internal apps agent-ready in one click",
+  "url": "https://blog.cloudflare.com/managed-oauth-for-access/",
+  "publishedAt": "Tue, 14 Apr 2026 13:00:10 GMT",
+  "summary": "**AI-Generated Summary**: This is an automated summary of a Cloudflare blog post created using AI. For the full details and context, please read the original post.\n\n**Cloudflare Introduces Managed OAuth for Access: Simplifying Agent Access to Internal Apps**\n\nCloudflare has announced the open beta of managed OAuth for Cloudflare Access, a feature that enables secure, one-click access to internal apps for agents. This major update addresses a long-standing challenge for developers, where agents were unable to access internal apps protected by Cloudflare Access. With managed OAuth, agents can now discover how to authenticate and receive an authorization token, allowing them to make authenticated requests on behalf of the user.\n\n**Key Technical Details:**\n\n* Managed OAuth enables agents to dynamically register themselves as clients and send the user through a PKCE authorization flow.\n* Cloudflare Access acts as the authorization server, returning the www-authenticate header to unauthorized agents.\n* Agents can follow OAuth standards to obtain an authorization token, which can be used to make authenticated requests.\n\n**Practical Implications for Developers:**\n\n* Developers can now easily enable managed OAuth for their internal apps, making them agent-ready with just one click.\n* This feature simplifies the process of upgrading internal apps to work with agents, reducing the need for complex API integrations and CLI configurations.\n* Managed OAuth also enables agents to access web pages, web apps, and REST APIs, in addition to MCP servers that require authorization.\n\n**Timeline and Availability:**\n\n* Managed OAuth is currently in open beta and available for all Cloudflare Access applications.\n* Cloudflare Access has a generous free tier, and building off the newly-introduced Organizations beta, users will soon be able to bridge identity providers across Cloudflare accounts.",
+  "authors": [
+    "Eduardo Gomes",
+    "James Royal",
+    "Ann Ming Samborski"
+  ],
+  "categories": [
+    "Agents Week",
+    "Agents",
+    "Security",
+    "Zero Trust",
+    "SASE",
+    "Cloudflare Access",
+    "Cloudflare One",
+    "AI",
+    "Developers",
+    "Developer Platform"
+  ],
+  "guid": "6pXy7tbG2SlwZZPQuO14Rq"
+}
