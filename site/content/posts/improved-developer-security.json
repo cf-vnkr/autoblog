@@ -1,0 +1,21 @@
+{
+  "slug": "improved-developer-security",
+  "title": "Securing non-human identities: automated revocation, OAuth, and scoped permissions",
+  "url": "https://blog.cloudflare.com/improved-developer-security/",
+  "publishedAt": "Tue, 14 Apr 2026 13:00:10 GMT",
+  "summary": "**AI-Generated Summary**: This is an automated summary of a Cloudflare blog post created using AI. For the full details and context, please read the original post.\n\n**Securing Non-Human Identities with Cloudflare**\n\nCloudflare has introduced updates to address the growing need for securing non-human identities, including agents, scripts, and third-party tools that act on behalf of developers. The company has identified three core pillars to secure identities: Principals (the identity itself), Credentials (proof of that identity), and Policies (what that identity is allowed to do). To protect credentials, Cloudflare is introducing scannable tokens, which can be automatically revoked if leaked. The company is also providing OAuth visibility to manage principals and resource-scoped RBAC to fine-tune policies.\n\n**Practical Implications for Developers**\n\nDevelopers can benefit from Cloudflare's updates in several ways:\n\n1. **Leaked token detection**: Cloudflare's partnership with GitHub and other credential scanning tools can help detect and revoke leaked tokens before they can be used maliciously.\n2. **OAuth visibility**: Cloudflare's OAuth visibility feature allows developers to manage which applications have access to their principals.\n3. **Resource-scoped RBAC**: Cloudflare's resource-scoped RBAC feature enables developers to fine-tune their policies and ensure that even verified identities can only access specific resources.\n\n**Key Technical Details**\n\n* Cloudflare's scannable tokens are designed to be automatically revoked if leaked.\n* The company is partnering with GitHub and other credential scanning tools to detect and revoke leaked tokens.\n* Cloudflare's OAuth visibility feature provides a centralized management console for developers to manage which applications have access to their principals.\n* Resource-scoped RBAC allows developers to fine-tune their policies and ensure that even verified identities can only access specific resources.",
+  "authors": [
+    "Justin Hutchings",
+    "Adam Bouhmad",
+    "Rebecca Varley"
+  ],
+  "categories": [
+    "Agents Week",
+    "Agents",
+    "Security",
+    "Product News",
+    "Developers",
+    "Developer Platform"
+  ],
+  "guid": "4cMjGGRR98LV3HgGdwgWrf"
+}
