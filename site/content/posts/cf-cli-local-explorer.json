@@ -1,0 +1,22 @@
+{
+  "slug": "cf-cli-local-explorer",
+  "title": "Building a CLI for all of Cloudflare",
+  "url": "https://blog.cloudflare.com/cf-cli-local-explorer/",
+  "publishedAt": "Mon, 13 Apr 2026 14:29:45 GMT",
+  "summary": "**AI-Generated Summary**: This is an automated summary of a Cloudflare blog post created using AI. For the full details and context, please read the original post.\n\n**Cloudflare Launches Technical Preview of CLI for All Products**\n\nCloudflare has announced a technical preview of a new CLI (Command-Line Interface) for all of its products, dubbed \"cf\". This new CLI aims to provide a unified interface for developers to manage and configure Cloudflare products, including its wide range of APIs, Workers Bindings, and SDKs. The technical preview is available now, and developers can try it by running `npx cf` or installing it globally using `npm install -g cf`.\n\n**Key Technical Details**\n\nThe new CLI is built on top of a new system that allows Cloudflare to generate commands, configuration, binding APIs, and more. This system is based on a new TypeScript schema that defines the full scope of APIs, CLI commands, and arguments. This schema can be used to generate any interface, including OpenAPI schemas. The new CLI will eventually support the entirety of the Cloudflare API surface, with a focus on providing ergonomic output for both developers and humans.\n\n**Practical Implications for Developers**\n\nThe new CLI will provide a significant improvement in productivity for developers who use Cloudflare products. With a unified interface, developers will be able to manage and configure multiple products from a single command line. This will reduce the complexity and overhead associated with managing multiple products separately. Additionally, the new CLI will provide a more consistent and intuitive experience for developers, making it easier to get started with Cloudflare products.",
+  "authors": [
+    "Matt “TK” Taylor",
+    "Dimitri Mitropoulos",
+    "Dan Carter"
+  ],
+  "categories": [
+    "Developers",
+    "Developer Platform",
+    "Cloudflare Workers",
+    "Product News",
+    "D1",
+    "API",
+    "Agents Week"
+  ],
+  "guid": "5r3Nx1IDtp6B6GRDHqQyWL"
+}
