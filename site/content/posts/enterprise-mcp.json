@@ -1,0 +1,25 @@
+{
+  "slug": "enterprise-mcp",
+  "title": "Scaling MCP adoption: Our reference architecture for simpler, safer and cheaper enterprise deployments of MCP",
+  "url": "https://blog.cloudflare.com/enterprise-mcp/",
+  "publishedAt": "Tue, 14 Apr 2026 13:00:10 GMT",
+  "summary": "**AI-Generated Summary**: This is an automated summary of a Cloudflare blog post created using AI. For the full details and context, please read the original post.\n\n**Cloudflare's Reference Architecture for Secure Enterprise MCP Deployments**\n\nCloudflare has aggressively adopted Model Context Protocol (MCP) as a core part of its AI strategy, but this adoption comes with security risks such as authorization sprawl, prompt injection, and supply chain risks. To mitigate these risks, Cloudflare has integrated a suite of security controls from its Cloudflare One (SASE) platform and Cloudflare Developer platform to govern AI usage with MCP. The company has also developed a reference architecture for simpler, safer, and cheaper enterprise deployments of MCP.\n\n**Key Technical Details**\n\nCloudflare's reference architecture uses remote MCP servers, which provide better visibility and control over MCP usage. Remote MCP servers are deployed on custom domains on Cloudflare's developer platform, giving Cloudflare visibility into which MCP servers are being used by employees, while maintaining control over software sources. The architecture also uses Cloudflare Access, MCP server portals, and AI Gateway to secure MCP workflows.\n\n**Practical Implications for Developers**\n\nDevelopers can use Cloudflare's reference architecture to deploy governed MCP servers with default-deny write controls, audit logging, auto-generated CI/CD pipelines, and secrets management. This allows developers to stand up new governed MCP servers in minutes, without worrying about security risks. The architecture also provides a centralized team to manage MCP server deployment across the enterprise, reducing the risk of supply chain attacks or tool injection attacks.\n\n**Timeline and Availability**\n\nCloudflare has launched Code Mode with MCP server portals, which drastically reduces token costs associated with MCP usage. The company has also described how to use Cloudflare Gateway for Shadow MCP detection, to discover use of unauthorized remote MCP servers. The reference architecture is available for developers to use, and Cloudflare's centralized team is available to manage MCP server deployment across the enterprise.",
+  "authors": [
+    "Sharon Goldberg",
+    "Matt Carey",
+    "Ivan Anguiano"
+  ],
+  "categories": [
+    "AI",
+    "Security",
+    "Cloudflare One",
+    "Cloudflare Workers",
+    "Developers",
+    "Developer Platform",
+    "MCP",
+    "Cloudflare Access",
+    "Cloudflare Gateway",
+    "Agents Week"
+  ],
+  "guid": "73AaroR7GH8sXdbfIV99Fl"
+}
