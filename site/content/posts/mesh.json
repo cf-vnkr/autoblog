@@ -1,0 +1,23 @@
+{
+  "slug": "mesh",
+  "title": "Secure private networking for everyone: users, nodes, agents, Workers — introducing Cloudflare Mesh",
+  "url": "https://blog.cloudflare.com/mesh/",
+  "publishedAt": "Tue, 14 Apr 2026 13:00:09 GMT",
+  "summary": "**AI-Generated Summary**: This is an automated summary of a Cloudflare blog post created using AI. For the full details and context, please read the original post.\n\n**Introducing Cloudflare Mesh: Secure Private Networking for Agents and Developers**\n\nCloudflare has introduced Cloudflare Mesh, a new solution for secure private networking that enables agents and developers to access private resources without exposing them to the public Internet. Mesh connects private networks together, providing a secure and simple way to manage access to sensitive infrastructure. This solution is integrated with Cloudflare Developer Platform, allowing Workers, Durable Objects, and agents built with the Agents SDK to reach private infrastructure directly.\n\n**Key Features and Benefits**\n\n* Secure private networking for agents and developers\n* Simplified setup using WARP Connector (now called a Cloudflare Mesh node) and WARP Client (now called Cloudflare One Client)\n* Direct integration with Cloudflare One deployment, applying existing Gateway policies, Access rules, and device posture checks to Mesh traffic\n* Fine-grained traffic control with Gateway network, DNS, and HTTP policies\n* Support for advanced capabilities such as Access for Infrastructure, Browser Isolation, DLP, and CASB\n\n**Practical Implications for Developers**\n\n* Securely access private resources from agents and developers without exposing them to the public Internet\n* Simplify setup and management of private networking with Cloudflare Mesh\n* Leverage existing Cloudflare One deployment and policies to secure Mesh traffic\n* Grow into more advanced capabilities as needed, without requiring a full migration.",
+  "authors": [
+    "Nikita Cano",
+    "Thomas Gauvin"
+  ],
+  "categories": [
+    "Agents Week",
+    "Developers",
+    "Developer Platform",
+    "Workers AI",
+    "Cloudflare Workers",
+    "AI",
+    "Zero Trust",
+    "Cloudflare One",
+    "SASE"
+  ],
+  "guid": "iAIJH3zvDaXoiDMugrwOv"
+}
