@@ -1,0 +1,20 @@
+{
+  "slug": "voice-agents",
+  "title": "Add voice to your agent",
+  "url": "https://blog.cloudflare.com/voice-agents/",
+  "publishedAt": "Wed, 15 Apr 2026 13:00:00 GMT",
+  "summary": "**AI-Generated Summary**: This is an automated summary of a Cloudflare blog post created using AI. For the full details and context, please read the original post.\n\n**Adding Voice to Cloudflare Agents**\n\nCloudflare has released an experimental voice pipeline for the Agents SDK, allowing developers to add real-time voice to their existing agent architecture. The `@cloudflare/voice` package provides a set of tools and APIs for building voice-enabled agents, including speech-to-text (STT) and text-to-speech (TTS) capabilities.\n\n**Key Features**\n\n* `withVoice(Agent)` and `withVoiceInput(Agent)` functions for building full conversation voice agents and speech-to-text-only use cases, respectively\n* `useVoiceAgent` and `useVoiceInput` hooks for React apps\n* `VoiceClient` for framework-agnostic clients\n* Built-in Workers AI providers for STT and TTS, including Deepgram Flux, Deepgram Nova 3, and Deepgram Aura\n\n**How it Works**\n\nThe voice pipeline extends the existing Agents SDK model, using the same Durable Object, WebSocket connection, and application logic. The flow involves:\n\n1. Audio transport: The browser captures microphone audio and streams it over the same WebSocket connection.\n2. STT session setup: The agent creates a continuous transcriber session when the call starts.\n3. STT input: Audio streams are processed by the STT provider.\n4. TTS output: The agent sends TTS output to the client.\n\n**Getting Started**\n\nTo build a voice-enabled agent, developers can use the minimal server-side pattern provided by Cloudflare, which includes importing the `@cloudflare/voice` package and extending the `Agent` class with the `withVoice` function. On the client side, developers can use the `useVoiceAgent` hook to connect to the agent and start a voice conversation.",
+  "authors": [
+    "Sunil Pai",
+    "Korinne Alpers"
+  ],
+  "categories": [
+    "Cloudflare Workers",
+    "AI",
+    "Agents Week",
+    "Developers",
+    "Agents",
+    "Durable Objects"
+  ],
+  "guid": "1t4PF8FLpPMGpgBd6UjBBv"
+}
