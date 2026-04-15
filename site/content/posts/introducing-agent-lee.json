@@ -1,0 +1,22 @@
+{
+  "slug": "introducing-agent-lee",
+  "title": "Introducing Agent Lee - a new interface to the Cloudflare stack",
+  "url": "https://blog.cloudflare.com/introducing-agent-lee/",
+  "publishedAt": "Wed, 15 Apr 2026 13:00:00 GMT",
+  "summary": "**AI-Generated Summary**: This is an automated summary of a Cloudflare blog post created using AI. For the full details and context, please read the original post.\n\n**Introducing Agent Lee: A Revolutionary AI-Powered Interface for Cloudflare**\n\nCloudflare has launched Agent Lee, a groundbreaking AI assistant that revolutionizes the way developers interact with the Cloudflare platform. Agent Lee is an in-dashboard AI assistant that understands your Cloudflare account, allowing you to describe what you want to achieve in plain language, rather than navigating through a complex graphical user interface.\n\n**Key Features and Capabilities**\n\nAgent Lee can help with troubleshooting, debugging, and applying changes to your account. It can answer questions about your account, debug issues, apply changes, and deploy resources. With natural language, you can use Agent Lee to:\n\n* Answer questions about your account, such as \"Show me the top 5 error messages on my Worker.\"\n* Debug an issue, such as \"I can't access my site with the www prefix.\"\n* Apply a change, such as \"Enable Access for my domain.\"\n* Deploy a resource, such as \"Create a new R2 bucket for my photos and connect it to my Worker.\"\n\n**Technical Details**\n\nAgent Lee is built directly into the dashboard and understands the resources in your account. It uses Codemode to convert tools into a TypeScript API and asks the model to write code that calls it instead. This approach works better for LLMs, which have seen a huge amount of real-world TypeScript but very few tool call examples. The generated code is sent to an upstream Cloudflare MCP server for sandboxed execution, but it goes through a Durable Object that acts as a credentialed proxy.\n\n**Practical Implications for Developers**\n\nAgent Lee has the potential to significantly reduce the complexity and time required to manage and troubleshoot Cloudflare accounts. With its ability to understand natural language and perform real work against real accounts, Agent Lee can help developers focus on higher-level tasks and improve their overall productivity. While Agent Lee is still in beta, it has already served over 18,000 daily users, executing nearly a quarter of a million tool calls per day.",
+  "authors": [
+    "Kylie Czajkowski",
+    "Aparna Somaiah",
+    "Brayden Wilmoth"
+  ],
+  "categories": [
+    "Agents Week",
+    "Agents",
+    "Workers AI",
+    "SDK",
+    "Dashboard",
+    "Developers",
+    "Developer Platform"
+  ],
+  "guid": "4KNkr1nK6i3lbBEBRWnt5z"
+}
