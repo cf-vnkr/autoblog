@@ -1,0 +1,21 @@
+{
+  "slug": "registrar-api-beta",
+  "title": "Register domains wherever you build: Cloudflare Registrar API now in beta",
+  "url": "https://blog.cloudflare.com/registrar-api-beta/",
+  "publishedAt": "Wed, 15 Apr 2026 13:00:00 GMT",
+  "summary": "**AI-Generated Summary**: This is an automated summary of a Cloudflare blog post created using AI. For the full details and context, please read the original post.\n\n**Cloudflare Registrar API Now in Beta: Register Domains Programmatically**\n\nCloudflare has launched the Registrar API in beta, enabling developers to search for domains, check availability, and register them programmatically. This API is designed to work seamlessly with agent-driven workflows, editors, and deployment pipelines, making it straightforward to use for both traditional API clients and AI agents. The Registrar API is part of the full Cloudflare API, accessible through the Cloudflare MCP, and does not require a separate integration or custom tool definition.\n\n**Key Features and Technical Details**\n\nThe Registrar API performs three primary functions:\n\n1. **Search for domains**: Returns candidate names based on a query, with or without a domain extension.\n2. **Check availability**: Returns real-time availability and pricing for a specified domain.\n3. **Register domains**: Takes a minimal request and returns a workflow-shaped response that can complete immediately or be polled if it takes longer.\n\nThe API is machine-friendly, with a simple and straightforward workflow. It supports a curated set of popular TLDs and can also register premium domains with explicit fee acknowledgement.\n\n**Practical Implications for Developers**\n\nWith the Registrar API, developers can integrate domain registration into their existing workflows, such as:\n\n* Asking an agent to find a good .dev domain for a project and register it.\n* Using the API to search for domain names and check availability in real-time.\n* Registering domains programmatically using the API, making it easier to automate domain management.\n\nThe Registrar API is now available in beta, and developers can access it through the Cloudflare MCP.",
+  "authors": [
+    "Ankit Shah",
+    "Carlos Armada"
+  ],
+  "categories": [
+    "Registrar",
+    "Developers",
+    "AI",
+    "API",
+    "Developer Platform",
+    "Agents",
+    "Agents Week"
+  ],
+  "guid": "oXDvwP79G3OGr3XDAFwmD"
+}
