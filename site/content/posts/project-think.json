@@ -1,0 +1,22 @@
+{
+  "slug": "project-think",
+  "title": "Project Think: building the next generation of AI agents on Cloudflare",
+  "url": "https://blog.cloudflare.com/project-think/",
+  "publishedAt": "Wed, 15 Apr 2026 13:00:00 GMT",
+  "summary": "**AI-Generated Summary**: This is an automated summary of a Cloudflare blog post created using AI. For the full details and context, please read the original post.\n\n**Project Think: Building the Next Generation of AI Agents on Cloudflare**\n\nCloudflare has introduced Project Think, a set of new primitives for building long-running agents that can persist, collaborate, and scale. These agents are designed to serve as general-purpose assistants, capable of reading files, writing code, executing it, and remembering what they learned. The Project Think primitives are built on top of the Agents SDK and include:\n\n* **Durable execution with fibers**: crash recovery, checkpointing, and automatic keepalive to ensure agents can persist and recover from interruptions.\n* **Sub-agents**: isolated child agents with their own SQLite and typed RPC foronation.\n* **Persistent sessions**: tree-structured messages, forking, compaction, and full-text search for efficient and scalable session management.\n* **Sandboxed code execution**: Dynamic Workers, codemode, and runtime npm resolution for secure and isolated code execution.\n* **Self-authored extensions**: agents that write their own tools at runtime, enabling dynamic and flexible extension of agent capabilities.\n\nThese primitives can be used directly with the Agent base class to build exactly what is needed, or the Think base class can be used to get started quickly. The Project Think architecture is designed to address the scalability and manageability issues associated with traditional agent-based systems, enabling the creation of large-scale, distributed agent ecosystems.\n\n**Practical Implications for Developers**\n\nDevelopers can use Project Think to build a wide range of applications, from simple coding agents to complex, distributed systems. The ability to persist and recover from interruptions, collaborate with other agents, and scale to meet demand makes Project Think an attractive choice for developers looking to build the next generation of AI agents.",
+  "authors": [
+    "Sunil Pai",
+    "Kate Reznykova"
+  ],
+  "categories": [
+    "Agents Week",
+    "Agents",
+    "Storage",
+    "Developer Platform",
+    "Developers",
+    "Cloudflare Workers",
+    "Durable Objects",
+    "AI"
+  ],
+  "guid": "3r2ykMs0LTSPwVHmVWldCy"
+}
