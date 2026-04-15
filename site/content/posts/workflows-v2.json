@@ -1,0 +1,21 @@
+{
+  "slug": "workflows-v2",
+  "title": "Rearchitecting the Workflows control plane for the agentic era",
+  "url": "https://blog.cloudflare.com/workflows-v2/",
+  "publishedAt": "Wed, 15 Apr 2026 13:00:00 GMT",
+  "summary": "**AI-Generated Summary**: This is an automated summary of a Cloudflare blog post created using AI. For the full details and context, please read the original post.\n\n**Rearchitecting the Workflows Control Plane for the Agent-Centric Era**\n\nCloudflare has announced significant updates to its Workflows control plane, designed to support the growing demand for agent-triggered workflows. As agents become persistent and autonomous infrastructure, operating on behalf of users for hours or days, they require a durable, asynchronous execution engine. Workflows provides this, with every step independently retryable, and each instance surviving failures without losing progress.\n\n**Key Updates and Improvements**\n\n* **Increased Concurrency**: The new control plane supports 50,000 concurrent instances, up from 4,500, allowing developers to scale their agents and applications on Workflows.\n* **Faster Instance Creation**: 300 instances can now be created per second per account, up from 100.\n* **Queued Instances**: The limit for queued instances has been increased to 2 million per workflow, up from 1 million.\n* **Redesigned Control Plane**: The new control plane is built on two new components, designed to horizontally scale the system and alleviate bottlenecks introduced by the original architecture.\n\n**Technical Details**\n\nThe Workflows control plane is built on top of Durable Objects, a simple but powerful primitive for coordination and storage within a distributed system. The new control plane uses a 1:1 ratio of Engine Durable Objects to workflow instances, and an Account Durable Object to manage all workflows and instances for an account. The redesign of the control plane has allowed for a significant increase in scalability and performance, making it easier for developers to build and deploy agent-centric applications on Workflows.",
+  "authors": [
+    "Luís Duarte",
+    "Mia Malden",
+    "André Venceslau"
+  ],
+  "categories": [
+    "Agents Week",
+    "Agents",
+    "Durable Objects",
+    "Cloudflare Workers",
+    "Developer Platform",
+    "Developers"
+  ],
+  "guid": "5R3ZpKlSDaSxbIwmpXwWYJ"
+}
