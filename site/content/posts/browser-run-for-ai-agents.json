@@ -1,0 +1,22 @@
+{
+  "slug": "browser-run-for-ai-agents",
+  "title": "Browser Run: give your agents a browser",
+  "url": "https://blog.cloudflare.com/browser-run-for-ai-agents/",
+  "publishedAt": "Wed, 15 Apr 2026 13:00:00 GMT",
+  "summary": "**AI-Generated Summary**: This is an automated summary of a Cloudflare blog post created using AI. For the full details and context, please read the original post.\n\n**Cloudflare Introduces Browser Run: A Browser for AI Agents**\n\nCloudflare has announced the rebranding of Browser Rendering to Browser Run, a feature that enables AI agents to interact with the web by running full browser sessions on Cloudflare's global network. Browser Run provides a browser for AI agents, allowing them to navigate sites, read pages, fill forms, extract data, and take screenshots at scale.\n\n**Key Features and Updates**\n\n* **Live View**: See what your agent sees and is doing in real-time, allowing for instant debugging and issue resolution.\n* **Human in the Loop**: When an agent hits a snag, it can hand off to a human for resolution, and then resume control.\n* **Chrome DevTools Protocol (CDP) Endpoint**: Exposes the CDP directly, enabling maximum control over the browser and existing CDP scripts to work on Cloudflare.\n* **MCP Client Support**: AI coding agents like Claude Desktop, Cursor, and OpenCode can now use Browser Run as their remote browser.\n* **WebMCP Support**: Allows websites to declare available actions for agents to discover and call, making navigation more reliable.\n* **Session Recordings**: Capture every browser session for debugging purposes.\n* **Higher Limits**: Run more tasks at once with 120 concurrent browsers, up from 30.\n\n**Practical Implications for Developers**\n\nBrowser Run provides a scalable and on-demand browser solution for AI agents, enabling them to interact with the web in a more reliable and efficient manner. Developers can use Browser Run to build long-running agents that browse the web, remember everything, and act on their own. The feature also exposes the Chrome DevTools Protocol (CDP) directly, allowing for maximum control over the browser and existing CDP scripts to work on Cloudflare.",
+  "authors": [
+    "Kathy Liao"
+  ],
+  "categories": [
+    "Agents Week",
+    "Chrome",
+    "Developer Platform",
+    "Developers",
+    "AI",
+    "Cloudflare Workers",
+    "Browser Rendering",
+    "Agents",
+    "Browser Run"
+  ],
+  "guid": "160lCssR1GA8lEUV718ev5"
+}
