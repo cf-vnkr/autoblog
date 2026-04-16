@@ -1,0 +1,17 @@
+{
+  "slug": "ai-search-agent-primitive",
+  "title": "AI Search: the search primitive for your agents",
+  "url": "https://blog.cloudflare.com/ai-search-agent-primitive/",
+  "publishedAt": "Thu, 16 Apr 2026 13:00:22 GMT",
+  "summary": "**AI-Generated Summary**: This is an automated summary of a Cloudflare blog post created using AI. For the full details and context, please read the original post.\n\n**Introducing AI Search: A Plug-and-Play Search Primitive for Cloudflare Agents**\n\nCloudflare has announced the release of AI Search, a search primitive designed to simplify the development of search functionality for Cloudflare Agents. AI Search enables developers to dynamically create search instances, index data, and perform searches from a Worker, the Agents SDK, or the Wrangler CLI. This eliminates the need to set up vector indexes, indexing pipelines, and storage solutions, making it easier to build search functionality into their agents.\n\n**Key Features of AI Search**\n\n* **Hybrid Search**: Enables both semantic and keyword matching in a single query, with vector search and BM25 running in parallel and results fused.\n* **Built-in Storage and Index**: New instances come with their own storage and vector index, eliminating the need to set up R2 buckets or external data sources.\n* **Dynamic Instance Creation**: The `ai_search_namespaces` binding allows developers to create and delete instances at runtime from their Worker, enabling the creation of instances per agent, per customer, or per language without redeployment.\n* **Metadata Support**: Developers can attach metadata to documents and use it to boost rankings at query time, and query across multiple instances in a single call.\n\n**Practical Implications for Developers**\n\nThe introduction of AI Search simplifies the development of search functionality for Cloudflare Agents, making it easier to build and deploy search-powered agents. With AI Search, developers can:\n\n* Create search instances dynamically, eliminating the need to set up and manage storage and indexing solutions.\n* Perform hybrid searches, combining semantic and keyword matching in a single query.\n* Attach metadata to documents and use it to boost rankings at query time.\n* Query across multiple instances in a single call, enabling more complex search scenarios.\n\nOverall, AI Search provides a powerful and flexible search primitive for Cloudflare Agents, making it easier for developers to build and deploy search-powered agents.",
+  "authors": [
+    "Anni Wang"
+  ],
+  "categories": [
+    "Agents Week",
+    "Agents",
+    "AI Search",
+    "AI"
+  ],
+  "guid": "4l8kYFerKsLkZH2ZVaOoYf"
+}
