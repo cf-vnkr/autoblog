@@ -1,0 +1,23 @@
+{
+  "slug": "deploy-planetscale-postgres-with-workers",
+  "title": "Deploy Postgres and MySQL databases with PlanetScale + Workers",
+  "url": "https://blog.cloudflare.com/deploy-planetscale-postgres-with-workers/",
+  "publishedAt": "Thu, 16 Apr 2026 13:00:22 GMT",
+  "summary": "**AI-Generated Summary**: This is an automated summary of a Cloudflare blog post created using AI. For the full details and context, please read the original post.\n\n**Cloudflare and PlanetScale Integrate for Fast, Full-Stack Applications**\n\nCloudflare is expanding its partnership with PlanetScale to provide developers with direct access to Postgres and MySQL databases from the Cloudflare dashboard and API. This integration enables developers to create PlanetScale databases directly from the Cloudflare dashboard and have them billed to their Cloudflare account, streamlining the process of building fast, full-stack applications.\n\n**Key Technical Details**\n\nWith this integration, developers can use Cloudflare's Hyperdrive service to manage database connection pools and query caching, making database queries fast and reliable. To use PlanetScale databases with Workers, developers simply need to add a binding to their Worker's config file and start running SQL queries via their Postgres client of choice.\n\n**Practical Implications for Developers**\n\nThis integration provides several benefits for developers, including:\n\n* Simplified database management: Developers can create and manage PlanetScale databases directly from the Cloudflare dashboard, eliminating the need to switch between multiple platforms.\n* Improved performance: Cloudflare's Hyperdrive service ensures fast and reliable database queries, reducing latency and improving overall application performance.\n* Cost-effective: Developers can use Cloudflare credits, such as those provided in the startup program or committed spend, towards PlanetScale databases, reducing costs.\n\n**Additional Features and Pricing**\n\nPlanetScale databases can be deployed directly from Cloudflare with connections managed via Hyperdrive, providing access to the same PlanetScale database clusters at standard PlanetScale pricing. A single node on PlanetScale Postgres starts at $5/month.",
+  "authors": [
+    "Vy Ton",
+    "Matt Silverlock"
+  ],
+  "categories": [
+    "SQL",
+    "Database",
+    "Storage",
+    "Postgres",
+    "MySQL",
+    "Cloudflare Workers",
+    "Developer Platform",
+    "Developers",
+    "PlanetScale"
+  ],
+  "guid": "1IGJnHwj5QVRJm9iCdEqYV"
+}
