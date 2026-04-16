@@ -1,0 +1,22 @@
+{
+  "slug": "high-performance-llms",
+  "title": "Building the foundation for running extra-large language models",
+  "url": "https://blog.cloudflare.com/high-performance-llms/",
+  "publishedAt": "Thu, 16 Apr 2026 14:00:00 GMT",
+  "summary": "**AI-Generated Summary**: This is an automated summary of a Cloudflare blog post created using AI. For the full details and context, please read the original post.\n\nCloudflare has made significant advancements in hosting large language models, particularly with the Kimi K2.5 model, which has been optimized to run 3x faster. To achieve this, Cloudflare has implemented a variety of hardware configurations that cater to different use cases, such as input-heavy or output-heavy traffic. For agents, which typically involve sending large numbers of input tokens, Cloudflare has focused on optimizing fast input token processing and fast tool calling.\n\nOne key technical innovation is the use of prefill decode (PD) disaggregation, which separates the prefill and decode stages of processing an LLM request into two distinct inference servers. This allows for more efficient utilization of GPU power and enables the servers to be tuned independently for their specific roles. However, this architecture requires a complex load balancer that can route requests, rewrite responses, and estimate the number of tokens in-flight to each endpoint.\n\nThis technical advancement has significant practical implications for developers who rely on large language models for their applications. By providing a more efficient and scalable infrastructure, Cloudflare enables developers to build more complex and interactive agents that can handle large amounts of input and output tokens. This, in turn, opens up new possibilities for applications such as summarization, code generation, and more.",
+  "authors": [
+    "Michelle Chen",
+    "Kevin Flansburg",
+    "Vlad Krasnov"
+  ],
+  "categories": [
+    "Agents Week",
+    "Agents",
+    "AI",
+    "Developer Platform",
+    "Developers",
+    "Infrastructure",
+    "Workers AI"
+  ],
+  "guid": "71xNLfh83S7Fg78QEcgdhf"
+}
