@@ -1,0 +1,21 @@
+{
+  "slug": "email-for-agents",
+  "title": "Cloudflare Email Service: now in public beta. Ready for your agents",
+  "url": "https://blog.cloudflare.com/email-for-agents/",
+  "publishedAt": "Thu, 16 Apr 2026 06:00:00 GMT",
+  "summary": "**AI-Generated Summary**: This is an automated summary of a Cloudflare blog post created using AI. For the full details and context, please read the original post.\n\n**Cloudflare Email Service Enters Public Beta: Unlocking Email-Native Agents**\n\nCloudflare has announced the public beta of its Email Service, a purpose-built infrastructure for email interactions with applications and agents. This service addresses the growing need for email to become a core interface for agents, enabling developers to build more sophisticated workflows and interactions. The Email Service includes Email Routing, which allows receiving email to applications or agents, and Email Sending, which enables replying to emails or sending outbound notifications.\n\n**Key Technical Details:**\n\n* Email Sending is now in public beta, allowing developers to send transactional emails directly from Workers with a native Workers binding.\n* Email Sending can be used from any platform, language, or environment using the REST API and SDKs for TypeScript, Python, and Go.\n* The Email Service automatically configures SPF, DKIM, and DMARC records, ensuring emails are authenticated and delivered to inboxes.\n* Email Service is a global service built on Cloudflare's network, delivering emails with low latency anywhere in the world.\n\n**Practical Implications for Developers:**\n\n* With Email Sending, developers can build email-native agents that receive messages, orchestrate work across the platform, and respond asynchronously.\n* The Agents SDK now includes a first-class onEmail hook for receiving and processing inbound email, enabling more sophisticated agent workflows.\n* Developers can use Email Sending to send transactional emails directly from Workers, eliminating the need for API keys and secrets management.\n\n**Conclusion:**\n\nThe public beta of Cloudflare Email Service marks a significant milestone in enabling developers to build more sophisticated email interactions with applications and agents. With Email Sending and Email Routing, developers can unlock new possibilities for email-native agents, enhancing workflows and interactions.",
+  "authors": [
+    "Thomas Gauvin",
+    "Eric Falcão"
+  ],
+  "categories": [
+    "Agents Week",
+    "Agents",
+    "Developers",
+    "Developer Platform",
+    "AI",
+    "Workers AI",
+    "Email"
+  ],
+  "guid": "3G2uQLc6OAHayqaZxxDrrZ"
+}
