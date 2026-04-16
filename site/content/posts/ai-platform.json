@@ -1,0 +1,22 @@
+{
+  "slug": "ai-platform",
+  "title": "Cloudflare’s AI Platform: an inference layer designed for agents",
+  "url": "https://blog.cloudflare.com/ai-platform/",
+  "publishedAt": "Thu, 16 Apr 2026 14:00:00 GMT",
+  "summary": "**AI-Generated Summary**: This is an automated summary of a Cloudflare blog post created using AI. For the full details and context, please read the original post.\n\n**Cloudflare Unveils Unified Inference Layer for AI Model Access**\n\nCloudflare has introduced a unified inference layer, enabling developers to access any AI model from any provider through a single API. This innovation addresses the challenges of managing multiple AI models, providers, and costs, particularly when building agents that require chaining multiple model calls together. The new AI Gateway allows developers to call third-party models using the same `AI.run()` binding as Workers AI, with support for REST API coming soon.\n\n**Key Features and Benefits**\n\n* **Unified API**: Access 70+ models across 12+ providers through a single API, with one line of code to switch between them.\n* **Model Catalog**: Browse through a catalog of models, including open-source and proprietary models from major providers.\n* **Cost Management**: Monitor and manage AI spend in one place, with customizable metadata for breakdowns by attributes such as free vs. paid users, individual customers, or specific workflows.\n* **Bring Your Own Model**: Soon, users will be able to bring their own fine-tuned models to Workers AI.\n\n**Practical Implications for Developers**\n\n* Simplify AI model management and access with a unified API.\n* Reduce costs and complexity by managing all AI spend in one place.\n* Take advantage of a wide range of models from multiple providers, including image, video, and speech models for multimodal applications.\n* Improve the reliability and performance of agents by chaining multiple model calls together.",
+  "authors": [
+    "Ming Lu",
+    "Michelle Chen"
+  ],
+  "categories": [
+    "Agents Week",
+    "Agents",
+    "AI",
+    "AI Gateway",
+    "Workers AI",
+    "Developers",
+    "Developer Platform",
+    "LLM"
+  ],
+  "guid": "2vIUFXJLJcMgjgY6jFnQ7G"
+}
