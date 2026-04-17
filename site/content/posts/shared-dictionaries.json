@@ -1,0 +1,21 @@
+{
+  "slug": "shared-dictionaries",
+  "title": "Shared Dictionaries: compression that keeps up with the agentic web",
+  "url": "https://blog.cloudflare.com/shared-dictionaries/",
+  "publishedAt": "Fri, 17 Apr 2026 13:02:00 GMT",
+  "summary": "**AI-Generated Summary**: This is an automated summary of a Cloudflare blog post created using AI. For the full details and context, please read the original post.\n\n**Cloudflare Introduces Shared Dictionaries for Efficient Compression**\n\nCloudflare has announced the introduction of shared dictionaries, a new compression technique designed to improve the efficiency of web page loading, particularly in the context of agent-driven web development. The shared dictionary concept allows the server to compress responses against the client's existing cache, reducing the amount of data transferred and improving page load times.\n\n**Key Technical Details**\n\nShared dictionaries work by maintaining a reference between the server and client, known as a compression dictionary. This dictionary contains a mapping of previously cached content, allowing the server to compress new responses against the client's existing cache. The more the dictionary can reference content in the file, the smaller the compressed output that is transferred to the client.\n\n**Practical Implications for Developers**\n\nThe introduction of shared dictionaries has significant implications for developers, particularly those working with agent-driven web development. By reducing the amount of data transferred and improving page load times, shared dictionaries can help developers:\n\n* Improve user experience by reducing page load times\n* Reduce bandwidth and CPU usage\n* Optimize web page loading for agent-driven development\n\n**Availability and Timeline**\n\nCloudflare has announced that shared dictionaries will be available in beta on April 30, 2026. Developers can expect to see improved performance and efficiency in web page loading, particularly in scenarios where agent-driven development is prevalent.",
+  "authors": [
+    "Alex Krivit",
+    "Edward Wang",
+    "Sid Chunduri"
+  ],
+  "categories": [
+    "Agents Week",
+    "Agents",
+    "Compression",
+    "Pingora",
+    "Speed",
+    "AI"
+  ],
+  "guid": "1vrgbarIDanwhi6j2m6oNM"
+}
