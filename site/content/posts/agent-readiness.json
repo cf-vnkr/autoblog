@@ -1,0 +1,20 @@
+{
+  "slug": "agent-readiness",
+  "title": "Introducing the Agent Readiness score. Is your site agent-ready?",
+  "url": "https://blog.cloudflare.com/agent-readiness/",
+  "publishedAt": "Fri, 17 Apr 2026 13:05:00 GMT",
+  "summary": "**AI-Generated Summary**: This is an automated summary of a Cloudflare blog post created using AI. For the full details and context, please read the original post.\n\n**Introducing the Agent Readiness Score: A New Tool for Web Developers**\n\nCloudflare has introduced a new tool, isitagentready.com, to help web developers understand how their sites can be optimized for AI agents. The tool provides a score based on four dimensions: Discoverability, Content, Bot Access Control, and Web Bot Auth Capabilities. The score is calculated by checking for the presence of certain standards, such as robots.txt, sitemap.xml, and Markdown for Agents. The tool also provides actionable feedback and prompts for developers to implement support for these standards.\n\n**Key Technical Details**\n\n* The tool checks for the following standards:\n\t+ Discoverability: robots.txt, sitemap.xml, Link Headers (RFC 8288)\n\t+ Content: Markdown for Agents\n\t+ Bot Access Control: Content Signals, AI bot rules in robots.txt\n\t+ Web Bot Auth Capabilities: Agent Skills, API Catalog (RFC 9727), OAuth server discovery via RFC 8414 and RFC 9728, MCP Server Card, and WebMCP\n* The tool also checks for agentic commerce standards, including x402, Universal Commerce Protocol, and Agentic Commerce Protocol, but these do not currently count towards the score.\n* The tool provides a score based on the number of passing checks, with a maximum score of 100.\n\n**Practical Implications for Developers**\n\n* The tool provides a simple way for developers to understand how their sites can be optimized for AI agents.\n* The actionable feedback and prompts provided by the tool can help developers implement support for these standards.\n* By optimizing their sites for AI agents, developers can improve the user experience and increase the effectiveness of their sites.\n* The tool can also help developers identify areas for improvement and provide a starting point for implementing new standards.",
+  "authors": [
+    "André Jesus",
+    "Vance Morrison"
+  ],
+  "categories": [
+    "Agents Week",
+    "Radar",
+    "Developer Documentation",
+    "AI",
+    "Agents",
+    "Agent Readiness"
+  ],
+  "guid": "5t83bTn7Vt1EudTxQQ97NY"
+}
