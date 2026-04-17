@@ -1,0 +1,18 @@
+{
+  "slug": "unweight-tensor-compression",
+  "title": "Unweight: how we compressed an LLM 22% without sacrificing quality",
+  "url": "https://blog.cloudflare.com/unweight-tensor-compression/",
+  "publishedAt": "Fri, 17 Apr 2026 13:00:00 GMT",
+  "summary": "**AI-Generated Summary**: This is an automated summary of a Cloudflare blog post created using AI. For the full details and context, please read the original post.\n\n**Cloudflare's Unweight: A Lossless Compression System for LLM Weights**\n\nCloudflare has developed Unweight, a lossless compression system that reduces Large Language Model (LLM) weights by up to 22% without sacrificing quality. This breakthrough enables faster and cheaper inference on Cloudflare's network. Unweight achieves this by selectively compressing model weights, resulting in a 15-22% reduction in model size and 3 GB VRAM savings. The system is designed to work seamlessly with Cloudflare's Rust-based inference engine and NVIDIA H100 GPUs.\n\n**Key Technical Details**\n\nUnweight uses a combination of techniques to achieve lossless compression, including entropy coding and selective compression of model weights. The system selects from multiple execution strategies, prioritizing simplicity or minimizing memory traffic, and uses an autotuner to pick the best one per weight matrix and batch size. Unweight's runtime decompresses weights in fast on-chip memory and feeds them directly to the tensor cores, avoiding an extra round-trip through slow main memory.\n\n**Practical Implications for Developers**\n\nUnweight's lossless compression system opens up new possibilities for developers working with LLMs. By reducing model size and VRAM requirements, developers can:\n\n* Run more models on a single GPU, making inference cheaper and faster\n* Fit more models on a single GPU, enabling more diverse use cases\n* Take advantage of Cloudflare's Rust-based inference engine and NVIDIA H100 GPUs\n\n**Open-Source and Technical Paper**\n\nCloudflare has published a technical paper and open-sourced the GPU kernels for Unweight, encouraging innovation in this rapidly developing space. The initial results on Llama-3.1-8B show ~30% compression of Multi-Layer Perceptron (MLP) weights alone.",
+  "authors": [
+    "Mari Galicer",
+    "Ivan Nikulin",
+    "Chris Branch"
+  ],
+  "categories": [
+    "Agents Week",
+    "Research",
+    "AI"
+  ],
+  "guid": "5zArX1DmYGvf4WM0go16wb"
+}
