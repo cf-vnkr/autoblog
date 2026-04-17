@@ -1,0 +1,18 @@
+{
+  "slug": "network-performance-agents-week",
+  "title": "Agents Week: network performance update",
+  "url": "https://blog.cloudflare.com/network-performance-agents-week/",
+  "publishedAt": "Fri, 17 Apr 2026 13:00:00 GMT",
+  "summary": "**AI-Generated Summary**: This is an automated summary of a Cloudflare blog post created using AI. For the full details and context, please read the original post.\n\n**Cloudflare's Network Performance Update: Key Technical Details and Implications**\n\nCloudflare has released an update on its network performance, highlighting its progress in becoming the fastest network in 60% of the top 1,000 networks worldwide. The company measures performance using TCP connection time, a metric that closely approximates user-perceived Internet speed. To collect data, Cloudflare relies on Real User Measurements (RUM) from users' browsers, which retrieve small files from multiple providers and record the time taken for each exchange.\n\n**Key Technical Improvements**\n\nCloudflare's improved performance can be attributed to several technical advancements:\n\n1. **New locations**: The deployment of new points of presence in Constantine, Algeria; Malang, Indonesia; and Wroclaw, Poland has reduced end latency for users.\n2. **Software improvements**: Changes to protocols like HTTP/3 and congestion window management have reduced processing time by milliseconds in code.\n3. **Efficient resource usage**: Improvements in CPU and memory usage in Cloudflare's software have made it more efficient in handling fundamental actions like establishing connections, SSL/TLS termination, traffic management, and proxying requests.\n\n**Practical Implications for Developers**\n\nCloudflare's improved network performance has significant implications for developers:\n\n1. **Faster application loading**: With reduced latency, applications will load faster, providing a better user experience.\n2. **Improved SEO**: Faster page loading times can improve search engine rankings and drive more traffic to websites.\n3. **Enhanced security**: Cloudflare's improved performance and security features, such as SSL/TLS termination and traffic management, can help protect against cyber threats.\n\nOverall, Cloudflare's network performance update demonstrates the company's commitment to providing a fast, secure, and reliable internet experience for users worldwide.",
+  "authors": [
+    "Lai Yi Ohlsen"
+  ],
+  "categories": [
+    "Network Performance Update",
+    "Rust",
+    "Agents Week",
+    "Agents",
+    "Performance"
+  ],
+  "guid": "5SYHyUGFmSQjwi4u55DYUC"
+}
