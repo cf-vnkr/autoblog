@@ -1,0 +1,22 @@
+{
+  "slug": "ai-redirects",
+  "title": "Redirects for AI Training enforces canonical content",
+  "url": "https://blog.cloudflare.com/ai-redirects/",
+  "publishedAt": "Fri, 17 Apr 2026 13:00:00 GMT",
+  "summary": "**AI-Generated Summary**: This is an automated summary of a Cloudflare blog post created using AI. For the full details and context, please read the original post.\n\n**Redirects for AI Training Enforces Canonical Content**\n\nCloudflare has introduced a new feature, Redirects for AI Training, to address the issue of AI training crawlers consuming outdated content. These crawlers ingest deprecated documentation at the same rate as current content, despite advisory signals indicating that the content is outdated. The new feature redirects verified AI training crawlers to up-to-date content, leveraging existing canonical tags in HTML.\n\n**Key Technical Details**\n\n* Redirects for AI Training operates on two inputs: Cloudflare's cf.verified_bot_category field and the tags already in your HTML.\n* The feature targets the AI Crawler category, which includes bots like GPTBot, ClaudeBot, and Bytespider.\n* When a request arrives from a verified AI Crawler, Cloudflare reads the response HTML and issues a 301 Moved Permanently to the canonical URL if a non-self-referencing canonical tag is present.\n* Human traffic, search indexing, and other automated traffic is unaffected.\n\n**Practical Implications for Developers**\n\n* This feature ensures that AI training crawlers consume up-to-date content, reducing the risk of training on outdated information.\n* Developers can take advantage of existing canonical tags in their HTML to enable smooth redirects for AI training crawlers.\n* The feature is available on all paid Cloudflare plans, making it easily accessible to developers.",
+  "authors": [
+    "Cam Whiteside",
+    "David Belson",
+    "André Cruz"
+  ],
+  "categories": [
+    "Agents Week",
+    "Agents",
+    "AI",
+    "Radar",
+    "Bot Management",
+    "Developer Platform",
+    "Developers"
+  ],
+  "guid": "4Gi8lGLqjdsjywAFEKLLYW"
+}
