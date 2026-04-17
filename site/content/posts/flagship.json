@@ -1,0 +1,20 @@
+{
+  "slug": "flagship",
+  "title": "Introducing Flagship: feature flags built for the age of AI",
+  "url": "https://blog.cloudflare.com/flagship/",
+  "publishedAt": "Fri, 17 Apr 2026 13:00:00 GMT",
+  "summary": "**AI-Generated Summary**: This is an automated summary of a Cloudflare blog post created using AI. For the full details and context, please read the original post.\n\n**Introducing Flagship: Cloudflare's Native Feature Flag Service**\n\nCloudflare has announced Flagship, a native feature flag service built on OpenFeature, the CNCF open standard for feature flag evaluation. Flagship is designed to enable developers to safely deploy AI-generated code without removing safety nets, and to handle the increasing autonomy of AI agents in the development process. Flagship works everywhere, including Workers, Node.js, Bun, Deno, and the browser, but is optimized for Workers, where flags are evaluated within the Cloudflare network.\n\n**Key Technical Details**\n\nFlagship uses OpenFeature to evaluate feature flags, which allows for a standardized and extensible approach to feature flag management. The Flagship binding and OpenFeature enable integration with a variety of frameworks and languages. Flagship is designed to handle the unique requirements of serverless platforms like Workers, where processes are short-lived and caching is managed by the platform.\n\n**Practical Implications for Developers**\n\nFlagship addresses common pain points in feature flag management on Workers, such as the need for a centralized view of flags, audit trails, and fast evaluation times. By using Flagship, developers can decouple human attention from every stage of the shipping process, allowing AI agents to move fast while keeping safety nets in place. Flagship is now available in closed beta, and developers can integrate it with their existing workflows using the Flagship binding and OpenFeature.",
+  "authors": [
+    "Rohan Mukherjee",
+    "Abhishek Kankani"
+  ],
+  "categories": [
+    "Cloudflare Workers",
+    "Developer Platform",
+    "AI",
+    "Durable Objects",
+    "Performance",
+    "Feature Flags"
+  ],
+  "guid": "3d8fI4f0doBxr4ybfKEymB"
+}
