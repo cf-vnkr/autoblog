@@ -1,0 +1,18 @@
+{
+  "slug": "introducing-agent-memory",
+  "title": "Agents that remember: introducing Agent Memory",
+  "url": "https://blog.cloudflare.com/introducing-agent-memory/",
+  "publishedAt": "Fri, 17 Apr 2026 13:00:00 GMT",
+  "summary": "**AI-Generated Summary**: This is an automated summary of a Cloudflare blog post created using AI. For the full details and context, please read the original post.\n\n**Introducing Agent Memory: Persistent Memory for AI Agents**\n\nCloudflare has announced the private beta of Agent Memory, a managed service that addresses the challenge of context rot in AI agents. As agents operate with increasingly large context windows, they struggle to retain relevant information, leading to degraded performance. Agent Memory extracts information from agent conversations and makes it available when needed, without filling up the context window. This allows AI agents to recall what matters, forget what doesn't, and get smarter over time.\n\n**Key Technical Details**\n\nAgent Memory is a managed service with an opinionated API and retrieval-based architecture. It stores memories in a profile, which is addressed by name, and provides several operations: ingest a conversation, remember something specific, recall what you need, list memories, or forget a specific memory. The service is designed to handle fast ingestion, retrieval that doesn't block the conversation, and reasonable per-query costs.\n\n**Practical Implications for Developers**\n\nAgent Memory is designed to address the gaps in existing approaches to agentic memory. It provides a better foundation for complex reasoning tasks required in production, such as temporal logic, supersession, and instruction following. Developers can use Agent Memory to build more sophisticated agents that can recall relevant information, forget what's not needed, and improve over time. The service is currently in private beta, and developers can sign up to try it out.",
+  "authors": [
+    "Tyson Trautmann",
+    "Rob Sutter"
+  ],
+  "categories": [
+    "Agents Week",
+    "Agents",
+    "AI",
+    "Storage"
+  ],
+  "guid": "3VGCjw0ivWk7RfPbPZ9k9H"
+}
