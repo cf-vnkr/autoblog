@@ -1,0 +1,32 @@
+{
+  "slug": "agents-week-in-review",
+  "title": "Building the agentic cloud: everything we launched during Agents Week 2026",
+  "url": "https://blog.cloudflare.com/agents-week-in-review/",
+  "publishedAt": "Mon, 20 Apr 2026 13:00:00 GMT",
+  "summary": "**AI-Generated Summary**: This is an automated summary of a Cloudflare blog post created using AI. For the full details and context, please read the original post.\n\n**Cloudflare Announces Agentic Cloud: A New Era for Developers**\n\nCloudflare has marked the end of its first Agents Week, a week dedicated to the emerging age of agents. As agents become increasingly prevalent in various industries, Cloudflare has launched a new set of primitives designed to solve the challenges of building, deploying, and running agents at scale. The agentic cloud is a new infrastructure designed to support a world where agents are a primary workload.\n\n**Key Announcements**\n\n1. **Artifacts**: A Git-compatible versioned storage system for agents, developers, and automations. Artifacts allows for tens of millions of repositories, forked from any remote, and can be handed off to any Git client.\n2. **Cloudflare Sandboxes**: Persistent, isolated environments for AI agents, providing a real computer with a shell, filesystem, and background processes that start on demand and pick up where they left off.\n3. **Outbound Workers for Sandboxes**: A programmable, zero-trust egress proxy for AI agents, allowing developers to inject credentials and enforce dynamic security policies without exposing sensitive tokens to untrusted code.\n4. **Durable Objects in Dynamic Workers**: A feature that enables each AI-generated app to have its own isolated SQLite database, allowing developers to build platforms that run persistent, stateful code generated on-the-fly.\n5. **Cloudflare Workflows**: A durable execution engine for multi-step applications, now supporting 50,000 concurrency and 300 creation rate limits through a rearchitectured control plane.\n\n**Practical Implications for Developers**\n\nThe agentic cloud provides a new set of primitives for developers to build, deploy, and run agents at scale. With Artifacts, developers can create and manage tens of millions of repositories, while Cloudflare Sandboxes provide a persistent, isolated environment for AI agents. Outbound Workers for Sandboxes enable developers to inject credentials and enforce dynamic security policies, while Durable Objects in Dynamic Workers allow for persistent, stateful code generation. Cloudflare Workflows provides a durable execution engine for multi-step applications, supporting high concurrency and creation rates.",
+  "authors": [
+    "Ming Lu",
+    "Anni Wang"
+  ],
+  "categories": [
+    "Agents Week",
+    "Agents",
+    "AI",
+    "Durable Objects",
+    "Cloudflare Workers",
+    "SDK",
+    "Browser Run",
+    "Cloudflare Access",
+    "Browser Rendering",
+    "MCP",
+    "Developer Platform",
+    "Developers",
+    "Sandbox",
+    "LLM",
+    "Cloudflare Gateway",
+    "Workers AI",
+    "Product News",
+    "API"
+  ],
+  "guid": "25CSwW9eXDM4FJOdVPLf8f"
+}
