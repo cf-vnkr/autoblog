@@ -1,0 +1,20 @@
+{
+  "slug": "ai-code-review",
+  "title": "Orchestrating AI Code Review at scale",
+  "url": "https://blog.cloudflare.com/ai-code-review/",
+  "publishedAt": "Mon, 20 Apr 2026 13:00:00 GMT",
+  "summary": "**AI-Generated Summary**: This is an automated summary of a Cloudflare blog post created using AI. For the full details and context, please read the original post.\n\n**Cloudflare's AI Code Review System: A Scalable Solution**\n\nCloudflare has developed an AI-powered code review system that addresses the bottleneck of traditional code review processes. The system, built around OpenCode, an open-source coding agent, uses a coordinated smörgåsbord of AI agents to review code across various aspects, including security, performance, code quality, documentation, release management, and compliance. This approach has improved the accuracy of bug detection and reduced the median wait time for a first review from hours to near real-time.\n\n**Key Technical Details**\n\nThe system is built on a composable plugin architecture, allowing it to support multiple version control systems (VCS) and AI providers without hardcoding any specific implementation. Each plugin implements a ReviewPlugin interface with three lifecycle phases: Bootstrap, Configure, and postConfigure. The Configure phase is fatal, ensuring that the review process is halted if the VCS provider cannot connect to the repository.\n\n**Practical Implications for Developers**\n\nCloudflare's AI code review system demonstrates the potential of AI-powered tools in improving development efficiency and accuracy. Developers can leverage this approach to:\n\n* Reduce the time spent on code review and approval\n* Improve the accuracy of bug detection and prevention\n* Enhance code quality and maintainability\n* Automate routine tasks and focus on high-value activities\n\n**Architecture and Design**\n\nThe system's composable plugin architecture ensures flexibility and scalability, allowing it to adapt to changing requirements and support multiple VCS and AI providers. The use of a ReviewPlugin interface and three lifecycle phases provides a standardized approach to plugin development and integration.",
+  "authors": [
+    "Ryan Skidmore"
+  ],
+  "categories": [
+    "Agents Week",
+    "Agents",
+    "AI",
+    "Developer Platform",
+    "Developers",
+    "LLM",
+    "AI Gateway"
+  ],
+  "guid": "6dkWF56UtSkU9dWfFUxiCn"
+}
