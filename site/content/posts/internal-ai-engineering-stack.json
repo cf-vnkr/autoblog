@@ -1,0 +1,26 @@
+{
+  "slug": "internal-ai-engineering-stack",
+  "title": "The AI engineering stack we built internally — on the platform we ship",
+  "url": "https://blog.cloudflare.com/internal-ai-engineering-stack/",
+  "publishedAt": "Mon, 20 Apr 2026 13:00:00 GMT",
+  "summary": "**AI-Generated Summary**: This is an automated summary of a Cloudflare blog post created using AI. For the full details and context, please read the original post.\n\n**Cloudflare's Internal AI Engineering Stack: A Technical Overview**\n\nCloudflare has developed an internal AI engineering stack, built on their own platform, to integrate AI into their engineering workflow. This stack has been adopted by 93% of their R&D organization, with 3,683 internal users actively using AI coding tools daily. The stack consists of several key components, including:\n\n* **MCP Servers**: The foundation of the stack, providing a centralized platform for AI tooling and access control.\n* **AI Gateway**: A critical component that handles authentication, routing, and inference for AI requests, ensuring security and visibility across multiple clients and use cases.\n* **Workers AI**: A platform for on-platform inference with open-weight models, allowing for sandboxed execution of agent-generated code.\n* **Code Reviewer**: An AI-powered code review tool that helps maintain quality at scale.\n* **Engineering Codex**: A knowledge layer that provides a structured understanding of Cloudflare's systems and processes.\n\n**Key Technical Details**\n\n* The stack uses Zero Trust authentication and centralized LLM routing, cost tracking, BYOK, and Zero Data Retention controls.\n* AI Gateway handles 688.46k requests per day, routing to four providers through one endpoint.\n* Workers AI provides on-platform inference with open-weight models, allowing for sandboxed execution of agent-generated code.\n* Code Reviewer uses AI to help maintain quality at scale, with 20.18 million AI Gateway requests per month.\n\n**Practical Implications for Developers**\n\n* The internal AI engineering stack has significantly improved developer velocity, with a 4-week rolling average of merge requests increasing from ~5,600/week to over 8,700.\n* The stack provides a scalable and secure platform for AI tooling and access control, enabling developers to focus on building high-quality software.\n* The use of AI-powered code review and knowledge management tools helps maintain quality at scale, reducing the risk of errors and improving the overall development process.",
+  "authors": [
+    "Ayush Thakur",
+    "Scott Roe-Meschke",
+    "Rajesh Bhatia"
+  ],
+  "categories": [
+    "Agents Week",
+    "Agents",
+    "AI",
+    "Cloudflare Workers",
+    "SASE",
+    "MCP",
+    "Developer Platform",
+    "Developers",
+    "Cloudflare Gateway",
+    "Product News",
+    "Workers AI"
+  ],
+  "guid": "4z7ZJ5ZbY3e3YwJtkg6NiD"
+}
