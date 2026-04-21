@@ -1,0 +1,19 @@
+{
+  "slug": "past-bots-and-humans",
+  "title": "Moving past bots vs. humans",
+  "url": "https://blog.cloudflare.com/past-bots-and-humans/",
+  "publishedAt": "Tue, 21 Apr 2026 13:00:00 GMT",
+  "summary": "**AI-Generated Summary**: This is an automated summary of a Cloudflare blog post created using AI. For the full details and context, please read the original post.\n\n**Evolving Web Protection: Moving Beyond Bots vs. Humans**\n\nCloudflare's research highlights the need to shift web protection strategies from focusing solely on distinguishing between bots and humans to understanding intent and behavior. This shift is driven by the increasing use of AI-powered assistants and emerging clients that blur the lines between traditional web browsers and automated systems. Developers must adapt to this new landscape, where the distinction between wanted bots and unwanted humans is no longer the primary concern.\n\n**Technical Implications**\n\nThe traditional approach to web protection, which relies on detecting bots and humans, is no longer sufficient. Instead, developers must focus on understanding the intent and behavior of clients, including AI-powered assistants and emerging clients. This requires a more nuanced approach to web protection, one that takes into account factors such as:\n\n* Intent: Is the client attempting to access sensitive information or perform malicious actions?\n* Behavior: Is the client's behavior consistent with that of a human or a bot?\n* Proportionality: Is the client's activity proportional to the expected traffic or behavior?\n\n**Practical Considerations**\n\nDevelopers must consider the following practical implications when adapting to this new landscape:\n\n* **Private rate limiting**: Emerging clients may not embed the same behaviors as traditional web browsers, which can impact private rate limiting systems.\n* **Bot authentication**: Cloudflare's bot authentication with HTTP message signatures can help identify crawlers that want to identify without being impersonated.\n* **Web protection**: Developers must evolve their web protection strategies to focus on intent and behavior, rather than simply distinguishing between bots and humans.\n\nBy understanding these technical implications and practical considerations, developers can build more effective web protection systems that adapt to the changing landscape of web clients and AI-powered assistants.",
+  "authors": [
+    "Thibault Meunier"
+  ],
+  "categories": [
+    "Research",
+    "Bots",
+    "Privacy",
+    "Standards",
+    "Better Internet",
+    "AI"
+  ],
+  "guid": "6qZ5scXbRymHWaQGBZcqe"
+}
