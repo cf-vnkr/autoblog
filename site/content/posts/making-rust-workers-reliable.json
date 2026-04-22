@@ -1,0 +1,25 @@
+{
+  "slug": "making-rust-workers-reliable",
+  "title": "Making Rust Workers reliable: panic and abort recovery in wasm‑bindgen",
+  "url": "https://blog.cloudflare.com/making-rust-workers-reliable/",
+  "publishedAt": "Wed, 22 Apr 2026 13:00:00 GMT",
+  "summary": "**AI-Generated Summary**: This is an automated summary of a Cloudflare blog post created using AI. For the full details and context, please read the original post.\n\n**Improving Rust Workers Reliability with Panic and Abort Recovery**\n\nCloudflare has made significant improvements to the reliability of Rust Workers by addressing issues with panics and aborts in WebAssembly (WASM) applications. Historically, panics in Rust Workers were fatal, causing the instance to be poisoned and potentially bricking the Worker for a period of time. To mitigate this, Cloudflare introduced a custom panic handler that tracked failure state within a Worker and triggered full application reinitialization before handling subsequent requests.\n\n**New Features and Improvements**\n\nThe latest version of Rust Workers now includes comprehensive Wasm error recovery, which solves the abort-induced sandbox poisoning issue. This is achieved through two key features:\n\n1. **Panic=unwind support**: This allows Rust code to unwind and recover from panics without discarding instance state. This is made possible by the WebAssembly Exception Handling proposal, which gained wide engine support in 2023.\n2. **Abort recovery mechanisms**: These guarantee that Rust code on Wasm can never re-execute after an abort, ensuring that the instance remains in a consistent state.\n\n**Practical Implications for Developers**\n\nThese improvements have significant implications for developers building Rust Workers. With panic=unwind support, developers can now write more robust and reliable code that can recover from panics without losing instance state. Additionally, the abort recovery mechanisms provide an extra layer of protection against abort-induced sandbox poisoning.\n\nTo take advantage of these improvements, developers can use the following commands to compile their Rust code with panic=unwind support:\n\n```bash\nRUSTFLAGS='-Cpanic=unwind' cargo build -Zbuild-std\n```\n\nThis rebuilds the standard library with unwind support and generates code with proper panic unwinding.",
+  "authors": [
+    "Guy Bedford",
+    "Hood Chatham",
+    "Logan Gatlin"
+  ],
+  "categories": [
+    "Cloudflare Workers",
+    "Rust",
+    "Rust Workers",
+    "WebAssembly",
+    "WASM",
+    "Reliability",
+    "Engineering",
+    "Open Source",
+    "Developer Platform",
+    "Developers"
+  ],
+  "guid": "2StUNK716oSircL9mJUjrg"
+}
