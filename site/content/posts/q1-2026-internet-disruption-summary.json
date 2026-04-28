@@ -1,0 +1,21 @@
+{
+  "slug": "q1-2026-internet-disruption-summary",
+  "title": "Shutdowns, power outages, and conflict: a review of Q1 2026 Internet disruptions",
+  "url": "https://blog.cloudflare.com/q1-2026-internet-disruption-summary/",
+  "publishedAt": "Tue, 28 Apr 2026 13:00:00 GMT",
+  "summary": "**AI-Generated Summary**: This is an automated summary of a Cloudflare blog post created using AI. For the full details and context, please read the original post.\n\n**Key Technical Details and Main Announcements**\n\nIn the first quarter of 2026, significant Internet disruptions were observed in various regions, including government-directed shutdowns, power outages, and military action. Notably, Uganda and Iran experienced prolonged Internet blackouts, with Uganda's shutdown lasting from January 13 to January 26, and Iran's shutdowns occurring on January 8-21 and January 25-27. These disruptions resulted in a near-complete loss of traffic, with domestic traffic at the Uganda Internet Exchange Point (UIXP) dropping from 72 Gbps to 1 Gbps.\n\n**Practical Implications for Developers**\n\nThese disruptions highlight the importance of considering Internet availability and connectivity when developing applications and services. Developers should be aware of the potential for Internet shutdowns and outages, particularly in regions with a history of such events. This may involve implementing fallback mechanisms, such as offline modes or alternative communication channels, to ensure continuity of service. Additionally, developers should consider using metrics like IPv6 address space and traffic graphs to monitor network performance and detect potential disruptions.\n\n**Important Facts and Figures**\n\n* Uganda's Internet shutdown lasted from January 13 to January 26, with a near-complete loss of traffic.\n* Iran's Internet shutdowns occurred on January 8-21 and January 25-27, with a significant impact on IPv6 traffic.\n* Asiatech (AS43754) and RASANA (AS31549) were the largest contributors to Iran's IPv6 address space loss, accounting for ~9.4% and ~8.8% of the country's total loss, respectively.\n* The share of IPv6 traffic in Iran went to zero during the shutdowns.",
+  "authors": [
+    "David Belson"
+  ],
+  "categories": [
+    "Radar",
+    "Internet Shutdown",
+    "Internet Traffic",
+    "Outage",
+    "Internet Trends",
+    "AWS",
+    "BGP",
+    "IPv6"
+  ],
+  "guid": "4jvdljnVwrZbZB9dFtXWhO"
+}
