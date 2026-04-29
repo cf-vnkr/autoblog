@@ -1,0 +1,19 @@
+{
+  "slug": "agents-stripe-projects",
+  "title": "Agents can now create Cloudflare accounts, buy domains, and deploy",
+  "url": "https://blog.cloudflare.com/agents-stripe-projects/",
+  "publishedAt": "Thu, 30 Apr 2026 13:00:00 GMT",
+  "summary": "**AI-Generated Summary**: This is an automated summary of a Cloudflare blog post created using AI. For the full details and context, please read the original post.\n\n**Cloudflare Agents Can Now Create Accounts, Buy Domains, and Deploy Applications**\n\nCloudflare has announced a new feature that allows coding agents to create Cloudflare accounts, purchase domains, and deploy applications without human intervention. This integration is made possible through a new protocol co-designed with Stripe, which enables agents to provision Cloudflare accounts, register domains, and obtain API tokens to deploy code.\n\n**Key Technical Details**\n\nThe protocol consists of three components:\n\n1. **Discovery**: Agents can query a catalog of available services to determine what they can provision.\n2. **Authorization**: The platform attests to the identity of the user, allowing providers to provision accounts or link existing ones, and securely issue credentials back to the agent.\n3. **Payment**: The platform provides a payment token that providers can use to bill the customer, allowing the agent to start subscriptions, make purchases, and be billed on a usage basis.\n\n**Practical Implications for Developers**\n\nThis integration enables developers to automate the process of setting up Cloudflare accounts, registering domains, and deploying applications, reducing the need for manual intervention. Agents can now provision Cloudflare accounts, register domains, and obtain API tokens to deploy code, all without human involvement.\n\n**Example Use Case**\n\nDevelopers can use the Stripe CLI with the Stripe Projects plugin to initialize a new project, prompt their agent to build and deploy a site to a new domain, and register the domain using the Stripe Projects CLI. The agent will prompt for input and approval when necessary, and at the end, the agent will have deployed to production, and the app will run on the newly registered domain.\n\n**Benefits**\n\nThis integration provides several benefits, including:\n\n* Reduced manual intervention\n* Increased automation\n* Improved scalability\n* Enhanced user experience\n\nOverall, this integration enables developers to automate the process of setting up Cloudflare accounts, registering domains, and deploying applications, making it easier to build and deploy applications on the Cloudflare platform.",
+  "authors": [
+    "Sid Chatterjee",
+    "Brendan Irvine-Broque"
+  ],
+  "categories": [
+    "Cloudflare Workers",
+    "Developer Platform",
+    "Agents",
+    "Registrar",
+    "AI"
+  ],
+  "guid": "AFvlhoSnkPLdXbRwjUsCU"
+}
