@@ -1,0 +1,20 @@
+{
+  "slug": "post-quantum-ipsec",
+  "title": "Post-quantum encryption for Cloudflare IPsec is generally available",
+  "url": "https://blog.cloudflare.com/post-quantum-ipsec/",
+  "publishedAt": "Thu, 30 Apr 2026 14:00:00 GMT",
+  "summary": "**AI-Generated Summary**: This is an automated summary of a Cloudflare blog post created using AI. For the full details and context, please read the original post.\n\n**Cloudflare IPsec Now Supports Post-Quantum Encryption**\n\nCloudflare has announced the general availability of post-quantum encryption for its IPsec product, a WAN Network-as-a-Service that connects data centers, branch offices, and cloud VPCs to Cloudflare's global IP Anycast network. This move aims to protect against \"harvest-now-decrypt-later\" attacks, where an adversary collects data today and decrypts it later using powerful quantum computers.\n\n**Technical Details**\n\nCloudflare IPsec now uses the hybrid ML-KEM (Module-Lattice-Based Key-Encapsulation Mechanism) algorithm, which combines classical Diffie-Hellman and post-quantum security in a single, standards-compliant handshake. This implementation is based on the IETF draft for hybrid ML-KEM (FIPS 203) and has been successfully tested for interoperability with branch connectors from Fortinet and Cisco.\n\n**Practical Implications**\n\nDevelopers can now start protecting their wide-area networks (WANs) against harvest-now-decrypt-later attacks using hardware they already have. This is a significant step forward in post-quantum security, especially as Q-Day approaches faster than expected. By using Cloudflare IPsec with post-quantum encryption, organizations can ensure the security of their network traffic and protect against potential quantum computer attacks.\n\n**Key Takeaways**\n\n* Cloudflare IPsec now supports post-quantum encryption using hybrid ML-KEM.\n* This implementation has been tested for interoperability with branch connectors from Fortinet and Cisco.\n* Developers can start protecting their WANs against harvest-now-decrypt-later attacks using hardware they already have.\n* This move aims to protect against potential quantum computer attacks as Q-Day approaches faster than expected.",
+  "authors": [
+    "Sharon Goldberg",
+    "Amos Paul"
+  ],
+  "categories": [
+    "Post-Quantum",
+    "IPsec",
+    "Cryptography",
+    "Security",
+    "Magic WAN",
+    "Networking"
+  ],
+  "guid": "45CJNnEddFGu89vwZzAJEl"
+}
