@@ -1,0 +1,19 @@
+{
+  "slug": "dynamic-workflows",
+  "title": "Introducing Dynamic Workflows: durable execution that follows the tenant",
+  "url": "https://blog.cloudflare.com/dynamic-workflows/",
+  "publishedAt": "Fri, 01 May 2026 13:00:00 GMT",
+  "summary": "**AI-Generated Summary**: This is an automated summary of a Cloudflare blog post created using AI. For the full details and context, please read the original post.\n\n**Introducing Dynamic Workflows: Durable Execution for Multi-Tenant Applications**\n\nCloudflare has announced the release of Dynamic Workflows, a new library that enables durable execution for multi-tenant applications. This library bridges the gap between durable execution and dynamic deployment, allowing developers to create workflows that can survive failures, sleep for hours or days, and wait for external events.\n\n**Key Technical Details**\n\nDynamic Workflows uses the Cloudflare Workflows engine, which turns a `run(event, step)` function into a program that can resume exactly where it left off when the isolate is recycled. The library provides a small, 300-line TypeScript interface that allows a single Worker to route every `create()` call to a different tenant's code, and have the Workflows engine dispatch `run(event, step)` back to that same code when the workflow executes.\n\n**Practical Implications for Developers**\n\nDynamic Workflows enables developers to create multi-tenant applications where each tenant's workflow is different, without having to write custom code for each tenant. This is particularly useful for applications that use AI-generated code, CI/CD products, or agents SDKs, where each tenant's workflow is unique. With Dynamic Workflows, developers can focus on building their application logic, without worrying about the underlying infrastructure.\n\n**Important Facts and Figures**\n\n* Dynamic Workflows is a small library, with approximately 300 lines of TypeScript code.\n* The library uses the Cloudflare Workflows engine, which supports up to 50,000 concurrent instances and 300 new instances per second per account.\n* Dynamic Workflows is designed to work with multi-tenant applications, where each tenant's workflow is different.\n\nOverall, Dynamic Workflows is a powerful tool for developers who need to create durable, multi-tenant workflows. Its small size, flexibility, and ease of use make it an attractive option for a wide range of applications.",
+  "authors": [
+    "Dan Lapid",
+    "Luís Duarte"
+  ],
+  "categories": [
+    "Workflows",
+    "Cloudflare Workers",
+    "Durable Execution",
+    "Developer Platform",
+    "Developers"
+  ],
+  "guid": "4JZIrwtIvEd4qwAd4JAThB"
+}
