@@ -1,0 +1,16 @@
+{
+  "slug": "code-orange-fail-small-complete",
+  "title": "Code Orange: Fail Small is complete. The result is a stronger Cloudflare network",
+  "url": "https://blog.cloudflare.com/code-orange-fail-small-complete/",
+  "publishedAt": "Fri, 01 May 2026 21:07:30 GMT",
+  "summary": "**AI-Generated Summary**: This is an automated summary of a Cloudflare blog post created using AI. For the full details and context, please read the original post.\n\n**Cloudflare's Code Orange: Fail Small Initiative Complete**\n\nCloudflare has completed its \"Code Orange: Fail Small\" initiative, a two-quarter effort aimed at enhancing the resilience, security, and reliability of its infrastructure. The project focused on improving configuration changes, reducing the impact of failure, and revising incident management procedures. Key technical details include:\n\n* **Safer Configuration Changes**: Cloudflare now implements a \"health-mediated deployment\" methodology for configuration changes, gradually rolling out updates with real-time health monitoring. This is achieved through a new internal component called Snapstone, which bundles configuration changes into packages and allows for progressive rollout, health monitoring, and automated rollback.\n* **Reducing the Impact of Failure**: Cloudflare's systems now fail more gracefully, reducing the potential impact radius and ensuring traffic delivery even in worst-case scenarios. Product teams have reviewed and removed non-essential runtime dependencies, implemented better failure modes, and adopted \"fail stale\" or \"fail open\" strategies where possible.\n\n**Practical Implications for Developers**\n\nThe completion of Code Orange: Fail Small has significant implications for developers:\n\n* Configuration changes will be rolled out more safely and gradually, reducing the risk of errors and outages.\n* Developers can rely on Cloudflare's infrastructure to deliver traffic even in the event of an issue, thanks to improved failure modes and reduced impact radius.\n* Snapstone provides a unified way to bring progressive rollout, real-time health monitoring, and automated rollback to configuration deployments, making it easier for teams to manage configuration changes.\n\nOverall, Cloudflare's Code Orange: Fail Small initiative aims to provide a stronger, more resilient network for its customers, and these technical improvements will have a positive impact on the development experience.",
+  "authors": [
+    "Jeremy Hartman"
+  ],
+  "categories": [
+    "Outage",
+    "Post Mortem",
+    "Code Orange"
+  ],
+  "guid": "6EfXlJEx6OJ21w9NlnS59D"
+}
