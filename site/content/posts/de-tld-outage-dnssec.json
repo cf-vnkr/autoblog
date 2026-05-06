@@ -1,0 +1,20 @@
+{
+  "slug": "de-tld-outage-dnssec",
+  "title": "When DNSSEC goes wrong: how we responded to the .de TLD outage",
+  "url": "https://blog.cloudflare.com/de-tld-outage-dnssec/",
+  "publishedAt": "Wed, 06 May 2026 17:00:00 GMT",
+  "summary": "**AI-Generated Summary**: This is an automated summary of a Cloudflare blog post created using AI. For the full details and context, please read the original post.\n\n**Summary of the .de TLD DNSSEC Outage**\n\nOn May 5, 2026, at 19:30 UTC, DENIC, the registry operator for the .de country-code top-level domain (TLD), started publishing incorrect DNSSEC signatures for the .de zone. This caused validating DNS resolvers, including Cloudflare's 1.1.1.1 public DNS resolver, to reject responses and return SERVFAIL to clients. The outage had significant implications for millions of domains under the .de TLD, making them unreachable.\n\n**Key Technical Details**\n\n* DNSSEC (Domain Name System Security Extensions) adds cryptographic authentication to DNS, ensuring the integrity of DNS records.\n* The .de TLD uses a chain of trust, starting at the root zone, to verify the authenticity of DNS records.\n* The incorrect DNSSEC signatures published by DENIC caused validating resolvers to reject responses and return SERVFAIL.\n* The outage was caused by a misconfiguration at the TLD level, which affected every domain under it.\n\n**Practical Implications for Developers**\n\n* The outage highlights the importance of DNSSEC and the need for accurate DNS record signing.\n* Developers should ensure that their DNS records are properly signed and verified to prevent similar outages.\n* The incident also demonstrates the importance of caching and record expiration in DNS, as cached records can cause continued failures even after the initial outage is resolved.\n\n**Timeline**\n\n* May 5, 2026, at 19:30 UTC: DENIC starts publishing incorrect DNSSEC signatures for the .de zone.\n* 19:30-22:30 UTC: Validating resolvers, including 1.1.1.1, reject responses and return SERVFAIL.\n* 22:30 UTC: Cached records start expiring, causing continued failures as resolvers go back to DENIC for fresh copies.",
+  "authors": [
+    "Sebastiaan Neuteboom",
+    "Christian Elmerot",
+    "Max Worsley"
+  ],
+  "categories": [
+    "DNS",
+    "DNSSEC",
+    "1.1.1.1",
+    "Reliability",
+    "Outage"
+  ],
+  "guid": "2MckFmlh9Epgpruqa9MXRh"
+}
