@@ -1,0 +1,21 @@
+{
+  "slug": "quic-death-spiral-fix",
+  "title": "When \"idle\" isn't idle: how a Linux kernel optimization became a QUIC bug",
+  "url": "https://blog.cloudflare.com/quic-death-spiral-fix/",
+  "publishedAt": "Tue, 12 May 2026 13:00:00 GMT",
+  "summary": "**AI-Generated Summary**: This is an automated summary of a Cloudflare blog post created using AI. For the full details and context, please read the original post.\n\n**Linux Kernel Optimization Becomes a QUIC Bug**\n\nA recent investigation by Cloudflare's team revealed a bug in the CUBIC congestion controller, which is the default congestion controller in Linux and governs how most TCP and QUIC connections probe for available bandwidth. The bug causes the congestion window (cwnd) to permanently pin at its minimum and never recover from a congestion collapse event. This issue was discovered when a Linux kernel change aimed at bringing CUBIC into line with the app-limited exclusion described in RFC 9438 was ported to Cloudflare's open-source implementation of QUIC, quiche.\n\n**Symptoms and Investigation**\n\nThe bug was first reported by an unexpected failure in Cloudflare's ingress proxy integration test pipeline. The test simulated a scenario of heavy loss in the early part of the connection, which is an uncommon regime for congestion controllers. The investigation revealed that the CUBIC congestion controller was unable to recover from the congestion collapse event, resulting in a 61% failure rate in the test.\n\n**Key Findings**\n\n* The bug causes the congestion window (cwnd) to permanently pin at its minimum and never recover from a congestion collapse event.\n* The issue was discovered when a Linux kernel change aimed at bringing CUBIC into line with the app-limited exclusion described in RFC 9438 was ported to quiche.\n* The bug was first reported by an unexpected failure in Cloudflare's ingress proxy integration test pipeline.\n* The test simulated a scenario of heavy loss in the early part of the connection, which is an uncommon regime for congestion controllers.\n\n**Practical Implications**\n\nThis bug has significant implications for developers who use CUBIC congestion control in their QUIC implementations. It highlights the importance of thoroughly testing and validating congestion controllers in uncommon regimes, such as congestion collapse events. Additionally, it emphasizes the need for careful consideration of Linux kernel changes and their potential impact on QUIC implementations.",
+  "authors": [
+    "Esteban Carisimo",
+    "Antonio Vicente"
+  ],
+  "categories": [
+    "Congestion Control",
+    "Debugging",
+    "QUIC",
+    "QUICHE",
+    "Networking",
+    "HTTP3",
+    "Rust"
+  ],
+  "guid": "1zBGqAHw4u2LDu0ldcF3AM"
+}
