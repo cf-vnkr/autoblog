@@ -1,0 +1,24 @@
+{
+  "slug": "browser-run-containers",
+  "title": "Browser Run: now running on Cloudflare Containers, it’s faster and more scalable",
+  "url": "https://blog.cloudflare.com/browser-run-containers/",
+  "publishedAt": "Wed, 13 May 2026 13:00:00 GMT",
+  "summary": "**AI-Generated Summary**: This is an automated summary of a Cloudflare blog post created using AI. For the full details and context, please read the original post.\n\n**Cloudflare Enhances Browser Run with Containers, Boosting Performance and Scalability**\n\nCloudflare has announced significant improvements to Browser Run, a platform that enables developers to programmatically control and interact with headless browser instances running on Cloudflare's global network. By rebuilding Browser Run on top of Cloudflare's Containers, the company has increased usage limits, improved performance, and enhanced reliability. Developers can now spin up 60 browsers per minute via the Workers binding and run up to 120 concurrently, a 4x increase from the previous limit. Quick Action response times have also dropped by more than 50%.\n\n**Key Technical Details and Implications**\n\nThe migration to Containers has enabled Cloudflare to provide a more scalable and performant platform for Browser Run. The company has also introduced regional pools to mitigate the latency associated with spinning up browsers on the other side of the world. This solution allows developers to establish WebSockets between browsers and exchange messages without incurring significant latency penalties. The enhancements to Browser Run are live today, and developers can take advantage of the improved performance and scalability without requiring any changes to their existing code.\n\n**Practical Implications for Developers**\n\nThe improvements to Browser Run will have a significant impact on developers who rely on the platform for end-to-end testing, securely investigating suspicious URLs, and leveraging browsers to render PDF documents. The enhanced scalability and performance will enable developers to run more complex and resource-intensive tests, reducing the time and effort required to identify and fix issues. Additionally, the regional pools solution will help to minimize latency and ensure a more seamless user experience for applications that rely on Browser Run.",
+  "authors": [
+    "Ruskin Constant",
+    "Rui Figueira",
+    "Sofia Cardita"
+  ],
+  "categories": [
+    "Developers",
+    "Developer Platform",
+    "Browser Run",
+    "Containers",
+    "Cloudflare Workers",
+    "Chrome",
+    "Agents",
+    "Browser Rendering",
+    "Browser Run"
+  ],
+  "guid": "6hwTzVHKEOlPBwzj6rWnRM"
+}
