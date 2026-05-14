@@ -1,0 +1,19 @@
+{
+  "slug": "clickhouse-query-plan-contention",
+  "title": "Our billing pipeline was suddenly slow. The culprit was a hidden bottleneck in ClickHouse",
+  "url": "https://blog.cloudflare.com/clickhouse-query-plan-contention/",
+  "publishedAt": "Thu, 14 May 2026 13:00:00 GMT",
+  "summary": "**AI-Generated Summary**: This is an automated summary of a Cloudflare blog post created using AI. For the full details and context, please read the original post.\n\n**Hidden Bottleneck in ClickHouse Exposed: A Story of Lock Contention in Query Planning**\n\nCloudflare, a heavy user of ClickHouse, recently experienced a performance issue with their billing pipeline. Despite checking all the usual suspects, the problem turned out to be lock contention in query planning, a hidden bottleneck in ClickHouse's internals. This issue was exposed after redesigning one of their largest ClickHouse tables to add a column to the partitioning key, enabling per-tenant retention.\n\n**Key Technical Details**\n\n* Cloudflare uses ClickHouse to store over a hundred petabytes of data across a few dozen clusters.\n* They built a system called \"Ready-Analytics\" to simplify onboarding for internal teams, which stores data in a single, massive table with a namespace and standard schema.\n* The table is partitioned by day, with a retention policy that drops partitions older than 31 days.\n* The redesign added a new column to the partitioning key, allowing per-namespace retention.\n\n**Practical Implications for Developers**\n\n* When redesigning tables or adding new columns to the partitioning key, developers should be aware of potential lock contention in query planning.\n* ClickHouse's performance can be affected by the number of data parts and the filtering of queries, so careful planning is necessary when changing the partitioning scheme.\n* Developers should consider using the max-min fairness algorithm to manage disk utilization and automatically \"share\" available space.\n\n**Important Facts and Figures**\n\n* Cloudflare stores over a hundred petabytes of data across a few dozen clusters.\n* The Ready-Analytics table has grown to over 2PiB of data and ingests millions of rows per second.\n* The redesign added a new column to the partitioning key, increasing the total number of data parts in the table.",
+  "authors": [
+    "James Morrison",
+    "Christian Endres"
+  ],
+  "categories": [
+    "ClickHouse",
+    "Engineering",
+    "Performance",
+    "Database",
+    "Open Source"
+  ],
+  "guid": "65sE8zefBt1cYbclYLhqjA"
+}
