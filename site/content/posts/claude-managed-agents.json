@@ -1,0 +1,18 @@
+{
+  "slug": "claude-managed-agents",
+  "title": "Announcing Claude Managed Agents on Cloudflare",
+  "url": "https://blog.cloudflare.com/claude-managed-agents/",
+  "publishedAt": "Tue, 19 May 2026 13:00:00 GMT",
+  "summary": "**AI-Generated Summary**: This is an automated summary of a Cloudflare blog post created using AI. For the full details and context, please read the original post.\n\n**Cloudflare Integrates Claude Managed Agents for Enhanced Security and Control**\n\nCloudflare has collaborated with Anthropic to integrate Claude Managed Agents with Cloudflare Sandboxes, providing developers with more control over their agent sandboxes, secure connections to private services, and improved observability. This integration is part of Cloudflare's goal to make it the simplest, most secure, and most programmable cloud for agents.\n\n**Key Features and Benefits**\n\nThe integration offers several key features and benefits, including:\n\n* Enhanced security: Run all agent traffic through customizable proxies to securely inject credentials, prevent data exfiltration, and observe how agents interact with the outside world.\n* Sandbox control and observability: Get detailed sandbox metrics and logs, SSH into running machines, and customize sandbox images.\n* Lightweight sandboxes: Write and execute untrusted code in a traditional microVM or a lightweight isolate, allowing for massive scale, fast boot times, and minimized infrastructure spend.\n* Private service connectivity: Connect agents to private internal services without exposing them to the Internet.\n* Browser control and observability: Get an audit trail of every agent's browser sessions, including session recording and human-in-the-loop flows.\n* Custom tools: Extend agents with tools without needing additional infrastructure.\n\n**Getting Started with Claude on Cloudflare**\n\nDevelopers can get started with Claude on Cloudflare by following the onboarding guide and forking the repo to customize their integration. The Workers-based control plane provides a sandboxed environment for executing code, developing applications, running CLI tools, and more, with state automatically persisted across session sleeps.",
+  "authors": [
+    "Mike Nomitch"
+  ],
+  "categories": [
+    "AI",
+    "Agents",
+    "Cloudflare Workers",
+    "Durable Objects",
+    "Developers Storage"
+  ],
+  "guid": "2atb0Whie0RvOXQHBoBrKH"
+}
