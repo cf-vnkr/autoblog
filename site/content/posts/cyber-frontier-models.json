@@ -1,0 +1,22 @@
+{
+  "slug": "cyber-frontier-models",
+  "title": "Project Glasswing: what Mythos showed us",
+  "url": "https://blog.cloudflare.com/cyber-frontier-models/",
+  "publishedAt": "Mon, 18 May 2026 06:00:00 GMT",
+  "summary": "**AI-Generated Summary**: This is an automated summary of a Cloudflare blog post created using AI. For the full details and context, please read the original post.\n\n**Summary:**\n\nCloudflare's Project Glasswing recently tested Mythos Preview, a security-focused Large Language Model (LLM) from Anthropic, on its own infrastructure. The testing revealed significant advancements in the model's capabilities, particularly in exploit chain construction and proof generation. Mythos Preview can reason about combining multiple attack primitives into a working exploit, providing a detailed proof of exploitability. This is a notable improvement over previous general-purpose frontier models, which often left the exploit chain unfinished and the question of exploitability open.\n\n**Key Takeaways:**\n\n* Mythos Preview can construct exploit chains by reasoning about combining multiple attack primitives, providing a detailed proof of exploitability.\n* The model can generate code that triggers suspected bugs, compile it, and run it to prove exploitability.\n* While other frontier models found similar bugs, Mythos Preview's ability to stitch the pieces together and provide a working proof is a significant advancement.\n* The model's emergent guardrails can cause it to push back on certain requests, but these refusals are not consistent and can be influenced by the context and framing of the request.\n\n**Practical Implications:**\n\n* Developers can leverage Mythos Preview's capabilities to improve their vulnerability hunting and exploit development workflows.\n* The model's ability to provide detailed proofs of exploitability can help researchers and developers better understand the attack surface of their systems.\n* The emergent guardrails of the model highlight the need for careful consideration of the context and framing of requests to ensure consistent and reliable results.",
+  "authors": [
+    "Grant Bourzikas"
+  ],
+  "categories": [
+    "Security",
+    "AI",
+    "Agents",
+    "Threat Intelligence",
+    "LLM",
+    "Risk Management",
+    "Threat Operations",
+    "Automation",
+    "Engineering"
+  ],
+  "guid": "xrcYtr7kU54LNDB8MEmQY"
+}
