@@ -1,0 +1,20 @@
+{
+  "slug": "casb-anthropic-integration",
+  "title": "Announcing Claude Compliance API support with Cloudflare CASB",
+  "url": "https://blog.cloudflare.com/casb-anthropic-integration/",
+  "publishedAt": "Thu, 21 May 2026 17:00:00 GMT",
+  "summary": "**AI-Generated Summary**: This is an automated summary of a Cloudflare blog post created using AI. For the full details and context, please read the original post.\n\n**Cloudflare Extends CASB Support to Claude Compliance API**\n\nCloudflare has announced the integration of its Cloud Access Security Broker (CASB) with the Claude Compliance API, enabling security and compliance teams to monitor Claude usage directly in the Cloudflare dashboard without requiring endpoint agents. This integration addresses the growing need for visibility and control over AI applications, which have become increasingly complex and difficult to secure.\n\n**Key Technical Details**\n\nThe Claude Compliance API provides programmatic access to security-relevant data about Claude usage, allowing organizations to regain visibility and control over their investments in AI applications. Cloudflare CASB will scan for misconfigurations and sensitive data within Claude, using lightweight API integrations to connect to, scan, and monitor third-party SaaS applications. This unified approach enables administrators to enforce rate limits, cache responses, and make fine-grained routing decisions, while also logging every request for audit.\n\n**Practical Implications for Developers**\n\nThis integration will help developers and security teams to:\n\n* Gain visibility into AI application usage and behavior\n* Identify and mitigate security risks associated with AI tools\n* Enforce rate limits and caching responses to optimize performance\n* Make fine-grained routing decisions to optimize traffic flow\n* Log every request for audit and compliance purposes\n\nBy extending its CASB support to the Claude Compliance API, Cloudflare is providing a comprehensive security solution for organizations deploying AI applications at scale.",
+  "authors": [
+    "Abe Carryl"
+  ],
+  "categories": [
+    "Developer Platform",
+    "Developers",
+    "CASB",
+    "Cloudflare One",
+    "SASE",
+    "Zero Trust",
+    "Cloudflare Zero Trust"
+  ],
+  "guid": "6jEQvtyNrxoxhmH9OfOBvX"
+}
