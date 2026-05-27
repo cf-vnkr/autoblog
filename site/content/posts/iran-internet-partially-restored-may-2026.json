@@ -1,0 +1,20 @@
+{
+  "slug": "iran-internet-partially-restored-may-2026",
+  "title": "Iran's Internet is partially restored, Cloudflare Radar data shows",
+  "url": "https://blog.cloudflare.com/iran-internet-partially-restored-may-2026/",
+  "publishedAt": "Wed, 27 May 2026 17:25:00 GMT",
+  "summary": "**AI-Generated Summary**: This is an automated summary of a Cloudflare blog post created using AI. For the full details and context, please read the original post.\n\n**Partial Internet Restoration in Iran Confirmed by Cloudflare Radar Data**\n\nCloudflare Radar data indicates a partial restoration of the Internet in Iran, following a nearly three-month-long shutdown. The shutdown began on February 28, and traffic levels fell to well under 1% of previous levels. However, starting at around 11:00 UTC on May 26, Cloudflare Radar observed a marked increase in both traffic and DNS queries, with a brief spike at 11:45 UTC followed by a steady increase starting at 12:00 UTC. This surge in activity is roughly 15x than the levels observed during the prior week.\n\n**Key Technical Details:**\n\n* Traffic increase: 15x higher than prior week levels\n* DNS query increase: significant upward trend, indicating more users are requesting websites and services\n* Traffic volume by region: 91.6% of HTTP requests originated from Tehran\n* Traffic volume by network: increases observed for Internet providers TCI, IranCell, RighTel, and MCCI\n* Traffic has returned to 40% of previous levels\n\n**Practical Implications for Developers:**\n\n* The partial restoration of the Internet in Iran may indicate a temporary return to normalcy, but it's essential to monitor network activity over the coming days to determine if traffic levels will successfully return to their pre-shutdown baselines.\n* Developers should be aware of the potential for temporary changes in network activity and adjust their applications and services accordingly.\n* The increase in DNS queries and traffic may indicate a higher volume of data moving across Cloudflare's network, which could impact application performance and latency.",
+  "authors": [
+    "Lai Yi Ohlsen",
+    "Sabina Zejnilovic"
+  ],
+  "categories": [
+    "Internet Traffic",
+    "Internet Trends",
+    "Internet Quality",
+    "Internet Shutdown",
+    "Radar",
+    "DNS"
+  ],
+  "guid": "5VkjKrKCgZPffHiZoeDsKW"
+}
