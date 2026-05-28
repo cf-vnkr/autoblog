@@ -1,0 +1,20 @@
+{
+  "slug": "our-unified-data-platform",
+  "title": "How we built Cloudflare's data platform and an AI agent on top of it",
+  "url": "https://blog.cloudflare.com/our-unified-data-platform/",
+  "publishedAt": "Thu, 28 May 2026 13:00:00 GMT",
+  "summary": "**AI-Generated Summary**: This is an automated summary of a Cloudflare blog post created using AI. For the full details and context, please read the original post.\n\n**Cloudflare's Unified Data Analytics Platform and AI Agent: A Technical Overview**\n\nCloudflare has developed a unified data analytics platform, Town Lake, and an AI data agent, Skipper, to address the challenges of data sprawl and accessibility within the company. The platform provides a single SQL interface to all Cloudflare data, eliminating the need to navigate multiple disparate systems and credentials. Town Lake is built on top of Cloudflare's own platform, utilizing R2 for storage, Workers for compute, Cloudflare Access for authentication, and Workflows for orchestration.\n\n**Key Technical Details:**\n\n* Town Lake provides a unified data model, allowing users to query data from various sources using a single SQL interface.\n* Skipper is an AI data agent that enables users to ask questions in plain English and receive accurate, auditable answers in seconds.\n* The platform uses R2 for storage, Workers for compute, Cloudflare Access for authentication, and Workflows for orchestration.\n* Security and governance are baked into the platform, with personally identifiable information (PII) detection and sensitive tables locked down by default.\n\n**Practical Implications for Developers:**\n\n* Developers can now access a unified data model, eliminating the need to navigate multiple disparate systems and credentials.\n* The platform provides a single interface for querying data, reducing the complexity of data access and analysis.\n* The use of AI-powered data agents, such as Skipper, enables developers to ask questions in plain English and receive accurate answers in seconds, reducing the time and effort required for data analysis.\n\n**Timeline:**\n\n* Cloudflare has developed and implemented the unified data analytics platform and AI data agent to address the challenges of data sprawl and accessibility within the company.\n* The platform is built on top of Cloudflare's own platform, utilizing R2 for storage, Workers for compute, Cloudflare Access for authentication, and Workflows for orchestration.",
+  "authors": [
+    "Brian Brunner",
+    "Dmitry Alexeenko",
+    "Matt Moen"
+  ],
+  "categories": [
+    "Engineering",
+    "Analytics",
+    "Developers Storage",
+    "AI",
+    "Data Platform"
+  ],
+  "guid": "5kM0Nfgzw6beOD5mSzIqw4"
+}
