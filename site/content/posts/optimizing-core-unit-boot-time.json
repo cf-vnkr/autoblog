@@ -1,0 +1,19 @@
+{
+  "slug": "optimizing-core-unit-boot-time",
+  "title": "How we reduced core unit boot time from hours to minutes",
+  "url": "https://blog.cloudflare.com/optimizing-core-unit-boot-time/",
+  "publishedAt": "Mon, 01 Jun 2026 16:53:39 GMT",
+  "summary": "**AI-Generated Summary**: This is an automated summary of a Cloudflare blog post created using AI. For the full details and context, please read the original post.\n\n**Cloudflare Reduces Core Unit Boot Time from Hours to Minutes**\n\nCloudflare's core units, which run the control plane, billing, and analytics, were experiencing boot times of up to four hours after a routine firmware update. This was causing significant issues with maintenance windows, engineering teams, and overall system performance. To resolve this issue, Cloudflare's engineers investigated the root cause and discovered a firmware quirk and an over-eager linear search through every available network boot interface.\n\n**Key Technical Details**\n\n* Cloudflare's core units use UEFI firmware, which initializes hardware and hands off control to the operating system.\n* The boot sequence is orchestrated by UEFI, but small quirks in the handoff can have significant consequences.\n* The issue was caused by a linear search through every available network boot interface, including IPv4 HTTPS, IPv4 iPXE, and IPv6 HTTPS.\n* The system was attempting to boot over the network instead of from local storage, which is critical for centralized, automated, and scalable control over how machines start up.\n\n**Practical Implications for Developers**\n\n* Developers can use this knowledge to troubleshoot similar issues with their own systems.\n* Understanding the UEFI firmware and network boot interfaces can help developers optimize their system's boot process.\n* Using open-source tools like iPXE can provide advanced scripting capabilities for automating complex deployments.\n* Developers can also use this knowledge to improve the reliability and speed of their system's boot process.",
+  "authors": [
+    "Giovanni Pereira Zantedeschi",
+    "Nnamdi Ajah",
+    "Omar Sheik-Omar"
+  ],
+  "categories": [
+    "Infrastructure",
+    "Engineering",
+    "Networking",
+    "Core"
+  ],
+  "guid": "14SzggagKjSpBr8SZxHcYL"
+}
