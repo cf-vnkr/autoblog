@@ -1,0 +1,20 @@
+{
+  "slug": "voidzero-joins-cloudflare",
+  "title": "VoidZero is joining Cloudflare",
+  "url": "https://blog.cloudflare.com/voidzero-joins-cloudflare/",
+  "publishedAt": "Thu, 04 Jun 2026 12:59:00 GMT",
+  "summary": "**AI-Generated Summary**: This is an automated summary of a Cloudflare blog post created using AI. For the full details and context, please read the original post.\n\n**Cloudflare Acquires VoidZero, Vite to Remain Open Source**\n\nCloudflare has announced the acquisition of VoidZero, the company behind popular open-source tools Vite, Vitest, Rolldown, Oxc, and Vite+. Despite the acquisition, Vite will continue to be open source, vendor-agnostic, and community-driven. Cloudflare's mission is to help build a better Internet, and a better Internet is an open Internet. Developers will continue to have choice and frameworks will remain neutral.\n\n**Key Takeaways**\n\n* Vite, Vitest, Rolldown, Oxc, and Vite+ will remain open source and community-driven.\n* Cloudflare will invest in the Vite toolchain to make the Internet better for everyone.\n* Vite's roadmap will continue to be driven by the broader Vite team and community.\n* Cloudflare is committing $1 million to a Vite ecosystem fund to support maintainers and contributors.\n\n**Practical Implications for Developers**\n\n* Developers can continue to use Vite without worrying about vendor lock-in.\n* Vite's performance and portability will continue to improve with Cloudflare's investment.\n* The Vite ecosystem fund will support maintainers and contributors, ensuring the continued growth and development of Vite.\n\n**Technical Details**\n\n* The Cloudflare Vite plugin allows Vite to run server code in the same open-source runtime as production, workerd.\n* The Vite Environment API lets Vite run server code in something other than Node.js during development.\n* Cloudflare's investment in Vite will improve its performance and portability, making it an even more attractive choice for developers.",
+  "authors": [
+    "Evan You",
+    "Steve Faulkner"
+  ],
+  "categories": [
+    "Acquisitions",
+    "Developers",
+    "Developer Platform",
+    "AI",
+    "Workers AI",
+    "Vite"
+  ],
+  "guid": "1laDOhrU8AchkELZi1AHGz"
+}
