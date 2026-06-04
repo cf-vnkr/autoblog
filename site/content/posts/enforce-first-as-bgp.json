@@ -1,0 +1,20 @@
+{
+  "slug": "enforce-first-as-bgp",
+  "title": "Enforcing the First AS in BGP AS_PATHs",
+  "url": "https://blog.cloudflare.com/enforce-first-as-bgp/",
+  "publishedAt": "Wed, 03 Jun 2026 17:00:00 GMT",
+  "summary": "**AI-Generated Summary**: This is an automated summary of a Cloudflare blog post created using AI. For the full details and context, please read the original post.\n\n**Enforcing the First AS in BGP AS_PATHs: A Key to Preventing Route Hijacks**\n\nCloudflare has identified a common tactic used by attackers to hijack routes and intercept traffic. By creating fake AS_PATHs, attackers can misdirect traffic down an unexpected path and conceal their identity. To prevent these hijacks, Cloudflare recommends verifying that a BGP peer autonomous system (AS) always includes their network as the \"First AS\" in an advertised route.\n\nIn a recent incident, Cloudflare analyzed a route hijack involving a prefix belonging to Orange S.A. and found that the hijacker had created a fake AS_PATH that included Cloudflare's main ASN, 13335. However, upon closer inspection, it was determined that the path was forged up until the leftmost common AS, which was AS199524, a provider with a global peering presence.\n\nCloudflare believes that the hijacker's strategy involved the following steps:\n\n1. Originate BGP announcements for \"parked\" prefixes\n2. Forge the AS_PATH completely, without including the hijacker's own local ASN\n3. Advertise these routes to Gcore, AS199524\n\nTo prevent these hijacks, Cloudflare recommends implementing basic verification that a BGP peer AS always includes their network as the \"First AS\" in an advertised route. This can be done by stress-testing major networks and researching their BGP implementations.\n\n**Practical Implications for Developers**\n\nDevelopers can take the following steps to prevent route hijacks:\n\n1. Verify that a BGP peer AS always includes their network as the \"First AS\" in an advertised route.\n2. Implement basic verification checks to detect forged AS_PATHs.\n3. Regularly stress-test major networks and research their BGP implementations to identify potential vulnerabilities.\n4. Consider using tools like MRT Explorer to view BGP UPDATEs and detect potential hijacks.\n\nBy taking these steps, developers can help prevent route hijacks and ensure the security and integrity of their networks.",
+  "authors": [
+    "Bryton Herdes",
+    "Bryce Walters",
+    "Mingwei Zhang"
+  ],
+  "categories": [
+    "BGP",
+    "Routing",
+    "Routing Security",
+    "RPKI",
+    "Radar"
+  ],
+  "guid": "3DirDATXQ2gKSrJoeWtdTd"
+}
