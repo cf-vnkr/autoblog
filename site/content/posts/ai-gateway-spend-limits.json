@@ -1,0 +1,19 @@
+{
+  "slug": "ai-gateway-spend-limits",
+  "title": "Your AI bill is out of control. Cloudflare can fix it now.",
+  "url": "https://blog.cloudflare.com/ai-gateway-spend-limits/",
+  "publishedAt": "Fri, 05 Jun 2026 13:00:00 GMT",
+  "summary": "**AI-Generated Summary**: This is an automated summary of a Cloudflare blog post created using AI. For the full details and context, please read the original post.\n\n**Cloudflare Introduces Spend Controls for AI Gateway**\n\nCloudflare has announced the introduction of spend controls for its AI Gateway, a feature that allows developers to manage and track AI usage across their applications. The new feature, part of a closed beta, enables identity-driven budgets and routing using Cloudflare Access and existing identity providers. This means that developers can now set budgets for specific teams, users, or applications, and track cumulative spend in real-time.\n\n**Key Technical Details**\n\nThe new spend limits feature in AI Gateway allows developers to set budgets in dollars, not tokens, and track cumulative spend across all requests. The limits can be scoped to any combination of dimensions, including model, provider, or custom attributes like user, team, or application. Windows can be fixed or rolling, and set to daily, weekly, or monthly. AI Gateway calculates cost per request based on the model's pricing and tracks cumulative spend against the limit in real-time.\n\n**Practical Implications for Developers**\n\nThe introduction of spend controls for AI Gateway provides several benefits for developers, including:\n\n* **Cost visibility**: Developers can now track cumulative spend across all requests and filter by model, provider, or custom attribute.\n* **Budgeting**: Developers can set budgets for specific teams, users, or applications, and track spend against those limits in real-time.\n* **Resource optimization**: By setting limits on AI usage, developers can optimize resource allocation and reduce costs.\n* **Improved ROI calculation**: With better visibility into AI spend, developers can calculate ROI more accurately and make informed decisions about AI investments.\n\nOverall, the introduction of spend controls for AI Gateway is a significant step forward in managing and optimizing AI usage across applications.",
+  "authors": [
+    "Ming Lu",
+    "Kenny Johnson"
+  ],
+  "categories": [
+    "AI",
+    "AI Gateway",
+    "Cloudflare Access",
+    "Developers",
+    "Developer Platform"
+  ],
+  "guid": "7oyaTqoAEONU38GUoFIdOa"
+}
