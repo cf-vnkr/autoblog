@@ -1,0 +1,21 @@
+{
+  "slug": "realtime-threat-intel-waf-rules",
+  "title": "Turning Cloudflare’s threat indicators into real-time WAF rules",
+  "url": "https://blog.cloudflare.com/realtime-threat-intel-waf-rules/",
+  "publishedAt": "Mon, 08 Jun 2026 13:00:00 GMT",
+  "summary": "**AI-Generated Summary**: This is an automated summary of a Cloudflare blog post created using AI. For the full details and context, please read the original post.\n\n**Cloudflare Integrates Threat Intelligence into WAF Marx**\n\nCloudflare has announced a new integration that brings its vast threat intelligence directly into the WAF (Web Application Firewall) engine. This allows developers to write proactive rules using live intelligence data, enabling them to add more context to protect their applications against known bad actors. The integration uses specialized fields to populate WAF rules, including threat actor names, targeted industries, and attack types.\n\n**Key Technical Details**\n\nThe integration is built on Cloudflare's always-on detection framework, which separates detection from mitigation. This allows threat intelligence to run in the background, enriching HTTP request analytics with insightful threat metadata. The integration exposes new WAF fields, including:\n\n* `cf.intel.ip.attacker_names`: Names of known threat groups\n* `cf.intel.ip.target_industries`: Industries targeted by this IP\n* `cf.intel.ip.attacker_countries`: Source country of the threat event\n* `cf.intel.ip.target_countries`: Countries targeted by the threat event\n* `cf.intel.ip.datasets`: Source feed providing the data\n\n**Practical Implications for Developers**\n\nDevelopers can now write rules that block traffic based on threat actor names, targeted industries, and attack types. For example, a rule can block traffic from an IP associated with a known threat group, such as CRAVENFLEA. The integration also provides insights into traffic patterns, allowing developers to verify traffic before blocking it. This eliminates the traditional \"log vs. block\" trade-off, providing visibility into how other signatures would have assessed the traffic.\n\n**Future Development**\n\nCloudflare is already looking to extend the capabilities to JA3 fingerprints and domain-based matching, allowing developers to block malicious traffic even when attackers rotate IPs.",
+  "authors": [
+    "Alexandra Moraru",
+    "Harsh Saxena",
+    "Georgie Yoxall",
+    "Brian Seel"
+  ],
+  "categories": [
+    "Security",
+    "WAF",
+    "Threat Intelligence",
+    "Cloudforce One",
+    "Product News"
+  ],
+  "guid": "2rMCnbhtTEow346RobyHOh"
+}
