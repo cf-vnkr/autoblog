@@ -1,0 +1,23 @@
+{
+  "slug": "private-origins-dns-routing",
+  "title": "Route public traffic to private applications with Cloudflare",
+  "url": "https://blog.cloudflare.com/private-origins-dns-routing/",
+  "publishedAt": "Wed, 10 Jun 2026 13:00:00 GMT",
+  "summary": "**AI-Generated Summary**: This is an automated summary of a Cloudflare blog post created using AI. For the full details and context, please read the original post.\n\n**Route Public Traffic to Private Applications with Cloudflare**\n\nCloudflare has announced the launch of Application Services for Private Origins in closed beta for eligible Enterprise customers. This new capability allows customers to securely route traffic to private origins without exposing those origins to the public Internet. This means that Cloudflare's security, performance, and programmability services can now protect applications running on private networks, just as they do for public Internet applications.\n\n**Key Technical Details**\n\nThe new capability builds on connectivity patterns Cloudflare already supports today through Cloudflare Tunnel, Cloudflare One Client, and private network integrations. It extends the same model to existing Cloudflare WAN or Cloudflare Mesh connectivity without requiring connector software running on the origin. Customers can define their routing behavior through APIs and the dashboard instead of managing separate networking stacks for each product.\n\n**Practical Implications for Developers**\n\nWith this new capability, developers can now:\n\n* Securely route traffic to private origins without exposing them to the public Internet\n* Apply Cloudflare's security, performance, and programmability services to private applications\n* Use WAF rules, bot management, rate limiting, caching, rewrites, and Workers in front of private origins without requiring public IP exposure or inbound firewall rules\n* Define routing behavior through APIs and the dashboard instead of managing separate networking stacks for each product\n\nThis new capability creates a more unified model across Cloudflare products and provides a single source of truth for controlling how private traffic moves through the Cloudflare environment.",
+  "authors": [
+    "Enrique Somoza",
+    "Steve Welham",
+    "Shruti Mittal"
+  ],
+  "categories": [
+    "Application Services",
+    "Private Network",
+    "DNS",
+    "Pingora",
+    "Cloudflare One",
+    "Cloudflare Zero Trust",
+    "Zero Trust",
+    "Product News"
+  ],
+  "guid": "7it4N1iImLVhf4Mt9YilGH"
+}
